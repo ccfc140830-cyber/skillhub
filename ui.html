@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SkillHub</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#ffffff; --band:#eeeeee; --card:#ffffff; --ink:#333333; --ink2:#666666; --title:#00607c; --line:#cccccc; --focus:#003848;
+  --petroleo:#00607c; --abismo:#003848; --turquesa:#2ea5b0; --lago:#3197a0; --hielo:#def1f2;
+  --ok:#1f7a4d; --ok-bg:#e1f2e9; --warn:#6b4300; --warn-bg:#f8ecd2; --err:#8c1d17; --err-bg:#f7dedc;
+  --btn:#00607c; --btn-ink:#ffffff;
+  --sans:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif; --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#04171d; --band:#0a2a34; --card:#0a2a34; --ink:#eaf6f9; --ink2:#a9c9d2; --title:#a6d9f4; --line:#1d4a57; --focus:#a6d9f4;
+    --hielo:#0f3b47; --ok:#7fd8aa; --ok-bg:#12382a; --warn:#f0c46e; --warn-bg:#3d2f12; --err:#ff9d94; --err-bg:#451b18;
+    --btn:#2ea5b0; --btn-ink:#04171d;
+  }
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 15px/1.5 var(--sans);-webkit-font-smoothing:antialiased}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+code,.mono{font-family:var(--mono);font-size:.92em}
+.hero{background:linear-gradient(90deg,#003848 6%,#137b84 66%);background-color:#137b84;color:#fff}
+.hero .in{max-width:1280px;margin:0 auto;padding:18px 20px 0;display:flex;flex-wrap:wrap;gap:8px 24px;align-items:flex-end;justify-content:space-between}
+.hero h1{margin:0;font:800 26px/1.1 var(--sans);letter-spacing:-.02em}
+.hero p{margin:2px 0 14px;color:#fff;opacity:.92;max-width:62ch}
+.destino{margin-bottom:14px;font-size:13px;background:rgba(255,255,255,.14);border-radius:8px;padding:6px 10px}
+nav.tabs{max-width:1280px;margin:0 auto;padding:0 20px;display:flex;gap:4px;flex-wrap:wrap}
+nav.tabs button{border:0;background:transparent;color:#fff;opacity:.85;padding:10px 14px;border-radius:8px 8px 0 0;font-weight:600}
+nav.tabs button[aria-current="page"]{background:var(--bg);color:var(--title);opacity:1}
+nav.tabs .n{display:inline-block;min-width:20px;margin-left:6px;padding:0 6px;border-radius:999px;background:rgba(255,255,255,.22);font-size:12px;text-align:center}
+nav.tabs button[aria-current="page"] .n{background:var(--hielo);color:var(--title)}
+main{max-width:1280px;margin:0 auto;padding:22px 20px 80px}
+h2{margin:0 0 6px;font:800 24px/1.15 var(--sans);letter-spacing:-.015em;color:var(--title)}
+h3{margin:22px 0 8px;font:700 16px/1.2 var(--sans)}
+.lead{margin:0 0 16px;color:var(--ink2);max-width:72ch}
+.btn{border:1px solid var(--btn);background:var(--btn);color:var(--btn-ink);border-radius:8px;padding:8px 14px;font-weight:600}
+.btn.sec{background:transparent;color:var(--title);border-color:var(--title)}
+.btn.mini{padding:4px 10px;font-size:13px;border-radius:6px}
+.btn.peligro{background:transparent;color:var(--err);border-color:var(--err)}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.card .num{font:800 34px/1 var(--sans);color:var(--title)}
+.card .et{color:var(--ink2);font-size:13px;margin-top:4px}
+.banda{background:var(--band);border-radius:12px;padding:14px 16px;margin:16px 0}
+.fila{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center}
+.sp{flex:1}
+.chip{display:inline-block;font-size:12px;border:1px solid var(--line);border-radius:999px;padding:1px 9px;color:var(--ink2);white-space:nowrap}
+.chip.ok{background:var(--ok-bg);border-color:var(--ok);color:var(--ok);font-weight:600}
+.chip.warn{background:var(--warn-bg);border-color:var(--warn);color:var(--warn);font-weight:600}
+.chip.err{background:var(--err-bg);border-color:var(--err);color:var(--err);font-weight:600}
+.chip.info{background:var(--hielo);border-color:var(--petroleo);color:var(--title);font-weight:600}
+.layout{display:grid;grid-template-columns:260px 1fr;gap:22px;align-items:start}
+aside.fil{position:sticky;top:10px;max-height:calc(100vh - 20px);overflow:auto;padding-right:6px}
+fieldset{border:0;border-top:1px solid var(--line);margin:0 0 12px;padding:8px 0 0}
+legend{font-weight:700;padding:0 8px 0 0;font-size:14px}
+.opt{display:flex;gap:8px;align-items:flex-start;padding:2px 0;font-size:14px;cursor:pointer}
+.opt input{margin-top:4px;accent-color:var(--petroleo)}
+.opt .c{margin-left:auto;color:var(--ink2);font-variant-numeric:tabular-nums}
+.opt.cero{opacity:.45}
+input[type=search],input[type=text],select,textarea{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 10px}
+input[type=search]{flex:1 1 260px;min-width:0}
+textarea{width:100%;min-height:60px;resize:vertical}
+.item{background:var(--card);border:1px solid var(--line);border-radius:12px;margin-bottom:8px;overflow:hidden}
+.item.inst{border-left:5px solid var(--ok)}
+.item.act{border-left:5px solid var(--turquesa)}
+.item.mod{border-left:5px solid var(--warn)}
+.item.ret{opacity:.6}
+.ih{display:grid;grid-template-columns:auto 1fr auto;gap:6px 12px;padding:12px 14px 8px;align-items:start}
+.ih .sel{margin-top:5px;accent-color:var(--petroleo)}
+.nm{background:none;border:0;padding:0;text-align:left;font:700 16px/1.3 var(--sans);overflow-wrap:anywhere}
+.rp{color:var(--ink2);font-size:13px;margin-left:8px}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.ds{margin:0;padding:0 14px 12px 42px;max-width:96ch}
+.acc{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.det{border-top:1px solid var(--line);background:var(--band);padding:12px 14px 14px;display:grid;grid-template-columns:1fr 1fr;gap:12px 20px}
+.det h4{margin:0 0 4px;font-size:13px;color:var(--ink2);font-weight:600}
+.det p{margin:0;overflow-wrap:anywhere}.det .full{grid-column:1/-1}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:700;color:var(--ink2);font-size:13px}
+.vacio{padding:28px 16px;text-align:center;color:var(--ink2);border:1px dashed var(--line);border-radius:12px}
+.aviso{border-radius:10px;padding:10px 14px;margin:0 0 14px}
+.aviso.err{background:var(--err-bg);color:var(--err)}.aviso.warn{background:var(--warn-bg);color:var(--warn)}.aviso.ok{background:var(--ok-bg);color:var(--ok)}.aviso.info{background:var(--hielo);color:var(--title)}
+.barra{height:8px;background:var(--band);border-radius:99px;overflow:hidden;margin-top:6px}.barra i{display:block;height:100%;background:var(--turquesa)}
+dialog{border:1px solid var(--line);border-radius:14px;background:var(--bg);color:var(--ink);max-width:min(860px,94vw);width:100%;padding:0}
+dialog::backdrop{background:rgba(0,24,32,.55)}
+.dlg-h{padding:16px 20px 8px}.dlg-b{padding:0 20px 8px;max-height:60vh;overflow:auto}.dlg-f{padding:12px 20px 16px;display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}
+.hall{border-left:4px solid var(--line);padding:4px 10px;margin:6px 0;background:var(--band);border-radius:0 8px 8px 0}
+.hall.alto{border-left-color:var(--err)}.hall.medio{border-left-color:var(--warn)}
+.hall code{display:block;color:var(--ink2);overflow-wrap:anywhere}
+#toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--abismo);color:#fff;padding:10px 16px;border-radius:10px;max-width:90vw;display:none;z-index:9}
+#fbtn{display:none}
+@media (max-width:900px){
+  .layout{grid-template-columns:1fr}
+  aside.fil{position:static;max-height:none;display:none}aside.fil.abierto{display:block}
+  #fbtn{display:inline-block}
+  .ih{grid-template-columns:auto 1fr}.acc{grid-column:1/-1;justify-content:flex-start}
+  .ds{padding-left:14px}.det{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="in">
+    <div>
+      <h1>SkillHub</h1>
+      <p>Catálogo, instalación y actualización de las skills de tus repositorios de GitHub.</p>
+    </div>
+    <div class="destino" id="destino"></div>
+  </div>
+  <nav class="tabs" id="tabs" aria-label="Secciones"></nav>
+</header>
+<main id="main" tabindex="-1"></main>
+<dialog id="dlg"></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script>
+const TOKEN = new URLSearchParams(location.search).get('t') || '';
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const norm = s => String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+const ALC = {en:'En alcance', soporte:'Apoyo', fuera:'Fuera de alcance'};
+const EST = {no_instalada:'No instalada', instalada:'Instalada', actualizable:'Actualización disponible', modificada:'Modificada localmente'};
+const MARCA = {'':'Sin revisar', evaluar:'Evaluar', instalar:'Instalar', descartar:'Descartar'};
+
+async function api(ruta, cuerpo) {
+  const op = {headers: {'X-Token': TOKEN}};
+  if (cuerpo !== undefined) { op.method = 'POST'; op.headers['Content-Type'] = 'application/json'; op.body = JSON.stringify(cuerpo); }
+  let r;
+  try { r = await fetch(ruta, op); } catch (e) { throw new Error('No hay conexión con SkillHub. ¿Sigue abierto el programa?'); }
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok) { const e = new Error(j.error || ('Error ' + r.status)); e.tipo = j.tipo; throw e; }
+  return j;
+}
+function toast(msg, ms = 4200) { const t = $('#toast'); t.textContent = msg; t.style.display = 'block'; clearTimeout(toast.h); toast.h = setTimeout(() => t.style.display = 'none', ms); }
+
+let D = null;            // vista del catálogo
+let vista = 'panel';
+const F = {q:'', repos:new Set(), cats:new Set(), alcs:new Set(), ests:new Set(), marcas:new Set(), sinDup:true, orden:'nombre'};
+const abiertos = new Set(), selec = new Set();
+
+async function cargar() { D = await api('/api/catalogo'); }
+async function refrescar() { await cargar(); pintar(); }
+
+function pintar() {
+  const it = D.items, n = {inst: it.filter(i => i.estado !== 'no_instalada').length, act: it.filter(i => i.estado === 'actualizable').length,
+    nuevas: it.filter(i => i.cambio === 'nueva').length};
+  const tabs = [['panel','Panel',''], ['catalogo','Catálogo', it.filter(i => !i.dup).length], ['instaladas','Instaladas', n.inst],
+    ['novedades','Novedades', n.act + n.nuevas + it.filter(i => i.cambio === 'modificada' || i.cambio === 'retirada').length || ''], ['perfiles','Perfiles', D.perfiles.length],
+    ['fuentes','Fuentes', D.fuentes.length], ['registro','Registro',''], ['ajustes','Ajustes','']];
+  $('#tabs').innerHTML = tabs.map(([k, t, c]) => `<button data-v="${k}" ${vista === k ? 'aria-current="page"' : ''}>${t}${c !== '' ? `<span class="n">${c}</span>` : ''}</button>`).join('');
+  $('#destino').innerHTML = 'Destino de instalación: <code>' + esc(D.config.destino) + '</code>';
+  const f = {panel:vPanel, catalogo:vCatalogo, instaladas:vInstaladas, novedades:vNovedades, perfiles:vPerfiles, fuentes:vFuentes, registro:vRegistro, ajustes:vAjustes}[vista];
+  Promise.resolve(f()).catch(e => { $('#main').innerHTML = `<div class="aviso err">${esc(e.message)}</div>`; });
+}
+$('#tabs').addEventListener('click', e => { const b = e.target.closest('[data-v]'); if (b) { vista = b.dataset.v; pintar(); window.scrollTo(0, 0); } });
+
+/* ─────────── tareas ─────────── */
+async function correrTarea(titulo, ruta, cuerpo) {
+  const dlg = $('#dlg');
+  dlg.innerHTML = `<div class="dlg-h"><h2>${esc(titulo)}</h2></div><div class="dlg-b"><div class="barra"><i style="width:2%"></i></div><p id="tmsg" class="lead">Iniciando…</p></div>`;
+  if (!dlg.open) dlg.showModal();
+  let r;
+  try { r = await api(ruta, cuerpo); } catch (e) { dlg.close(); toast(e.message, 7000); return null; }
+  for (;;) {
+    await new Promise(ok => setTimeout(ok, 500));
+    const t = await api('/api/tareas/' + r.tarea);
+    const pct = t.total ? Math.round(100 * t.hecho / t.total) : 8;
+    dlg.querySelector('.barra i').style.width = Math.max(pct, 4) + '%';
+    dlg.querySelector('#tmsg').textContent = t.mensajes[t.mensajes.length - 1] || '…';
+    if (t.estado !== 'en_curso') { dlg.close(); await refrescar(); return t; }
+  }
+}
+function resumenLote(t, verbo) {
+  if (!t) return;
+  if (t.error) return toast(t.error, 8000);
+  const ok = t.resultado.ok.length, er = t.resultado.errores;
+  if (!er.length) return toast(`${verbo}: ${ok} skill(s).`);
+  const conf = er.filter(e => e.tipo === 'RequiereConfirmacion');
+  const dlg = $('#dlg');
+  dlg.innerHTML = `<div class="dlg-h"><h2>${verbo}: ${ok} correctas, ${er.length} con avisos</h2></div><div class="dlg-b">${er.map(e => `<div class="hall ${e.tipo === 'RequiereConfirmacion' ? 'medio' : 'alto'}"><b>${esc(e.id.split('|').pop())}</b> (${esc(e.id.split('|')[0])})<code>${esc(e.error)}</code></div>`).join('')}</div>
+    <div class="dlg-f">${conf.length ? '<button class="btn sec" id="rev-todas">Revisar las que piden confirmación</button>' : ''}<button class="btn" id="cerrar">Cerrar</button></div>`;
+  dlg.showModal();
+  $('#cerrar').onclick = () => dlg.close();
+  if (conf.length) $('#rev-todas').onclick = () => { dlg.close(); revisarYConfirmar(conf.map(e => e.id), verbo.toLowerCase().startsWith('actual') ? '/api/actualizar' : '/api/instalar'); };
+}
+async function revisarYConfirmar(ids, ruta) {
+  const dlg = $('#dlg');
+  dlg.innerHTML = '<div class="dlg-h"><h2>Revisando archivos…</h2></div><div class="dlg-b"><p class="lead">Descargando y verificando contra el SHA de git.</p></div>';
+  if (!dlg.open) dlg.showModal();
+  const revs = [];
+  for (const id of ids) {
+    try { revs.push(await api('/api/revisar', {id})); } catch (e) { revs.push({id, name: id.split('|').pop(), nivel: 'error', error: e.message, hallazgos: []}); }
+  }
+  if (revs.length && revs.every(r => r.nivel === 'bajo')) { dlg.close(); resumenLote(await correrTarea(ruta === '/api/actualizar' ? 'Actualizando' : 'Instalando', ruta, {ids: revs.map(r => r.id)}), ruta === '/api/actualizar' ? 'Actualizadas' : 'Instaladas'); return; }
+  const nivelTxt = {bajo:'Riesgo bajo', medio:'Riesgo medio', alto:'Riesgo alto', error:'No se pudo revisar'};
+  const cls = {bajo:'ok', medio:'warn', alto:'err', error:'err'};
+  dlg.innerHTML = `<div class="dlg-h"><h2>Revisión previa a la instalación</h2><p class="lead">Son señales automáticas por patrones, no un veredicto: abre los archivos en GitHub si tienes dudas.</p></div>
+    <div class="dlg-b">${revs.map(r => `<h3>${esc(r.name)} <span class="chip ${cls[r.nivel]}">${nivelTxt[r.nivel]}</span></h3>
+      ${r.error ? `<div class="aviso err">${esc(r.error)}</div>` : `<p class="lead">${r.archivos} archivos · ${r.scripts.length} scripts · ${r.binarios.length} binarios · ${r.total_hallazgos} señales</p>` +
+        r.hallazgos.slice(0, 12).map(h => `<div class="hall ${h.nivel}"><b>${esc(h.regla)}</b> — ${esc(h.archivo)}${h.linea ? ':' + h.linea : ''}<code>${esc(h.texto)}</code></div>`).join('')}`).join('')}</div>
+    <div class="dlg-f"><label class="opt"><input type="checkbox" id="oka"> He leído las señales y acepto instalar</label><button class="btn sec" id="no">Cancelar</button><button class="btn" id="si" disabled>Instalar confirmadas</button></div>`;
+  $('#oka').onchange = e => $('#si').disabled = !e.target.checked;
+  $('#no').onclick = () => dlg.close();
+  $('#si').onclick = async () => { dlg.close(); const ok = revs.filter(r => r.nivel !== 'error').map(r => r.id); resumenLote(await correrTarea('Instalando', ruta, {ids: ok, confirmadas: ok}), 'Instaladas'); };
+}
+async function accionLote(accion, ids, extra = {}) {
+  const ruta = '/api/' + accion, verbo = {instalar:'Instaladas', actualizar:'Actualizadas', desinstalar:'Desinstaladas'}[accion];
+  resumenLote(await correrTarea({instalar:'Instalando', actualizar:'Actualizando', desinstalar:'Desinstalando'}[accion], ruta, {ids, ...extra}), verbo);
+}
+async function sincronizar(repos) {
+  const t = await correrTarea('Sincronizando con GitHub', '/api/sync', {repos: repos || []});
+  if (!t) return;
+  if (t.error) return toast(t.error, 8000);
+  const r = t.resultado, errs = Object.entries(r.fuentes).filter(([, v]) => v.error);
+  toast(`Nuevas ${r.nuevas} · modificadas ${r.modificadas} · retiradas ${r.retiradas}` + (errs.length ? ` · ${errs.length} fuente(s) con error (ver Fuentes)` : ''), 7000);
+}
+
+/* ─────────── Panel ─────────── */
+function vPanel() {
+  const it = D.items, c = k => it.filter(i => !i.dup && i.estado === k).length;
+  const act = c('actualizable'), mod = c('modificada'), inst = it.filter(i => i.estado !== 'no_instalada').length;
+  const choques = it.filter(i => i.choque && i.estado === 'no_instalada' && i.marca === 'instalar');
+  const ult = D.fuentes.map(f => f.sincronizado).filter(Boolean).sort().pop();
+  const errs = D.fuentes.filter(f => f.estado === 'error');
+  const porMarca = k => it.filter(i => i.marca === k && i.estado === 'no_instalada').length;
+  $('#main').innerHTML = `
+    <h2>Panel</h2><p class="lead">Estado de tu biblioteca de skills. Todo se instala en la carpeta de destino de arriba; lo reemplazado va a una papelera recuperable.</p>
+    ${errs.length ? `<div class="aviso err"><b>${errs.length} fuente(s) con error</b> en la última sincronización: ${errs.map(f => esc(f.repo)).join(', ')}. Detalle en Fuentes.</div>` : ''}
+    <div class="grid">
+      <div class="card"><div class="num">${it.filter(i => !i.dup).length}</div><div class="et">skills en el catálogo (sin copias)</div></div>
+      <div class="card"><div class="num">${inst}</div><div class="et">instaladas por SkillHub</div></div>
+      <div class="card"><div class="num">${act}</div><div class="et">con actualización disponible</div></div>
+      <div class="card"><div class="num">${it.filter(i => i.cambio === 'nueva').length}</div><div class="et">nuevas desde la última sincronización</div></div>
+    </div>
+    <div class="banda fila"><span>Última sincronización: <b>${ult ? new Date(ult).toLocaleString('es-CO') : 'nunca'}</b></span><span class="sp"></span>
+      <button class="btn" id="b-sync">Sincronizar ahora</button>
+      <button class="btn sec" id="b-act" ${act ? '' : 'disabled'}>Actualizar las ${act} disponibles</button></div>
+    <h3>Requieren tu atención</h3>
+    ${mod || choques.length || porMarca('instalar') ? '' : '<div class="vacio">Nada pendiente.</div>'}
+    ${mod ? `<div class="aviso warn">${mod} skill(s) instaladas tienen cambios locales; actualizarlas los descartaría (quedan en la papelera).</div>` : ''}
+    ${choques.length ? `<div class="aviso warn">${choques.length} skill(s) marcadas «Instalar» chocan con una carpeta existente del mismo nombre: ${choques.slice(0, 6).map(i => esc(i.name)).join(', ')}.</div>` : ''}
+    ${porMarca('instalar') ? `<div class="aviso info">${porMarca('instalar')} skill(s) marcadas «Instalar» siguen sin instalar. <button class="link" id="b-inst-marc" style="background:none;border:0;color:var(--title);text-decoration:underline;font-weight:700">Instalarlas ahora</button></div>` : ''}
+    ${D.externas.length ? `<p class="lead">En el destino hay ${D.externas.length} carpeta(s) con skills que SkillHub no gestiona (${D.externas.slice(0, 8).map(e => esc(e.carpeta)).join(', ')}). No las toca.</p>` : ''}`;
+  $('#b-sync').onclick = () => sincronizar();
+  $('#b-act').onclick = async () => resumenLote(await correrTarea('Actualizando', '/api/actualizar-todas', {}), 'Actualizadas');
+  const bm = $('#b-inst-marc'); if (bm) bm.onclick = () => accionLote('instalar', it.filter(i => i.marca === 'instalar' && i.estado === 'no_instalada' && !i.choque).map(i => i.id));
+}
+
+/* ─────────── Catálogo ─────────── */
+function pasa(i, skip) {
+  if (F.sinDup && i.dup) return false;
+  if (skip !== 'repos' && F.repos.size && !F.repos.has(i.repo)) return false;
+  if (skip !== 'cats' && F.cats.size && !F.cats.has(i.cat)) return false;
+  if (skip !== 'alcs' && F.alcs.size && !F.alcs.has(i.alc)) return false;
+  if (skip !== 'ests' && F.ests.size && !F.ests.has(i.estado)) return false;
+  if (skip !== 'marcas' && F.marcas.size && !F.marcas.has(i.marca)) return false;
+  if (F.q) { const h = norm(i.name + ' ' + i.es + ' ' + i.en + ' ' + i.cat + ' ' + i.repo + ' ' + i.nota); for (const w of norm(F.q).split(/\s+/).filter(Boolean)) if (!h.includes(w)) return false; }
+  return true;
+}
+function facetas() {
+  const defs = [['repos','Repositorio', i => i.repo, v => v.split('/')[1]], ['cats','Categoría', i => i.cat, v => v], ['alcs','Alcance', i => i.alc, v => ALC[v]],
+    ['ests','Estado de instalación', i => i.estado, v => EST[v]], ['marcas','Mi marca', i => i.marca, v => MARCA[v]]];
+  return defs.map(([k, t, f, l]) => {
+    const base = new Map(); D.items.forEach(i => { if (!(F.sinDup && i.dup)) base.set(f(i), 0); });
+    D.items.forEach(i => { if (pasa(i, k)) base.set(f(i), (base.get(f(i)) || 0) + 1); });
+    const claves = [...base.keys()].sort((a, b) => l(a).localeCompare(l(b), 'es'));
+    return `<fieldset><legend>${t}</legend>${claves.map(v => `<label class="opt ${base.get(v) ? '' : 'cero'}"><input type="checkbox" data-f="${k}" value="${esc(v)}" ${F[k].has(v) ? 'checked' : ''}><span>${esc(l(v))}</span><span class="c">${base.get(v)}</span></label>`).join('')}</fieldset>`;
+  }).join('');
+}
+function filas(arr, opts = {}) {
+  const cats = [...new Set(D.items.map(i => i.cat))].sort((a, b) => a.localeCompare(b, 'es'));
+  return arr.map(i => {
+    const ab = abiertos.has(i.id), cls = {instalada:'inst', actualizable:'act', modificada:'mod'}[i.estado] || '';
+    const url = 'https://github.com/' + i.repo + '/blob/HEAD/' + (i.dir === '.' ? '' : i.dir.split('/').map(encodeURIComponent).join('/') + '/') + 'SKILL.md';
+    let botones = '';
+    if (i.origen === 'retirada') botones = '<span class="chip err">Retirada del origen</span>';
+    else if (i.estado === 'no_instalada') botones = `<button class="btn mini" data-a="instalar" data-id="${esc(i.id)}" ${i.choque ? 'disabled title="Choca con una carpeta existente"' : ''}>Instalar</button>`;
+    else botones = (i.estado === 'actualizable' ? `<button class="btn mini" data-a="actualizar" data-id="${esc(i.id)}">Actualizar</button>` : '') +
+      (i.estado === 'modificada' && i.desactualizada ? `<button class="btn mini peligro" data-a="forzar" data-id="${esc(i.id)}">Actualizar y descartar cambios</button>` : '') +
+      `<button class="btn mini peligro" data-a="desinstalar" data-id="${esc(i.id)}">Desinstalar</button>`;
+    const seg = ['evaluar', 'instalar', 'descartar'].map(m => `<button class="btn mini ${i.marca === m ? '' : 'sec'}" data-a="marca" data-v="${m}" data-id="${esc(i.id)}" aria-pressed="${i.marca === m}">${MARCA[m]}</button>`).join('');
+    return `<article class="item ${cls} ${i.origen === 'retirada' ? 'ret' : ''}">
+      <div class="ih"><input class="sel" type="checkbox" data-a="sel" data-id="${esc(i.id)}" ${selec.has(i.id) ? 'checked' : ''} aria-label="Seleccionar ${esc(i.name)}">
+        <div><button class="nm" data-a="abrir" data-id="${esc(i.id)}" aria-expanded="${ab}">${esc(i.name)}</button><span class="rp">${esc(i.repo)}</span>
+          <div class="tags"><span class="chip">${esc(i.cat)}</span><span class="chip ${i.alc === 'en' ? 'info' : ''}">${ALC[i.alc]}</span>
+            ${i.estado !== 'no_instalada' ? `<span class="chip ${i.estado === 'instalada' ? 'ok' : i.estado === 'modificada' ? 'warn' : 'info'}">${EST[i.estado]}</span>` : ''}
+            ${i.cambio ? `<span class="chip info">${{nueva:'Nueva', modificada:'Cambió en origen', retirada:'Retirada'}[i.cambio]}</span>` : ''}
+            ${i.choque ? `<span class="chip warn">Choca con «${esc(i.choque === 'externa' ? 'carpeta externa' : i.choque.split('|').pop())}»</span>` : ''}
+            ${i.dup ? '<span class="chip">Copia</span>' : ''}${i.irregulares ? '<span class="chip err">Contiene enlaces simbólicos</span>' : ''}${i.marca ? `<span class="chip">${MARCA[i.marca]}</span>` : ''}</div></div>
+        <div class="acc">${botones}</div></div>
+      <p class="ds">${esc(i.es || i.en)}${i.es ? '' : ' <span class="chip">sin traducir</span>'}</p>
+      ${ab ? `<div class="det">
+        <div class="full"><h4>Descripción original (inglés)</h4><p>${esc(i.en)}</p></div>
+        <div><h4>Contenido</h4><p>${i.archivos} archivos · ${(i.bytes / 1024).toFixed(1)} KB · carpeta <code>${esc(i.dir)}</code></p></div>
+        <div><h4>Origen</h4><p><a href="${esc(url)}" target="_blank" rel="noopener" style="color:var(--title)">Ver SKILL.md en GitHub</a> · <button class="btn mini sec" data-a="revisar" data-id="${esc(i.id)}">Revisar archivos</button> · <a href="/api/zip?t=${encodeURIComponent(TOKEN)}&id=${encodeURIComponent(i.id)}" style="color:var(--title)">Exportar .zip para claude.ai</a></p></div>
+        <div><h4>Mi marca</h4><div class="fila">${seg}</div></div>
+        <div><h4>Mi categoría (vacío = ${esc(i.cat0)})</h4><input type="text" list="cl" data-a="cat" data-id="${esc(i.id)}" value="${i.cat === i.cat0 ? '' : esc(i.cat)}" placeholder="Escribe o elige una categoría" style="width:100%"><datalist id="cl">${cats.map(c => `<option value="${esc(c)}">`).join('')}</datalist></div>
+        <div class="full"><h4>Mi traducción al español (opcional)</h4><textarea data-a="es" data-id="${esc(i.id)}" placeholder="Escribe aquí tu propia descripción en español">${esc(i.es)}</textarea></div>
+        <div class="full"><h4>Mi nota</h4><textarea data-a="nota" data-id="${esc(i.id)}" placeholder="Por qué sí, por qué no, qué probar primero">${esc(i.nota)}</textarea></div></div>` : ''}</article>`;
+  }).join('');
+}
+function listaOrdenada() {
+  const arr = D.items.filter(i => pasa(i, null)), rank = {actualizable:0, modificada:1, instalada:2, no_instalada:3};
+  arr.sort((a, b) => F.orden === 'repo' ? a.repo.localeCompare(b.repo, 'es') || a.name.localeCompare(b.name, 'es')
+    : F.orden === 'cat' ? a.cat.localeCompare(b.cat, 'es') || a.name.localeCompare(b.name, 'es')
+    : F.orden === 'estado' ? rank[a.estado] - rank[b.estado] || a.name.localeCompare(b.name, 'es') : a.name.localeCompare(b.name, 'es'));
+  return arr;
+}
+function vCatalogo() {
+  const arr = listaOrdenada();
+  const ids = arr.map(i => i.id), nsel = ids.filter(i => selec.has(i)).length;
+  $('#main').innerHTML = `<h2>Catálogo</h2><p class="lead">Busca, filtra y gestiona cada skill. «Mi marca», tu categoría, tu traducción y tus notas se guardan en tu equipo, y una sincronización no las pisa.</p>
+  <div class="layout"><aside class="fil" id="fil">${facetas()}<label class="opt"><input type="checkbox" id="dup" ${F.sinDup ? 'checked' : ''}><span>Ocultar copias idénticas</span></label>
+    <p><button class="btn mini sec" id="limpiar">Limpiar filtros</button></p></aside>
+  <section><div class="fila" style="margin-bottom:10px"><button class="btn sec" id="fbtn" aria-expanded="false">Filtros</button>
+    <input type="search" id="q" placeholder="Buscar por nombre, descripción o nota" value="${esc(F.q)}" aria-label="Buscar">
+    <select id="ord" aria-label="Ordenar"><option value="nombre">Ordenar: nombre</option><option value="repo">repositorio</option><option value="cat">categoría</option><option value="estado">estado</option></select></div>
+    <div class="banda fila"><span id="cuenta">${arr.length} skills visibles · ${nsel} seleccionadas</span><span class="sp"></span>
+      <button class="btn mini sec" id="sel-vis">Seleccionar visibles</button><button class="btn mini sec" id="sel-no">Quitar selección</button>
+      <select id="lote" aria-label="Marca para la selección"><option value="evaluar">Marcar: Evaluar</option><option value="instalar">Marcar: Instalar</option><option value="descartar">Marcar: Descartar</option><option value="">Marcar: Sin revisar</option></select>
+      <button class="btn mini" id="lote-go" ${nsel ? '' : 'disabled'}>Aplicar marca</button>
+      <button class="btn mini" id="lote-inst" ${nsel ? '' : 'disabled'}>Instalar selección</button>
+      <button class="btn mini sec" id="lote-perfil" ${nsel ? '' : 'disabled'}>Guardar como perfil</button>
+      <button class="btn mini sec" id="lote-zip" ${nsel ? '' : 'disabled'}>Exportar .zip</button></div>
+    <div id="lista">${arr.length ? filas(arr) : '<div class="vacio">Ninguna skill coincide con estos filtros.</div>'}</div></section></div>`;
+  $('#ord').value = F.orden;
+  enlazarCatalogo(arr);
+}
+function enlazarCatalogo(arr) {
+  const re = () => { const y = window.scrollY; vCatalogo(); window.scrollTo(0, y); };
+  $('#fil').onchange = e => { const t = e.target; if (t.id === 'dup') { F.sinDup = t.checked; return re(); } const k = t.dataset.f; if (!k) return; t.checked ? F[k].add(t.value) : F[k].delete(t.value); re(); };
+  $('#limpiar').onclick = () => { ['repos','cats','alcs','ests','marcas'].forEach(k => F[k].clear()); F.q = ''; re(); };
+  $('#q').oninput = e => { F.q = e.target.value; clearTimeout(enlazarCatalogo.h); enlazarCatalogo.h = setTimeout(() => { re(); const q = $('#q'); q.focus(); q.setSelectionRange(q.value.length, q.value.length); }, 220); };
+  $('#ord').onchange = e => { F.orden = e.target.value; re(); };
+  $('#fbtn').onclick = e => { const o = $('#fil').classList.toggle('abierto'); e.currentTarget.setAttribute('aria-expanded', o); };
+  $('#sel-vis').onclick = () => { arr.forEach(i => selec.add(i.id)); re(); };
+  $('#sel-no').onclick = () => { selec.clear(); re(); };
+  const ids = () => [...selec];
+  $('#lote-go').onclick = async () => { try { await api('/api/usuario-lote', {ids: ids(), marca: $('#lote').value}); await refrescar(); toast('Marca aplicada.'); } catch (e) { toast(e.message, 6000); } };
+  $('#lote-inst').onclick = () => accionLote('instalar', ids());
+  $('#lote-zip').onclick = () => { location.href = '/api/zip?t=' + encodeURIComponent(TOKEN) + ids().map(i => '&id=' + encodeURIComponent(i)).join(''); };
+  $('#lote-perfil').onclick = () => guardarPerfil(ids());
+  $('#lista').onclick = manejarFila;
+  $('#lista').onchange = manejarCambioFila;
+}
+async function manejarFila(e) {
+  const b = e.target.closest('[data-a]'); if (!b) return;
+  const id = b.dataset.id, a = b.dataset.a;
+  const re = () => { const y = window.scrollY; pintar(); window.scrollTo(0, y); };
+  if (a === 'abrir') { abiertos.has(id) ? abiertos.delete(id) : abiertos.add(id); return re(); }
+  if (a === 'sel') { b.checked ? selec.add(id) : selec.delete(id); const c = $('#cuenta'); if (c) c.textContent = c.textContent.replace(/· \d+ seleccionadas/, '· ' + selec.size + ' seleccionadas'); ['#lote-go', '#lote-inst', '#lote-perfil', '#lote-zip'].forEach(s => { const x = $(s); if (x) x.disabled = !selec.size; }); return; }
+  if (a === 'marca') { const it = D.items.find(i => i.id === id); try { await api('/api/usuario', {id, patch: {marca: it.marca === b.dataset.v ? '' : b.dataset.v}}); await cargar(); re(); } catch (er) { toast(er.message, 6000); } return; }
+  if (a === 'instalar' || a === 'actualizar') return revisarYConfirmar([id], '/api/' + a);
+  if (a === 'forzar') return accionLote('actualizar', [id], {forzar: true, confirmadas: [id]});
+  if (a === 'desinstalar') { if (confirm('¿Desinstalar esta skill? La carpeta se mueve a la papelera de SkillHub y se puede recuperar.')) accionLote('desinstalar', [id]); return; }
+  if (a === 'revisar') return revisarSolo(id);
+}
+async function manejarCambioFila(e) {
+  const t = e.target, a = t.dataset.a; if (!['cat', 'nota', 'es'].includes(a)) return;
+  try { await api('/api/usuario', {id: t.dataset.id, patch: {[a === 'cat' ? 'cat' : a]: t.value}}); await cargar(); const y = window.scrollY; pintar(); window.scrollTo(0, y); toast('Guardado.', 1500); } catch (er) { toast(er.message, 6000); }
+}
+async function revisarSolo(id) {
+  const dlg = $('#dlg'); dlg.innerHTML = '<div class="dlg-h"><h2>Revisando…</h2></div><div class="dlg-b"><p class="lead">Descargando y verificando archivos.</p></div>'; dlg.showModal();
+  try {
+    const r = await api('/api/revisar', {id});
+    dlg.innerHTML = `<div class="dlg-h"><h2>${esc(r.name)} <span class="chip ${r.nivel === 'bajo' ? 'ok' : r.nivel === 'medio' ? 'warn' : 'err'}">Riesgo ${r.nivel}</span></h2><p class="lead">${esc(r.aviso)}</p></div>
+      <div class="dlg-b"><p>${r.archivos} archivos · ${r.scripts.length} scripts${r.scripts.length ? ' (' + r.scripts.map(esc).join(', ') + ')' : ''} · ${r.binarios.length} binarios</p>
+      ${r.hallazgos.length ? r.hallazgos.map(h => `<div class="hall ${h.nivel}"><b>${esc(h.regla)}</b> — ${esc(h.archivo)}${h.linea ? ':' + h.linea : ''}<code>${esc(h.texto)}</code></div>`).join('') : '<div class="aviso ok">Sin señales por patrones.</div>'}</div>
+      <div class="dlg-f"><button class="btn" id="cerrar">Cerrar</button></div>`;
+    $('#cerrar').onclick = () => dlg.close();
+  } catch (e) { dlg.close(); toast(e.message, 8000); }
+}
+
+/* ─────────── Instaladas ─────────── */
+function vInstaladas() {
+  const arr = D.items.filter(i => i.estado !== 'no_instalada').sort((a, b) => a.name.localeCompare(b.name, 'es'));
+  $('#main').innerHTML = `<h2>Instaladas</h2><p class="lead">Skills que SkillHub instaló en <code>${esc(D.config.destino)}</code>. Para cargarlas en claude.ai usa «Exportar .zip» en el detalle de cada una.</p>
+    ${arr.length ? `<div class="fila" style="margin-bottom:10px"><button class="btn sec" id="x-todas">Desinstalar todas…</button></div><div id="lista">${filas(arr)}</div>` : '<div class="vacio">Aún no hay skills instaladas. Ve al Catálogo o a Perfiles.</div>'}
+    ${D.externas.length ? `<h3>Carpetas externas (no gestionadas)</h3><p class="lead">Existen en el destino pero no las instaló SkillHub; no se tocan.</p><div class="tags">${D.externas.map(e => `<span class="chip">${esc(e.carpeta)}</span>`).join('')}</div>` : ''}`;
+  const l = $('#lista'); if (l) { l.onclick = manejarFila; l.onchange = manejarCambioFila; }
+  const x = $('#x-todas'); if (x) x.onclick = () => { if (confirm('¿Desinstalar las ' + arr.length + ' skills gestionadas? Se mueven a la papelera y se pueden recuperar.')) accionLote('desinstalar', arr.map(i => i.id)); };
+}
+
+/* ─────────── Novedades ─────────── */
+function vNovedades() {
+  const nv = D.items.filter(i => i.cambio === 'nueva'), mo = D.items.filter(i => i.cambio === 'modificada'), re = D.items.filter(i => i.cambio === 'retirada');
+  const act = D.items.filter(i => i.estado === 'actualizable');
+  const bloque = (t, arr, ayuda) => `<h3>${t} (${arr.length})</h3>` + (arr.length ? `<p class="lead">${ayuda}</p><div class="lista">${filas(arr)}</div>` : '<div class="vacio">Nada por ahora.</div>');
+  $('#main').innerHTML = `<h2>Novedades</h2><p class="lead">Lo que cambió en tus repositorios desde la última sincronización.</p>
+    <div class="banda fila"><button class="btn" id="b-sync">Sincronizar ahora</button><button class="btn sec" id="b-vistas" ${nv.length + mo.length + re.length ? '' : 'disabled'}>Marcar novedades como vistas</button></div>
+    ${bloque('Actualizaciones de skills instaladas', act, 'Tu copia es distinta de la del repositorio.')}
+    ${bloque('Skills nuevas', nv, 'Sin traducir: puedes escribir tu propia traducción y categoría en el detalle.')}
+    ${bloque('Cambiadas en el origen', mo, 'Su contenido cambió; si la tienes instalada aparecerá arriba como actualización.')}
+    ${bloque('Retiradas del origen', re, 'Ya no existen en el repositorio. Si la tienes instalada, sigue funcionando pero ya no recibirá cambios.')}`;
+  $('#b-sync').onclick = () => sincronizar();
+  $('#b-vistas').onclick = async () => { await api('/api/vistas', {ids: [...nv, ...mo, ...re].map(i => i.id)}); await refrescar(); };
+  document.querySelectorAll('.lista').forEach(l => { l.onclick = manejarFila; l.onchange = manejarCambioFila; });
+}
+
+/* ─────────── Perfiles ─────────── */
+function vPerfiles() {
+  const por = Object.fromEntries(D.items.map(i => [i.id, i]));
+  $('#main').innerHTML = `<h2>Perfiles</h2><p class="lead">Conjuntos de skills para instalar de una vez. Los marcados «sugerido» los armé yo a partir de tu perfil; son editables: cambia la selección en el Catálogo y guarda un perfil propio.</p>
+    ${D.perfiles.length ? `<div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(320px,1fr))">${D.perfiles.map(p => {
+      const sk = p.skills.map(i => por[i]).filter(Boolean), ins = sk.filter(s => s.estado !== 'no_instalada').length;
+      return `<div class="card"><div class="fila"><b style="font-size:16px">${esc(p.nombre)}</b><span class="sp"></span>${p.sugerido ? '<span class="chip">sugerido</span>' : ''}</div>
+        <p class="lead" style="margin:6px 0">${esc(p.descripcion)}</p>
+        <div class="barra"><i style="width:${sk.length ? Math.round(100 * ins / sk.length) : 0}%"></i></div><div class="et">${ins} de ${sk.length} instaladas</div>
+        <details style="margin:8px 0"><summary>Ver las ${sk.length} skills</summary><ul>${sk.map(s => `<li>${esc(s.name)} <span class="chip">${EST[s.estado]}</span></li>`).join('')}</ul></details>
+        <div class="fila"><button class="btn mini" data-p="inst" data-id="${esc(p.id)}">Instalar perfil</button>
+          <a class="btn mini sec" style="text-decoration:none" href="/api/zip?t=${encodeURIComponent(TOKEN)}${sk.map(s => '&id=' + encodeURIComponent(s.id)).join('')}">Exportar .zip</a>
+          ${p.sugerido ? '' : `<button class="btn mini peligro" data-p="borrar" data-id="${esc(p.id)}">Borrar</button>`}</div></div>`;
+    }).join('')}</div>` : '<div class="vacio">No hay perfiles.</div>'}`;
+  $('#main').onclick = async e => {
+    const b = e.target.closest('[data-p]'); if (!b) return;
+    const p = D.perfiles.find(x => x.id === b.dataset.id);
+    if (b.dataset.p === 'inst') { const ids = p.skills.filter(i => por[i] && por[i].estado === 'no_instalada' && !por[i].choque && por[i].origen !== 'retirada'); if (!ids.length) return toast('No hay skills pendientes de instalar en este perfil.'); revisarYConfirmar(ids, '/api/instalar'); }
+    if (b.dataset.p === 'borrar' && confirm('¿Borrar este perfil? Las skills instaladas no se tocan.')) { await api('/api/perfiles', {accion: 'borrar', id: p.id}); await refrescar(); }
+  };
+}
+async function guardarPerfil(ids) {
+  const nombre = prompt('Nombre del perfil (' + ids.length + ' skills):'); if (!nombre) return;
+  try { await api('/api/perfiles', {accion: 'guardar', nombre, descripcion: 'Perfil propio', skills: ids}); await refrescar(); toast('Perfil guardado.'); vista = 'perfiles'; pintar(); } catch (e) { toast(e.message, 6000); }
+}
+
+/* ─────────── Fuentes ─────────── */
+function vFuentes() {
+  $('#main').innerHTML = `<h2>Fuentes</h2><p class="lead">Repositorios de GitHub de donde sale el catálogo. Revisa licencia y actividad antes de instalar algo de una fuente nueva.</p>
+    <div class="banda fila"><input type="text" id="nf" placeholder="dueño/repositorio" style="min-width:260px" aria-label="Repositorio"><button class="btn" id="af">Agregar fuente</button><span class="sp"></span><button class="btn sec" id="b-sync">Sincronizar todas</button></div>
+    <div style="overflow:auto"><table><thead><tr><th>Repositorio</th><th>Skills</th><th>Licencia</th><th>Última actividad</th><th>Sincronizada</th><th>Estado</th><th></th></tr></thead><tbody>
+    ${D.fuentes.map(f => `<tr><td><a href="https://github.com/${esc(f.repo)}" target="_blank" rel="noopener" style="color:var(--title)">${esc(f.repo)}</a><br><span class="chip">${esc(f.tema || '')}</span></td>
+      <td>${D.items.filter(i => i.repo === f.repo).length}</td><td>${esc(f.licencia || '—')}</td><td>${f.pushed_at ? new Date(f.pushed_at).toLocaleDateString('es-CO') : '—'}${f.archivada ? ' <span class="chip err">archivado</span>' : ''}</td>
+      <td>${f.sincronizado ? new Date(f.sincronizado).toLocaleString('es-CO') : 'nunca'}${f.modo ? ` <span class="chip">${esc(f.modo)}</span>` : ''}${f.commit ? `<br><code>${esc(String(f.commit).slice(0, 8))}</code>` : ''}</td>
+      <td>${f.estado === 'error' ? `<span class="chip err">Error</span><br><small>${esc(f.error)}</small>` : f.estado === 'ok' ? '<span class="chip ok">Al día</span>' : '<span class="chip">Sin sincronizar</span>'}</td>
+      <td><button class="btn mini sec" data-s="sync" data-r="${esc(f.repo)}">Sincronizar</button> <button class="btn mini peligro" data-s="quitar" data-r="${esc(f.repo)}">Quitar</button></td></tr>`).join('')}</tbody></table></div>`;
+  $('#b-sync').onclick = () => sincronizar();
+  $('#af').onclick = async () => { try { await api('/api/fuentes', {accion: 'agregar', repo: $('#nf').value.trim()}); await refrescar(); toast('Fuente agregada. Sincronízala para traer sus skills.'); } catch (e) { toast(e.message, 6000); } };
+  $('#main').onclick = async e => {
+    const b = e.target.closest('[data-s]'); if (!b) return;
+    if (b.dataset.s === 'sync') return sincronizar([b.dataset.r]);
+    if (b.dataset.s === 'quitar' && confirm('¿Quitar esta fuente? Sus skills ya catalogadas se conservan hasta que borres el catálogo.')) { await api('/api/fuentes', {accion: 'quitar', repo: b.dataset.r}); await refrescar(); }
+  };
+}
+
+/* ─────────── Registro y Ajustes ─────────── */
+async function vRegistro() {
+  const r = await api('/api/registro');
+  $('#main').innerHTML = `<h2>Registro</h2><p class="lead">Últimas operaciones (más recientes primero). No contiene credenciales.</p>
+    ${r.lineas.length ? `<div style="overflow:auto"><table><thead><tr><th>Hora</th><th>Evento</th><th>Detalle</th></tr></thead><tbody>${r.lineas.map(l => `<tr><td class="mono">${new Date(l.ts).toLocaleString('es-CO')}</td><td><span class="chip ${/error/.test(l.evento) ? 'err' : ''}">${esc(l.evento)}</span></td><td class="mono">${esc(JSON.stringify(Object.fromEntries(Object.entries(l).filter(([k]) => k !== 'ts' && k !== 'evento'))))}</td></tr>`).join('')}</tbody></table></div>` : '<div class="vacio">Sin operaciones registradas.</div>'}`;
+}
+function vAjustes() {
+  $('#main').innerHTML = `<h2>Ajustes</h2>
+    <h3>Carpeta de destino</h3><p class="lead">Dónde se instalan las skills. Por defecto, la carpeta de skills personales de Claude Code. Para un proyecto concreto usa la carpeta <code>.claude/skills</code> de ese proyecto (ruta absoluta).</p>
+    <div class="fila"><input type="text" id="dest" value="${esc(D.config.destino)}" style="min-width:min(520px,90vw)" aria-label="Carpeta de destino"><button class="btn" id="gd">Guardar destino</button></div>
+    <h3>Cargar en claude.ai (manual)</h3><p class="lead">claude.ai no lee carpetas locales. Usa «Exportar .zip» en cada skill o perfil y cárgalo desde los ajustes de capacidades de claude.ai. La ruta exacta del menú la confirma la documentación vigente de Anthropic; no la verifiqué hoy.</p>
+    <h3>Datos locales</h3><p class="lead">Todo vive en la carpeta de datos de SkillHub (catálogo, tus marcas, perfiles, registro y papelera). Para recuperar algo desinstalado o reemplazado, copia su carpeta desde <code>papelera</code> al destino.</p>
+    <h3>Acerca de</h3><p class="lead">SkillHub ${esc(D.version)} · catálogo generado ${D.generado ? new Date(D.generado).toLocaleString('es-CO') : '—'}.</p>`;
+  $('#gd').onclick = async () => { try { await api('/api/config', {destino: $('#dest').value}); await refrescar(); toast('Destino guardado.'); } catch (e) { toast(e.message, 7000); } };
+}
+
+cargar().then(pintar).catch(e => { $('#main').innerHTML = `<div class="aviso err">${esc(e.message)} Abre SkillHub con el enlace que imprime el programa en la consola.</div>`; });
+</script>
+</body>
+</html>

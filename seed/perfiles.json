@@ -1,0 +1,87 @@
+[
+ {
+  "id": "bim-coordinacion",
+  "nombre": "BIM · coordinación y calidad",
+  "descripcion": "Interferencias, validación de modelos, IDS y acceso a datos de ACC.",
+  "sugerido": true,
+  "skills": [
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|1_DDC_Toolkit/BIM-Analysis/bim-clash-detection",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|5_DDC_Innovative/clash-detection-analysis",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|2_DDC_Book/4.3-BIM-Validation-Pipeline/clash-resolution-analyzer",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|1_DDC_Toolkit/BIM-Analysis/bim-validation-report",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|2_DDC_Book/4.3-BIM-Validation-Pipeline/bim-consistency-checker",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|2_DDC_Book/4.3-BIM-Validation-Pipeline/bim-validation-pipeline",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|2_DDC_Book/4.3-BIM-Validation-Pipeline/ids-checker",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|2_DDC_Book/2.5-Data-Modeling-Standards/standards-compliance-checker",
+   "sonomirco/aec-data-model-mcp-skill|skills/aps-assistant"
+  ]
+ },
+ {
+  "id": "costos-apu",
+  "nombre": "Costos, cómputos y APU",
+  "descripcion": "Cómputos desde BIM, estimación por recursos y reportes de costo.",
+  "sugerido": true,
+  "skills": [
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|1_DDC_Toolkit/BIM-Analysis/ifc-qto-extraction",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|2_DDC_Book/3.2-QTO-Auto-Estimates/bim-qto",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|2_DDC_Book/3.2-QTO-Auto-Estimates/qto-report",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|1_DDC_Toolkit/CWICR-Database/cwicr-quantity-matcher",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|1_DDC_Toolkit/CWICR-Database/cwicr-cost-calculator",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|1_DDC_Toolkit/CWICR-Database/cwicr-takeoff-helper",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|1_DDC_Toolkit/CWICR-Database/cwicr-unit-converter",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|2_DDC_Book/3.1-Cost-Estimation/cost-estimation-resource",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|2_DDC_Book/3.1-Cost-Estimation/estimate-builder",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|2_DDC_Book/3.1-Cost-Estimation/unit-price-database-manager",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|1_DDC_Toolkit/CWICR-Database/cwicr-report-generator",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|1_DDC_Toolkit/Cost-Management/budget-variance-analyzer"
+  ]
+ },
+ {
+  "id": "obra-control",
+  "nombre": "Obra, control y documentación",
+  "descripcion": "Informes diarios, calidad, seguridad, RFI, actas y planificación a corto plazo.",
+  "sugerido": true,
+  "skills": [
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|1_DDC_Toolkit/Field-Operations/daily-report-generator",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|3_DDC_Insights/Safety-Quality/quality-control-workflow",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|1_DDC_Toolkit/Field-Operations/safety-inspection",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|1_DDC_Toolkit/Field-Operations/punch-list-manager",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|3_DDC_Insights/Schedule-Optimization/look-ahead-scheduler",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|1_DDC_Toolkit/Document-Control/rfi-management",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|1_DDC_Toolkit/Document-Control/submittal-tracker",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|1_DDC_Toolkit/Document-Control/meeting-minutes-generator",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|1_DDC_Toolkit/Schedule-Management/critical-path-analyzer"
+  ]
+ },
+ {
+  "id": "datos-etl",
+  "nombre": "Datos y conversión BIM",
+  "descripcion": "Conversión CAD/BIM a tablas, calidad de datos y flujos ETL.",
+  "sugerido": true,
+  "skills": [
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|2_DDC_Book/2.4-PDF-CAD-to-Data/cad-to-data",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|1_DDC_Toolkit/CAD-Converters/ifc-to-excel",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|1_DDC_Toolkit/CAD-Converters/rvt-to-excel",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|1_DDC_Toolkit/CAD-Converters/excel-to-rvt",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|2_DDC_Book/4.2-ETL-Automation/etl-pipeline",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|2_DDC_Book/2.6-Data-Quality-Validation/data-quality-check",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|2_DDC_Book/2.3-Pandas-LLM-Analysis/pandas-construction-analysis",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|2_DDC_Book/2.1-Data-Types-Classification/csv-handler",
+   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction|2_DDC_Book/2.6-Data-Quality-Validation/validation-rules-builder"
+  ]
+ },
+ {
+  "id": "revit-api",
+  "nombre": "Revit API (avanzado, C#)",
+  "descripcion": "Complementos de Revit con Nice3point. Exige C# y .NET.",
+  "sugerido": true,
+  "skills": [
+   "Nice3point/revit-skills|plugins/revit-api/skills/revit-code-style",
+   "Nice3point/revit-skills|plugins/revit-api/skills/revit-element-collector",
+   "Nice3point/revit-skills|plugins/revit-api/skills/revit-element-and-parameter-access",
+   "Nice3point/revit-skills|plugins/revit-ui/skills/revit-external-events",
+   "Nice3point/revit-skills|plugins/revit-ui/skills/revit-command-and-application",
+   "Nice3point/revit-skills|plugins/revit-testing/skills/revit-testing"
+  ]
+ }
+]

@@ -1,0 +1,71 @@
+name: Compilar ejecutables
+
+# Genera SkillHub como ejecutable único (sin instalar Python) para Windows, Linux y macOS.
+# Se lanza a mano desde la pestaña Actions, o al subir una etiqueta v* (por ejemplo v1.0.1),
+# en cuyo caso además publica los archivos en una Release.
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  compilar:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { os: windows-latest, nombre: skillhub-windows.exe, sep: ";" }
+          - { os: ubuntu-latest,  nombre: skillhub-linux,       sep: ":" }
+          - { os: macos-latest,   nombre: skillhub-macos,       sep: ":" }
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar PyInstaller
+        run: python -m pip install --upgrade pip pyinstaller
+
+      - name: Pruebas (no bloquean la compilación; revisa el resultado)
+        continue-on-error: true
+        run: python pruebas_skillhub.py
+
+      - name: Compilar
+        shell: bash
+        run: |
+          pyinstaller --onefile --name skillhub --add-data "ui.html${{ matrix.sep }}." --add-data "seed${{ matrix.sep }}seed" skillhub.py
+          if [ "$RUNNER_OS" = "Windows" ]; then cp dist/skillhub.exe "${{ matrix.nombre }}"; else cp dist/skillhub "${{ matrix.nombre }}"; fi
+          python -c "import hashlib,sys;n=sys.argv[1];open(n+'.sha256','w').write(hashlib.sha256(open(n,'rb').read()).hexdigest()+'  '+n+'\n')" "${{ matrix.nombre }}"
+
+      - name: Comprobar que el ejecutable arranca
+        shell: bash
+        run: |
+          export SKILLHUB_HOME="$RUNNER_TEMP/skillhub-prueba"
+          "./${{ matrix.nombre }}" estado
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.nombre }}
+          path: |
+            ${{ matrix.nombre }}
+            ${{ matrix.nombre }}.sha256
+
+  publicar:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: compilar
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          merge-multiple: true
+          path: salida
+      - name: Crear Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release create "$GITHUB_REF_NAME" salida/* --repo "$GITHUB_REPOSITORY" --generate-notes

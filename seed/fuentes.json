@@ -1,0 +1,66 @@
+[
+ {
+  "repo": "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction",
+  "ref": "HEAD",
+  "alcance": "en",
+  "tema": "BIM/AEC y costos",
+  "licencia": "MIT",
+  "esfuerzo": "medio"
+ },
+ {
+  "repo": "AlpacaLabsLLC/skills-for-architects",
+  "ref": "HEAD",
+  "alcance": "soporte",
+  "tema": "Arquitectura (EE. UU./NYC)",
+  "licencia": "MIT",
+  "esfuerzo": "bajo a medio"
+ },
+ {
+  "repo": "Nice3point/revit-skills",
+  "ref": "HEAD",
+  "alcance": "en",
+  "tema": "Desarrollo de complementos de Revit (C#)",
+  "licencia": "MIT",
+  "esfuerzo": "alto"
+ },
+ {
+  "repo": "sonomirco/aec-data-model-mcp-skill",
+  "ref": "HEAD",
+  "alcance": "en",
+  "tema": "APS / ACC (datos BIM)",
+  "licencia": "MIT",
+  "esfuerzo": "medio"
+ },
+ {
+  "repo": "JuliusBrussee/caveman",
+  "ref": "HEAD",
+  "alcance": "fuera",
+  "tema": "Comportamiento del agente (tokens)",
+  "licencia": "Apache-2.0",
+  "esfuerzo": "bajo"
+ },
+ {
+  "repo": "DietrichGebert/ponytail",
+  "ref": "HEAD",
+  "alcance": "fuera",
+  "tema": "Comportamiento del agente (código)",
+  "licencia": "MIT",
+  "esfuerzo": "bajo"
+ },
+ {
+  "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "ref": "HEAD",
+  "alcance": "fuera",
+  "tema": "Diseño UI/UX y marca",
+  "licencia": "MIT",
+  "esfuerzo": "bajo"
+ },
+ {
+  "repo": "multica-ai/andrej-karpathy-skills",
+  "ref": "HEAD",
+  "alcance": "fuera",
+  "tema": "Comportamiento del agente (código)",
+  "licencia": "sin LICENSE",
+  "esfuerzo": "bajo"
+ }
+]
