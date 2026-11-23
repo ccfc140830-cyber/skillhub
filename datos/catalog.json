@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generado": "2026-11-16T21:21:31Z",
+ "generado": "2026-11-23T22:58:40Z",
  "fuentes": {
   "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction": {
    "commit": "410ed1e71e4a5c6fd231afd0c8d1e586a9f546e8",
-   "sincronizado": "2026-11-16T21:18:22Z",
+   "sincronizado": "2026-11-23T22:57:06Z",
    "estado": "ok",
    "error": null,
    "skills": 238,
@@ -14,19 +14,19 @@
    "archivada": null
   },
   "AlpacaLabsLLC/skills-for-architects": {
-   "commit": "f11144680c93a1fdf52f3f96fe94875b7d0103f3",
-   "sincronizado": "2026-11-16T21:18:23Z",
+   "commit": "bf8f79183e7b5ff93a5ce135f78599eec6b634ab",
+   "sincronizado": "2026-11-23T22:57:06Z",
    "estado": "ok",
    "error": null,
    "skills": 61,
    "modo": "api",
    "con_skills": true,
-   "pushed_at": "2026-11-11T19:06:47Z",
+   "pushed_at": "2026-11-23T20:50:08Z",
    "archivada": null
   },
   "Nice3point/revit-skills": {
    "commit": "abc56575092af1ca143844be9a78f81d35396cc0",
-   "sincronizado": "2026-11-16T21:18:24Z",
+   "sincronizado": "2026-11-23T22:57:08Z",
    "estado": "ok",
    "error": null,
    "skills": 36,
@@ -37,7 +37,7 @@
   },
   "sonomirco/aec-data-model-mcp-skill": {
    "commit": "4fa481f1af3812e51f157fc1bae30ce73ea3dbde",
-   "sincronizado": "2026-11-16T21:18:25Z",
+   "sincronizado": "2026-11-23T22:57:09Z",
    "estado": "ok",
    "error": null,
    "skills": 1,
@@ -47,41 +47,41 @@
    "archivada": null
   },
   "JuliusBrussee/caveman": {
-   "commit": "9b243662ff98d392bc0a95b865a554583d71be75",
-   "sincronizado": "2026-11-16T21:18:26Z",
+   "commit": "b89752f6bca5a26bfde8b019813554241800ca99",
+   "sincronizado": "2026-11-23T22:57:10Z",
    "estado": "ok",
    "error": null,
    "skills": 28,
    "modo": "api",
    "con_skills": true,
-   "pushed_at": "2026-11-16T04:05:12Z",
+   "pushed_at": "2026-11-23T05:09:14Z",
    "archivada": null
   },
   "DietrichGebert/ponytail": {
-   "commit": "96608e078b2d5ea607c5c3b8b5a54d1c1fba6846",
-   "sincronizado": "2026-11-16T21:18:27Z",
+   "commit": "ebd8654c2c627f721eb8f9c0d1bd4090a29f9e10",
+   "sincronizado": "2026-11-23T22:57:10Z",
    "estado": "ok",
    "error": null,
    "skills": 12,
    "modo": "api",
    "con_skills": true,
-   "pushed_at": "2026-10-29T11:59:31Z",
+   "pushed_at": "2026-11-22T02:31:58Z",
    "archivada": null
   },
   "nextlevelbuilder/ui-ux-pro-max-skill": {
-   "commit": "e59ff376a41f7ca47b7541ad5c116495cbade3ee",
-   "sincronizado": "2026-11-16T21:18:28Z",
+   "commit": "e8b065f0f3aaf2e680fd125f000e4f5e351ed108",
+   "sincronizado": "2026-11-23T22:57:11Z",
    "estado": "ok",
    "error": null,
    "skills": 13,
    "modo": "api",
    "con_skills": true,
-   "pushed_at": "2026-11-16T04:10:03Z",
+   "pushed_at": "2026-11-23T19:10:18Z",
    "archivada": null
   },
   "multica-ai/andrej-karpathy-skills": {
    "commit": "2c606141936f1eeef17fa3043a72095b4765b9c2",
-   "sincronizado": "2026-11-16T21:18:28Z",
+   "sincronizado": "2026-11-23T22:57:12Z",
    "estado": "ok",
    "error": null,
    "skills": 1,
@@ -92,7 +92,7 @@
   },
   "mahseema/awesome-ai-tools": {
    "commit": "9d8b9d49fa26114fcc635a80ac1db1e950d3542a",
-   "sincronizado": "2026-11-16T21:18:30Z",
+   "sincronizado": "2026-11-23T22:57:12Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
@@ -100,35 +100,35 @@
    "licencia": "MIT",
    "con_skills": false,
    "pushed_at": "2025-12-31T14:46:19Z",
-   "archivada": false
+   "archivada": null
   },
   "ripienaar/free-for-dev": {
-   "commit": "a4aa34bff8c6da1ff18a58f3192cd7fa8e195604",
-   "sincronizado": "2026-11-16T21:18:31Z",
+   "commit": "4276248e843706ad8c8f1de40bd87033a96b77f8",
+   "sincronizado": "2026-11-23T22:57:13Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "sin LICENSE",
    "con_skills": false,
-   "pushed_at": "2026-11-16T20:28:54Z",
-   "archivada": false
+   "pushed_at": "2026-11-23T14:33:43Z",
+   "archivada": null
   },
   "ikaijua/Awesome-AITools": {
-   "commit": "44ab95b702e21736e6b8dcef004dafdf833d193f",
-   "sincronizado": "2026-11-16T21:18:32Z",
+   "commit": "fbc357c8999efb785e873f523e41273550637df6",
+   "sincronizado": "2026-11-23T22:57:13Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "CC-BY-4.0",
    "con_skills": false,
-   "pushed_at": "2026-11-15T11:15:23Z",
-   "archivada": false
+   "pushed_at": "2026-11-20T07:46:12Z",
+   "archivada": null
   },
   "btw-so/open-source-alternatives": {
    "commit": "5e019c471bcb398dde3e3dff38fbedc2da2ee2f6",
-   "sincronizado": "2026-11-16T21:18:33Z",
+   "sincronizado": "2026-11-23T22:57:14Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
@@ -136,23 +136,23 @@
    "licencia": "MIT",
    "con_skills": false,
    "pushed_at": "2024-11-08T10:26:57Z",
-   "archivada": false
+   "archivada": null
   },
   "public-apis/public-apis": {
-   "commit": "d6dab92da95c003e82e5b32c623bd2ad9d6a017f",
-   "sincronizado": "2026-11-16T21:18:34Z",
+   "commit": "9fb3bdb62643400aaebee03a2ecce0cd1ec934eb",
+   "sincronizado": "2026-11-23T22:57:14Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2026-11-15T18:53:24Z",
-   "archivada": false
+   "pushed_at": "2026-11-22T19:57:21Z",
+   "archivada": null
   },
   "shsfwork/awesome-inspiration": {
    "commit": "ee517066d60f3e92ad99514408aa05ee64e6e5bb",
-   "sincronizado": "2026-11-16T21:18:35Z",
+   "sincronizado": "2026-11-23T22:57:15Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
@@ -160,143 +160,143 @@
    "licencia": "sin LICENSE",
    "con_skills": false,
    "pushed_at": "2026-11-16T12:32:20Z",
-   "archivada": false
+   "archivada": null
   },
   "trimstray/the-book-of-secret-knowledge": {
    "commit": "7d37069a361d3fd9f214480755f7969744e866fa",
-   "sincronizado": "2026-11-16T21:18:36Z",
+   "sincronizado": "2026-11-23T22:57:16Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2024-11-19T14:00:38Z",
-   "archivada": false
+   "pushed_at": "2024-11-19T14:00:34Z",
+   "archivada": null
   },
   "vinta/awesome-python": {
-   "commit": "cbe369335b62ed31481d88bd685172519a67d817",
-   "sincronizado": "2026-11-16T21:18:37Z",
+   "commit": "4c3cb15dc695e95ae64add86b9994add8277f323",
+   "sincronizado": "2026-11-23T22:57:16Z",
    "estado": "ok",
    "error": null,
    "skills": 4,
    "modo": "api",
    "licencia": "NOASSERTION",
    "con_skills": true,
-   "pushed_at": "2026-11-16T09:51:41Z",
-   "archivada": false
+   "pushed_at": "2026-11-17T10:02:00Z",
+   "archivada": null
   },
   "sindresorhus/awesome-nodejs": {
    "commit": "b8e1c0c3879544e32dca7d381d8275ceff267e46",
-   "sincronizado": "2026-11-16T21:18:38Z",
+   "sincronizado": "2026-11-23T22:57:17Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "CC0-1.0",
    "con_skills": false,
-   "pushed_at": "2026-09-02T02:11:34Z",
-   "archivada": false
+   "pushed_at": "2026-09-02T02:11:31Z",
+   "archivada": null
   },
   "avelino/awesome-go": {
-   "commit": "9c240aea151cc6189f129091ccd07116f415ad86",
-   "sincronizado": "2026-11-16T21:18:39Z",
+   "commit": "bd23d8783aa140e6ad7da9058d382caabf62175d",
+   "sincronizado": "2026-11-23T22:57:18Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2026-11-16T17:19:37Z",
-   "archivada": false
+   "pushed_at": "2026-11-23T12:27:44Z",
+   "archivada": null
   },
   "sdmg15/guides": {
    "commit": "75eb285fc2f391c03a0fadf2c47e2dfcd2c80a8a",
-   "sincronizado": "2026-11-16T21:18:41Z",
+   "sincronizado": "2026-11-23T22:57:19Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "BSD-3-Clause",
    "con_skills": false,
-   "pushed_at": "2019-08-19T15:37:09Z",
-   "archivada": false
+   "pushed_at": "2017-12-07T02:51:00Z",
+   "archivada": null
   },
   "TheAlgorithms/Python": {
    "commit": "30507bbe41397065728167fb09aa820f9fce8dc7",
-   "sincronizado": "2026-11-16T21:18:42Z",
+   "sincronizado": "2026-11-23T22:57:20Z",
    "estado": "ok",
    "error": null,
    "skills": 3,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": true,
-   "pushed_at": "2026-11-13T04:28:36Z",
-   "archivada": false
+   "pushed_at": "2026-11-11T19:38:38Z",
+   "archivada": null
   },
   "donnemartin/system-design-primer": {
    "commit": "ae9bbd7b02d90b9866215de185217d33f39ab733",
-   "sincronizado": "2026-11-16T21:18:43Z",
+   "sincronizado": "2026-11-23T22:57:20Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "NOASSERTION",
    "con_skills": false,
-   "pushed_at": "2026-09-15T01:10:09Z",
-   "archivada": false
+   "pushed_at": "2026-03-20T01:52:18Z",
+   "archivada": null
   },
   "codecrafters-io/build-your-own-x": {
-   "commit": "f749a54a50949e54375a363af25011339efaaec8",
-   "sincronizado": "2026-11-16T21:18:44Z",
+   "commit": "94e4be4102452119008fe47199f3cb915abe0c50",
+   "sincronizado": "2026-11-23T22:57:21Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "sin LICENSE",
    "con_skills": false,
-   "pushed_at": "2026-11-16T20:59:46Z",
-   "archivada": false
+   "pushed_at": "2026-11-19T05:32:02Z",
+   "archivada": null
   },
   "practical-tutorials/project-based-learning": {
-   "commit": "f99ea242247b9b6df9bd277f832fa5a8f1da28e1",
-   "sincronizado": "2026-11-16T21:18:45Z",
+   "commit": "8ebaf25f31a276beb157bfd1c1f2f33148c40d07",
+   "sincronizado": "2026-11-23T22:57:21Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2026-11-16T06:44:31Z",
-   "archivada": false
+   "pushed_at": "2026-11-23T06:40:59Z",
+   "archivada": null
   },
   "codecrafters-io/build-your-own-http-server": {
    "commit": "e086ba45900544ab17cd7f5bc9c4f094c8e87157",
-   "sincronizado": "2026-11-16T21:18:46Z",
+   "sincronizado": "2026-11-23T22:57:22Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2026-10-18T09:40:59Z",
-   "archivada": false
+   "pushed_at": "2026-10-18T09:40:57Z",
+   "archivada": null
   },
   "codecrafters-io/build-your-own-claude-code": {
-   "commit": "0373216262bcc91206cfad11639f08b366e200fd",
-   "sincronizado": "2026-11-16T21:18:48Z",
+   "commit": "85006dd23b3bbd9775f0af1266ceb605a25c1b22",
+   "sincronizado": "2026-11-23T22:57:23Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2026-11-06T06:43:32Z",
-   "archivada": false
+   "pushed_at": "2026-11-23T13:21:25Z",
+   "archivada": null
   },
   "shareAI-lab/learn-claude-code": {
    "commit": "448c75bb596917ad196cc1fb7558f459c5c50fdd",
-   "sincronizado": "2026-11-16T21:18:49Z",
+   "sincronizado": "2026-11-23T22:57:24Z",
    "estado": "ok",
    "error": null,
    "skills": 4,
@@ -304,35 +304,35 @@
    "licencia": "MIT",
    "con_skills": true,
    "pushed_at": "2026-11-15T13:41:46Z",
-   "archivada": false
+   "archivada": null
   },
   "EbookFoundation/free-programming-books": {
-   "commit": "10e33dd516cc53864e6bece7e6bd51f2a035d06c",
-   "sincronizado": "2026-11-16T21:18:50Z",
+   "commit": "5ba11e91facbfc2e5c848715febcda419a841f3e",
+   "sincronizado": "2026-11-23T22:57:24Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "CC-BY-4.0",
    "con_skills": false,
-   "pushed_at": "2026-11-12T18:46:04Z",
-   "archivada": false
+   "pushed_at": "2026-11-21T23:51:56Z",
+   "archivada": null
   },
   "prakhar1989/awesome-courses": {
    "commit": "e0b02ce4084c3b426304ae03ffcb072f7c8057f3",
-   "sincronizado": "2026-11-16T21:18:51Z",
+   "sincronizado": "2026-11-23T22:57:25Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "sin LICENSE",
    "con_skills": false,
-   "pushed_at": "2023-05-04T12:49:34Z",
-   "archivada": false
+   "pushed_at": "2022-11-12T13:05:10Z",
+   "archivada": null
   },
   "ossu/data-science": {
    "commit": "ccb52fe046fe3b61696083596278b36516fdb80b",
-   "sincronizado": "2026-11-16T21:18:52Z",
+   "sincronizado": "2026-11-23T22:57:26Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
@@ -340,11 +340,11 @@
    "licencia": "NOASSERTION",
    "con_skills": false,
    "pushed_at": "2025-05-13T02:19:48Z",
-   "archivada": false
+   "archivada": null
   },
   "ossu/precollege-math": {
    "commit": "a398b9058a03ab3a6f91d1fc02ea799ffd824e8a",
-   "sincronizado": "2026-11-16T21:18:53Z",
+   "sincronizado": "2026-11-23T22:57:26Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
@@ -352,59 +352,59 @@
    "licencia": "MIT",
    "con_skills": false,
    "pushed_at": "2026-06-01T06:37:00Z",
-   "archivada": false
+   "archivada": null
   },
   "ossu/math": {
    "commit": "43a0e993af2c016a2ea74135afaad2a0d4dcd1de",
-   "sincronizado": "2026-11-16T21:18:54Z",
+   "sincronizado": "2026-11-23T22:57:27Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2026-08-08T08:12:54Z",
-   "archivada": false
+   "pushed_at": "2026-08-08T08:12:53Z",
+   "archivada": null
   },
   "ossu/computer-science": {
    "commit": "8f8272b1d378d31494240aa1d667aa6b045c6552",
-   "sincronizado": "2026-11-16T21:18:55Z",
+   "sincronizado": "2026-11-23T22:57:28Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2026-11-09T06:27:27Z",
-   "archivada": false
+   "pushed_at": "2026-11-09T06:27:26Z",
+   "archivada": null
   },
   "sindresorhus/awesome": {
    "commit": "bc98e517ddca672f55f9857d714fc3ea3c3540b2",
-   "sincronizado": "2026-11-16T21:18:56Z",
+   "sincronizado": "2026-11-23T22:57:28Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "CC0-1.0",
    "con_skills": false,
-   "pushed_at": "2026-09-02T02:10:47Z",
-   "archivada": false
+   "pushed_at": "2026-09-02T02:10:45Z",
+   "archivada": null
   },
   "mitevpi/awesome-bim": {
    "commit": "8edc93c7f2b307a37fc41b8daa3b2f33d46cbe0d",
-   "sincronizado": "2026-11-16T21:18:57Z",
+   "sincronizado": "2026-11-23T22:57:29Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2019-12-12T22:26:07Z",
-   "archivada": false
+   "pushed_at": "2019-12-03T18:04:00Z",
+   "archivada": null
   },
   "brandonhimpfen/awesome-civil-engineering": {
    "commit": "1de14f9750b26cb954f9d45c3a92826c18ee9197",
-   "sincronizado": "2026-11-16T21:18:59Z",
+   "sincronizado": "2026-11-23T22:57:30Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
@@ -412,47 +412,47 @@
    "licencia": "sin LICENSE",
    "con_skills": false,
    "pushed_at": "2026-09-06T20:06:51Z",
-   "archivada": false
+   "archivada": null
   },
   "QuantumNovice/awesome-civil-engineering": {
-   "commit": "310d162b9a9ebbbb6fb697ab2a0bbecbe07ee62c",
-   "sincronizado": "2026-11-16T21:19:00Z",
+   "commit": "17f42c336f7e6e2762dcf7178a89f5f8962f7b99",
+   "sincronizado": "2026-11-23T22:57:31Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "CC0-1.0",
    "con_skills": false,
-   "pushed_at": "2026-11-16T04:12:38Z",
-   "archivada": false
+   "pushed_at": "2026-11-18T00:39:27Z",
+   "archivada": null
   },
   "FrancescaBurali/awesome-geotechnics": {
    "commit": "2074838f96a23408e5b7bca8df93c4ae82b4b204",
-   "sincronizado": "2026-11-16T21:19:01Z",
+   "sincronizado": "2026-11-23T22:57:32Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "GPL-3.0",
    "con_skills": false,
-   "pushed_at": "2018-05-06T21:36:38Z",
-   "archivada": false
+   "pushed_at": "2018-05-06T21:36:37Z",
+   "archivada": null
   },
   "DemirAydin/Python_For_Civil_Engineers": {
    "commit": "912fe72824077cf493237f9df500f22501d71641",
-   "sincronizado": "2026-11-16T21:19:02Z",
+   "sincronizado": "2026-11-23T22:57:33Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2025-12-14T20:57:12Z",
-   "archivada": false
+   "pushed_at": "2025-12-14T20:57:10Z",
+   "archivada": null
   },
   "buddyd16/Structural-Engineering": {
    "commit": "5934e0bec88d7c032a41ddb073309bccb31f425f",
-   "sincronizado": "2026-11-16T21:19:03Z",
+   "sincronizado": "2026-11-23T22:57:33Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
@@ -460,340 +460,340 @@
    "licencia": "BSD-3-Clause",
    "con_skills": false,
    "pushed_at": "2024-12-09T15:22:56Z",
-   "archivada": false
+   "archivada": null
   },
   "kikki/MCP-Add-in-Autodesk_Navisworks_Manage_2026": {
    "commit": "43c548313b6c351573da663ac7e9d827478b35a3",
-   "sincronizado": "2026-11-16T21:19:04Z",
+   "sincronizado": "2026-11-23T22:57:34Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2025-09-22T19:33:36Z",
-   "archivada": false
+   "pushed_at": "2025-09-22T19:33:32Z",
+   "archivada": null
   },
   "HorizunGroup/naviscoord-mcp": {
    "commit": "9145d2b8d60180acc4e889f315a267d2f0811a8f",
-   "sincronizado": "2026-11-16T21:19:06Z",
+   "sincronizado": "2026-11-23T22:57:35Z",
    "estado": "ok",
    "error": null,
    "skills": 1,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": true,
-   "pushed_at": "2026-11-07T23:52:38Z",
-   "archivada": false
+   "pushed_at": "2026-10-20T16:44:18Z",
+   "archivada": null
   },
   "bimwright/nwd-mcp": {
-   "commit": "0450b9c8d5c68f055f78eb1a9357015f8a4acacb",
-   "sincronizado": "2026-11-16T21:19:07Z",
+   "commit": "fe7eecb134943df3bdd657b5964476426f8f0199",
+   "sincronizado": "2026-11-23T22:57:36Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "Apache-2.0",
    "con_skills": false,
-   "pushed_at": "2026-11-16T07:37:56Z",
-   "archivada": false
+   "pushed_at": "2026-11-23T03:04:12Z",
+   "archivada": null
   },
   "Sam-AEC/aec-model-bridge": {
-   "commit": "5a2ae2fdf7d28c6566382e1d8a3fa06e19867375",
-   "sincronizado": "2026-11-16T21:19:08Z",
+   "commit": "418825ed9940f1dc7864830d9215eff4dc28c0ae",
+   "sincronizado": "2026-11-23T22:57:36Z",
    "estado": "ok",
    "error": null,
    "skills": 2,
    "modo": "api",
    "licencia": "GPL-3.0",
    "con_skills": true,
-   "pushed_at": "2026-11-16T21:15:14Z",
-   "archivada": false
+   "pushed_at": "2026-11-17T14:18:58Z",
+   "archivada": null
   },
   "bimwright/rvt-mcp": {
-   "commit": "b44ee0b8032f0603f8e52656bc05ab43aa599263",
-   "sincronizado": "2026-11-16T21:19:09Z",
+   "commit": "aedb764b287c5a12ace05d410bcf35689914c5d1",
+   "sincronizado": "2026-11-23T22:57:37Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "Apache-2.0",
    "con_skills": false,
-   "pushed_at": "2026-11-16T05:40:57Z",
-   "archivada": false
+   "pushed_at": "2026-11-23T08:15:10Z",
+   "archivada": null
   },
   "GraphBIM/RevitMCPGraphQL": {
    "commit": "d9fcbdc42873a847dcccc8fd678a58aa1c9707ec",
-   "sincronizado": "2026-11-16T21:19:11Z",
+   "sincronizado": "2026-11-23T22:57:38Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "sin LICENSE",
    "con_skills": false,
-   "pushed_at": "2026-07-02T15:47:49Z",
-   "archivada": false
+   "pushed_at": "2026-07-02T15:47:46Z",
+   "archivada": null
   },
   "GraphBIM/speckle-mcp": {
    "commit": "a59e7bb3ae65b4a19c571bd53fe129304ac15255",
-   "sincronizado": "2026-11-16T21:19:12Z",
+   "sincronizado": "2026-11-23T22:57:38Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "sin LICENSE",
    "con_skills": false,
-   "pushed_at": "2025-08-23T20:42:39Z",
-   "archivada": false
+   "pushed_at": "2025-08-23T20:42:34Z",
+   "archivada": null
   },
   "kaan36875/bim-quality-checker": {
    "commit": "0028a5fa08cf172735de8e6eaa75c5a16bc2897b",
-   "sincronizado": "2026-11-16T21:19:13Z",
+   "sincronizado": "2026-11-23T22:57:39Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2026-10-14T19:41:58Z",
-   "archivada": false
+   "pushed_at": "2026-10-14T19:41:57Z",
+   "archivada": null
   },
   "ndtramk19bk-tech/TramTools": {
    "estado": "error",
    "error": "No encontrado en GitHub: /repos/ndtramk19bk-tech/TramTools/git/trees/51d1a1dcf439de092663da8f9b64e942c7d6b825 (¿repositorio privado, renombrado o ref inexistente?)",
-   "sincronizado": "2026-11-16T21:19:15Z"
+   "sincronizado": "2026-11-23T22:57:41Z"
   },
   "TheBIMsider/DynaFetch": {
    "commit": "26f5767b693dc968ff4be4c4a8c95b1b99704f60",
-   "sincronizado": "2026-11-16T21:19:16Z",
+   "sincronizado": "2026-11-23T22:57:41Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "BSD-3-Clause",
    "con_skills": false,
-   "pushed_at": "2026-10-24T18:39:23Z",
-   "archivada": false
+   "pushed_at": "2026-10-24T18:39:19Z",
+   "archivada": null
   },
   "autodesk-platform-services/aps-mcp-auth-examples": {
    "commit": "e6620846b2e7bfa7f2baf9493c917f359efd59da",
-   "sincronizado": "2026-11-16T21:19:17Z",
+   "sincronizado": "2026-11-23T22:57:42Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2026-09-25T07:22:17Z",
-   "archivada": false
+   "pushed_at": "2026-09-25T07:21:58Z",
+   "archivada": null
   },
   "autodesk-platform-services/aps-mcp-app-example": {
    "commit": "8b994df4a5c263c1b357784941723383f836a0c4",
-   "sincronizado": "2026-11-16T21:19:18Z",
+   "sincronizado": "2026-11-23T22:57:43Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "sin LICENSE",
    "con_skills": false,
-   "pushed_at": "2026-11-05T19:24:04Z",
-   "archivada": false
+   "pushed_at": "2026-11-05T19:22:55Z",
+   "archivada": null
   },
   "antonhofstader/Civil3D-mcp-python-COM": {
    "commit": "af872ce626346ed697be251407300e25c789a6c4",
-   "sincronizado": "2026-11-16T21:19:20Z",
+   "sincronizado": "2026-11-23T22:57:44Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2026-04-08T01:51:54Z",
-   "archivada": false
+   "pushed_at": "2026-04-08T01:51:53Z",
+   "archivada": null
   },
   "Sacred-G/Civil3D-mcp": {
    "commit": "9e437a3bab6df4ba13fabc2e909e138e8ac15896",
-   "sincronizado": "2026-11-16T21:19:21Z",
+   "sincronizado": "2026-11-23T22:57:44Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2026-08-16T17:38:55Z",
-   "archivada": false
+   "pushed_at": "2026-08-16T17:38:54Z",
+   "archivada": null
   },
   "bldrs-ai/Share": {
-   "commit": "4458ceb1fadfdc8a04f04d172c63f0c63c3d777c",
-   "sincronizado": "2026-11-16T21:19:22Z",
+   "commit": "dfc342b9eb8b56942793f17c271ef6e717305a6c",
+   "sincronizado": "2026-11-23T22:57:45Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "AGPL-3.0",
    "con_skills": false,
-   "pushed_at": "2026-11-16T20:56:27Z",
-   "archivada": false
+   "pushed_at": "2026-11-23T22:53:46Z",
+   "archivada": null
   },
   "xBimTeam/XbimEssentials": {
    "commit": "e3c877712aeff39813219b9dd13383c266d07055",
-   "sincronizado": "2026-11-16T21:19:24Z",
+   "sincronizado": "2026-11-23T22:57:46Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "NOASSERTION",
    "con_skills": false,
-   "pushed_at": "2026-08-28T08:31:48Z",
-   "archivada": false
+   "pushed_at": "2026-07-08T14:58:10Z",
+   "archivada": null
   },
   "DynamoDS/Dynamo": {
-   "commit": "a43731ba5746591f85665981a224baa6c008b00a",
-   "sincronizado": "2026-11-16T21:19:27Z",
+   "commit": "42c1cc57c3f33f385765dc483e85f95683ed91b2",
+   "sincronizado": "2026-11-23T22:57:48Z",
    "estado": "ok",
    "error": null,
    "skills": 13,
    "modo": "api",
    "licencia": "Apache-2.0",
    "con_skills": true,
-   "pushed_at": "2026-11-16T19:13:18Z",
-   "archivada": false
+   "pushed_at": "2026-11-23T22:52:34Z",
+   "archivada": null
   },
   "datadrivenconstruction/CAD-BIM-to-Code-Automation-Pipeline-DDC-Workflow-with-LLM-ChatGPT": {
    "commit": "c9283856f023decdf9674435ea3c1181035428d4",
-   "sincronizado": "2026-11-16T21:19:33Z",
+   "sincronizado": "2026-11-23T22:57:54Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2026-10-19T17:23:32Z",
-   "archivada": false
+   "pushed_at": "2026-10-19T17:23:29Z",
+   "archivada": null
   },
   "datadrivenconstruction/OpenConstructionERP": {
-   "commit": "8bd4b61ba5f297294b932cc6c30be5b28bb42abc",
-   "sincronizado": "2026-11-16T21:19:35Z",
+   "commit": "ce6b13e734fca2c6728a2966d4dcab28207d35f0",
+   "sincronizado": "2026-11-23T22:57:55Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "AGPL-3.0",
    "con_skills": false,
-   "pushed_at": "2026-11-16T21:15:48Z",
-   "archivada": false
+   "pushed_at": "2026-11-23T21:03:54Z",
+   "archivada": null
   },
   "ErikFrits/EF-Tools": {
    "commit": "03ebdfada3f5190572e2928f2fbbf0c12dc0382a",
-   "sincronizado": "2026-11-16T21:19:36Z",
+   "sincronizado": "2026-11-23T22:57:56Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "GPL-3.0",
    "con_skills": false,
-   "pushed_at": "2026-07-28T00:03:28Z",
-   "archivada": false
+   "pushed_at": "2026-07-28T00:03:27Z",
+   "archivada": null
   },
   "NeVeSpl/RevitDBExplorer": {
    "commit": "db3c4957efd658530836c67da324e5b059a47150",
-   "sincronizado": "2026-11-16T21:19:38Z",
+   "sincronizado": "2026-11-23T22:57:57Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "Apache-2.0",
    "con_skills": false,
-   "pushed_at": "2026-04-16T16:20:38Z",
-   "archivada": false
+   "pushed_at": "2026-04-16T16:20:35Z",
+   "archivada": null
   },
   "lookup-foundation/RevitLookup": {
    "commit": "766aa41a3821b64befc0b81e3c6b164725b26e87",
-   "sincronizado": "2026-11-16T21:19:39Z",
+   "sincronizado": "2026-11-23T22:57:58Z",
    "estado": "ok",
    "error": null,
    "skills": 3,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": true,
-   "pushed_at": "2026-10-11T17:27:16Z",
-   "archivada": false
+   "pushed_at": "2026-10-09T09:48:46Z",
+   "archivada": null
   },
   "Nice3point/revit-api": {
    "commit": "f603b8e45d8dc720c2a0926a1df5bfd84af9ce57",
-   "sincronizado": "2026-11-16T21:19:48Z",
+   "sincronizado": "2026-11-23T22:58:05Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2026-11-15T21:42:09Z",
-   "archivada": false
+   "pushed_at": "2026-11-15T21:41:13Z",
+   "archivada": null
   },
   "Nice3point/RevitExtensions": {
    "commit": "2a4378b1680fb050ee2b32ef088c3d10f11f2fe7",
-   "sincronizado": "2026-11-16T21:19:50Z",
+   "sincronizado": "2026-11-23T22:58:06Z",
    "estado": "ok",
    "error": null,
    "skills": 2,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": true,
-   "pushed_at": "2026-10-29T14:53:14Z",
-   "archivada": false
+   "pushed_at": "2026-10-29T11:51:50Z",
+   "archivada": null
   },
   "Nice3point/RevitLogging": {
    "commit": "055e39130152d72de805263ad09a1f15f2a999f1",
-   "sincronizado": "2026-11-16T21:19:51Z",
+   "sincronizado": "2026-11-23T22:58:06Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2026-10-09T07:52:42Z",
-   "archivada": false
+   "pushed_at": "2026-09-06T17:50:09Z",
+   "archivada": null
   },
   "Nice3point/RevitUnit": {
    "commit": "add4ea0ed3ce9caa90b3f8982d72c1942ed1fae4",
-   "sincronizado": "2026-11-16T21:19:52Z",
+   "sincronizado": "2026-11-23T22:58:07Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2026-11-02T13:43:07Z",
-   "archivada": false
+   "pushed_at": "2026-11-02T13:43:02Z",
+   "archivada": null
   },
   "Nice3point/RevitToolkit": {
    "commit": "b97b592b1d79aba972f1e1367e2f1440f8520ee3",
-   "sincronizado": "2026-11-16T21:19:53Z",
+   "sincronizado": "2026-11-23T22:58:08Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2026-11-16T12:09:58Z",
-   "archivada": false
+   "pushed_at": "2026-11-16T12:08:09Z",
+   "archivada": null
   },
   "Nice3point/RevitTemplates": {
    "commit": "d703757a01e2cde2eb5392cd59666e6b0e578cf6",
-   "sincronizado": "2026-11-16T21:19:55Z",
+   "sincronizado": "2026-11-23T22:58:09Z",
    "estado": "ok",
    "error": null,
    "skills": 2,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": true,
-   "pushed_at": "2026-11-16T13:04:46Z",
-   "archivada": false
+   "pushed_at": "2026-10-15T18:02:58Z",
+   "archivada": null
   },
   "SVECS-BIM-AUTOMATION/csRevit-Framework": {
    "commit": "367e25dd1e3af0807565a30a426f806da0c7cae4",
-   "sincronizado": "2026-11-16T21:19:56Z",
+   "sincronizado": "2026-11-23T22:58:09Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
@@ -801,11 +801,11 @@
    "licencia": "NOASSERTION",
    "con_skills": false,
    "pushed_at": "2026-06-17T14:35:07Z",
-   "archivada": false
+   "archivada": null
   },
   "gtalarico/revitpythonwrapper": {
    "commit": "e470536fae59978012af6d7a986df0dccb19c4f4",
-   "sincronizado": "2026-11-16T21:19:57Z",
+   "sincronizado": "2026-11-23T22:58:10Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
@@ -813,35 +813,35 @@
    "licencia": "sin LICENSE",
    "con_skills": false,
    "pushed_at": "2024-05-09T20:39:35Z",
-   "archivada": false
+   "archivada": null
   },
   "BehiSecc/awesome-claude-skills": {
    "commit": "adf99015a0ad4dac11711c261f0f9b433e4215e7",
-   "sincronizado": "2026-11-16T21:19:58Z",
+   "sincronizado": "2026-11-23T22:58:11Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "sin LICENSE",
    "con_skills": false,
-   "pushed_at": "2026-11-02T12:16:33Z",
-   "archivada": false
+   "pushed_at": "2026-11-02T12:16:31Z",
+   "archivada": null
   },
   "travisvn/awesome-claude-skills": {
    "commit": "1da55aa810f206d3fe2005e7e3989b15a275d942",
-   "sincronizado": "2026-11-16T21:19:59Z",
+   "sincronizado": "2026-11-23T22:58:11Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "sin LICENSE",
    "con_skills": false,
-   "pushed_at": "2026-04-28T19:30:24Z",
-   "archivada": false
+   "pushed_at": "2026-04-28T19:30:19Z",
+   "archivada": null
   },
   "VoltAgent/awesome-agent-skills": {
    "commit": "20c57162c790d59d35e47c1538dc534c5c59e60d",
-   "sincronizado": "2026-11-16T21:20:00Z",
+   "sincronizado": "2026-11-23T22:58:12Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
@@ -849,23 +849,23 @@
    "licencia": "MIT",
    "con_skills": false,
    "pushed_at": "2026-11-15T18:23:24Z",
-   "archivada": false
+   "archivada": null
   },
   "hesreallyhim/awesome-claude-code": {
-   "commit": "9889a97a6903e8ca23bed3080d33fcff6c731cba",
-   "sincronizado": "2026-11-16T21:20:01Z",
+   "commit": "1f1ae1c495dda75c0305bd98b0c1aac3a1ad2851",
+   "sincronizado": "2026-11-23T22:58:12Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "NOASSERTION",
    "con_skills": false,
-   "pushed_at": "2026-11-16T21:05:38Z",
-   "archivada": false
+   "pushed_at": "2026-11-23T21:05:25Z",
+   "archivada": null
   },
   "VoltAgent/awesome-claude-code-subagents": {
    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
-   "sincronizado": "2026-11-16T21:20:02Z",
+   "sincronizado": "2026-11-23T22:58:13Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
@@ -873,35 +873,35 @@
    "licencia": "MIT",
    "con_skills": false,
    "pushed_at": "2026-11-02T06:50:02Z",
-   "archivada": false
+   "archivada": null
   },
   "ComposioHQ/awesome-claude-skills": {
    "commit": "be2a406907dbc61b73e6827ded415c96139d13a2",
-   "sincronizado": "2026-11-16T21:20:22Z",
+   "sincronizado": "2026-11-23T22:58:14Z",
    "estado": "ok",
    "error": null,
    "skills": 864,
    "modo": "api",
    "licencia": "sin LICENSE",
    "con_skills": true,
-   "pushed_at": "2026-09-18T07:16:11Z",
-   "archivada": false
+   "pushed_at": "2026-07-24T07:48:01Z",
+   "archivada": null
   },
   "shanraisshan/claude-code-best-practice": {
-   "commit": "95f8656953c3a51cd32d4c8a83052e922f88c0fd",
-   "sincronizado": "2026-11-16T21:20:23Z",
+   "commit": "e7367a6a6471dc3f5d77314ea0ea0c3acde5e837",
+   "sincronizado": "2026-11-23T22:58:15Z",
    "estado": "ok",
    "error": null,
    "skills": 9,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": true,
-   "pushed_at": "2026-11-16T06:34:06Z",
-   "archivada": false
+   "pushed_at": "2026-11-23T06:33:47Z",
+   "archivada": null
   },
   "IBM/mcp": {
    "commit": "a6b8c9c82a5504dd6240d2e9658622ea0f2ea757",
-   "sincronizado": "2026-11-16T21:20:24Z",
+   "sincronizado": "2026-11-23T22:58:15Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
@@ -909,35 +909,35 @@
    "licencia": "Apache-2.0",
    "con_skills": false,
    "pushed_at": "2026-10-01T16:12:12Z",
-   "archivada": false
+   "archivada": null
   },
   "github/github-mcp-server": {
-   "commit": "67d4dc489700ec955ad255d098396dd86c729523",
-   "sincronizado": "2026-11-16T21:20:26Z",
+   "commit": "9a72d8d38fec18c207cd924b33aa0eb3e186252c",
+   "sincronizado": "2026-11-23T22:58:17Z",
    "estado": "ok",
    "error": null,
    "skills": 18,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": true,
-   "pushed_at": "2026-11-16T16:15:05Z",
-   "archivada": false
+   "pushed_at": "2026-11-20T17:28:47Z",
+   "archivada": null
   },
   "microsoft/playwright-mcp": {
-   "commit": "5b000eb91f60b3e4c03acc69d04c9562d1c7f82f",
-   "sincronizado": "2026-11-16T21:20:27Z",
+   "commit": "2337aff0213d28db41d3e3daf48cee19b3d0bd82",
+   "sincronizado": "2026-11-23T22:58:17Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "Apache-2.0",
    "con_skills": false,
-   "pushed_at": "2026-11-16T18:36:04Z",
-   "archivada": false
+   "pushed_at": "2026-11-18T18:49:18Z",
+   "archivada": null
   },
   "google/mcp": {
    "commit": "9ebafd607afdc06245323756a07221df23790a93",
-   "sincronizado": "2026-11-16T21:20:28Z",
+   "sincronizado": "2026-11-23T22:58:18Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
@@ -945,155 +945,155 @@
    "licencia": "Apache-2.0",
    "con_skills": false,
    "pushed_at": "2026-08-17T19:46:40Z",
-   "archivada": false
+   "archivada": null
   },
   "microsoft/mcp": {
-   "commit": "d97c4ee2b74357c3e4353e30606656c3530fa0c9",
-   "sincronizado": "2026-11-16T21:20:30Z",
+   "commit": "d7f62fda4a5a52495c45ec71ac662ac34560cec2",
+   "sincronizado": "2026-11-23T22:58:19Z",
    "estado": "ok",
    "error": null,
    "skills": 7,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": true,
-   "pushed_at": "2026-11-16T21:11:49Z",
-   "archivada": false
+   "pushed_at": "2026-11-23T22:44:32Z",
+   "archivada": null
   },
   "f/prompts.chat": {
-   "commit": "36c1131e85e4ff08ce4d908f0e907e3dbdd019a5",
-   "sincronizado": "2026-11-16T21:20:31Z",
+   "commit": "af8d30ae3e0198df6fdf4aa254a48507bfad89be",
+   "sincronizado": "2026-11-23T22:58:20Z",
    "estado": "ok",
    "error": null,
    "skills": 4,
    "modo": "api",
    "licencia": "NOASSERTION",
    "con_skills": true,
-   "pushed_at": "2026-11-16T03:14:07Z",
-   "archivada": false
+   "pushed_at": "2026-11-23T18:33:35Z",
+   "archivada": null
   },
   "colbymchenry/codegraph": {
-   "commit": "147fe290bf944d8ce380d85bdeb55e90142723c0",
-   "sincronizado": "2026-11-16T21:20:32Z",
+   "commit": "73c6cff66e525a92bff65675b6b0c46687e91ef1",
+   "sincronizado": "2026-11-23T22:58:20Z",
    "estado": "ok",
    "error": null,
    "skills": 2,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": true,
-   "pushed_at": "2026-11-16T20:47:21Z",
-   "archivada": false
+   "pushed_at": "2026-11-23T22:54:58Z",
+   "archivada": null
   },
   "Egonex-AI/Understand-Anything": {
-   "commit": "b861852dda79273bd9d2e01c3160d42e2df510d2",
-   "sincronizado": "2026-11-16T21:20:34Z",
+   "commit": "8ec75de1de8c9d2eef685d8d6cbc50782ad31fbb",
+   "sincronizado": "2026-11-23T22:58:21Z",
    "estado": "ok",
    "error": null,
    "skills": 9,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": true,
-   "pushed_at": "2026-11-15T12:10:30Z",
-   "archivada": false
+   "pushed_at": "2026-11-23T07:15:59Z",
+   "archivada": null
   },
   "langgenius/dify": {
-   "commit": "0ba3c9d76887b6c89c943abaab87f8d86c27d612",
-   "sincronizado": "2026-11-16T21:20:36Z",
+   "commit": "a92a64aa4a412ec44910d57a076bfcfb564d03fc",
+   "sincronizado": "2026-11-23T22:58:22Z",
    "estado": "ok",
    "error": null,
    "skills": 6,
    "modo": "api",
    "licencia": "NOASSERTION",
    "con_skills": true,
-   "pushed_at": "2026-11-16T19:08:43Z",
-   "archivada": false
+   "pushed_at": "2026-11-23T16:59:55Z",
+   "archivada": null
   },
   "Significant-Gravitas/AutoGPT": {
-   "commit": "657153887ea25aca92014ee713f9ceb344378e74",
-   "sincronizado": "2026-11-16T21:20:38Z",
+   "commit": "dd0b5f73266ea5f3dfab37ebccd93049af58e106",
+   "sincronizado": "2026-11-23T22:58:24Z",
    "estado": "ok",
    "error": null,
    "skills": 13,
    "modo": "api",
    "licencia": "NOASSERTION",
    "con_skills": true,
-   "pushed_at": "2026-11-16T21:02:19Z",
-   "archivada": false
+   "pushed_at": "2026-11-20T16:01:04Z",
+   "archivada": null
   },
   "NousResearch/hermes-agent": {
-   "commit": "dff103e05878bfa321301f6ab74ce766a29f1345",
-   "sincronizado": "2026-11-16T21:20:45Z",
+   "commit": "b98c388a880b1b6fd303c9c2821a3946651a0b4c",
+   "sincronizado": "2026-11-23T22:58:26Z",
    "estado": "ok",
    "error": null,
    "skills": 186,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": true,
-   "pushed_at": "2026-11-16T21:16:15Z",
-   "archivada": false
+   "pushed_at": "2026-11-23T21:33:06Z",
+   "archivada": null
   },
   "Alishahryar1/free-claude-code": {
-   "commit": "eb92e4c07af0d6ad8881dce1cd958c3d072c27c5",
-   "sincronizado": "2026-11-16T21:20:46Z",
+   "commit": "8ff81d5c254197b7a071f083861787f1fe374478",
+   "sincronizado": "2026-11-23T22:58:27Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "NOASSERTION",
    "con_skills": false,
-   "pushed_at": "2026-11-16T19:38:09Z",
-   "archivada": false
+   "pushed_at": "2026-11-22T07:04:48Z",
+   "archivada": null
   },
   "asgeirtj/system_prompts_leaks": {
-   "commit": "09fc4721fcacaa4515ce7c7b39146d8b99dea103",
-   "sincronizado": "2026-11-16T21:20:53Z",
+   "commit": "8c615a1387fec799b96f28d30617aab98d196afd",
+   "sincronizado": "2026-11-23T22:58:29Z",
    "estado": "ok",
    "error": null,
-   "skills": 260,
+   "skills": 275,
    "modo": "api",
    "licencia": "CC0-1.0",
    "con_skills": true,
-   "pushed_at": "2026-11-16T13:37:35Z",
-   "archivada": false
+   "pushed_at": "2026-11-23T12:28:11Z",
+   "archivada": null
   },
   "diegosouzapw/OmniRoute": {
-   "commit": "e9c9f1dd84de6ca77cc35352709219e562a31c7f",
-   "sincronizado": "2026-11-16T21:20:57Z",
+   "commit": "5c94174ae6eee6fa46e0a18ca6a360328ffe56d2",
+   "sincronizado": "2026-11-23T22:58:32Z",
    "estado": "ok",
    "error": null,
    "skills": 53,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": true,
-   "pushed_at": "2026-11-16T19:29:44Z",
-   "archivada": false
+   "pushed_at": "2026-11-23T22:42:20Z",
+   "archivada": null
   },
   "affaan-m/ECC": {
-   "commit": "d4b97e60dd7d8cdf01962881776a758769c0ba85",
-   "sincronizado": "2026-11-16T21:21:22Z",
+   "commit": "4adeee6732a12d1540f49a4d50a38ce8c97f9a53",
+   "sincronizado": "2026-11-23T22:58:34Z",
    "estado": "ok",
    "error": null,
-   "skills": 1087,
+   "skills": 1089,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": true,
-   "pushed_at": "2026-11-16T21:16:59Z",
-   "archivada": false
+   "pushed_at": "2026-11-20T01:13:45Z",
+   "archivada": null
   },
   "morluto/rea": {
-   "commit": "a9097b2108af6e87cc38c4d6836271cd69917672",
-   "sincronizado": "2026-11-16T21:21:23Z",
+   "commit": "75c733acb487791345ce93f43aa077e109136813",
+   "sincronizado": "2026-11-23T22:58:35Z",
    "estado": "ok",
    "error": null,
    "skills": 6,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": true,
-   "pushed_at": "2026-11-16T21:14:41Z",
-   "archivada": false
+   "pushed_at": "2026-11-23T22:58:02Z",
+   "archivada": null
   },
   "arduino/Arduino": {
    "commit": "a0df6e0e83b652c72bc78b0a1376c54d6ebc3bee",
-   "sincronizado": "2026-11-16T21:21:24Z",
+   "sincronizado": "2026-11-23T22:58:36Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
@@ -1101,79 +1101,79 @@
    "licencia": "NOASSERTION",
    "con_skills": false,
    "pushed_at": "2025-10-11T09:27:40Z",
-   "archivada": false
+   "archivada": null
   },
   "ybayle/awesome-deep-learning-music": {
    "commit": "2059f5f72c05f0cc9c522503772011c17c62acaf",
-   "sincronizado": "2026-11-16T21:21:25Z",
+   "sincronizado": "2026-11-23T22:58:36Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2023-12-15T16:51:26Z",
-   "archivada": false
+   "pushed_at": "2023-12-15T16:51:23Z",
+   "archivada": null
   },
   "sindresorhus/KeyboardShortcuts": {
    "commit": "772133d9dbe800fdac0473226822994c5c162c58",
-   "sincronizado": "2026-11-16T21:21:26Z",
+   "sincronizado": "2026-11-23T22:58:37Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2026-09-11T23:40:22Z",
-   "archivada": false
+   "pushed_at": "2026-09-11T23:40:16Z",
+   "archivada": null
   },
   "storytold/RuntimeAudioImporter": {
    "commit": "2ecfcee44daccc6dcffd7533f7455fa2f5498c33",
-   "sincronizado": "2026-11-16T21:21:27Z",
+   "sincronizado": "2026-11-23T22:58:38Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2021-03-07T00:03:28Z",
-   "archivada": false
+   "pushed_at": "2021-03-07T00:03:12Z",
+   "archivada": null
   },
   "storytold/LiveScan3D": {
    "commit": "a65c5ab9b80efda7176e817930668086545c2072",
-   "sincronizado": "2026-11-16T21:21:29Z",
+   "sincronizado": "2026-11-23T22:58:38Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2021-03-06T11:46:31Z",
-   "archivada": false
+   "pushed_at": "2020-08-23T11:47:06Z",
+   "archivada": null
   },
   "ccfc140830-cyber/get-shit-done": {
    "commit": "bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815",
-   "sincronizado": "2026-11-16T21:21:30Z",
+   "sincronizado": "2026-11-23T22:58:39Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2026-05-31T17:46:54Z",
-   "archivada": false
+   "pushed_at": "2026-05-31T13:34:35Z",
+   "archivada": null
   },
   "ccfc140830-cyber/Revit.Build.Tasks": {
    "commit": "2b5ccbda55db321c79c9cf0a0674c7186a77af53",
-   "sincronizado": "2026-11-16T21:21:31Z",
+   "sincronizado": "2026-11-23T22:58:40Z",
    "estado": "ok",
    "error": null,
    "skills": 0,
    "modo": "api",
    "licencia": "MIT",
    "con_skills": false,
-   "pushed_at": "2025-12-12T12:12:30Z",
-   "archivada": false
+   "pushed_at": "2025-11-03T20:11:45Z",
+   "archivada": null
   }
  },
  "skills": [
@@ -3811,19 +3811,20 @@
    "cat": "Comportamiento del agente (tokens)",
    "alc": "fuera",
    "dup": false,
-   "sig": "d6031826ec153be7e2a6e8480966c8db6f69a763",
+   "sig": "a5b032dd3a5acdc392e7661844e83248a51b8501",
    "archivos": 1,
-   "bytes": 4021,
+   "bytes": 4443,
    "files": [
     [
      "SKILL.md",
-     "1cf8b46a6bd9151e596c0b1aa7849fb41d8b51df",
-     4021
+     "749c5df616c17c1e4f82b46f6fbd1dc5727f12bf",
+     4443
     ]
    ],
    "origen": "activa",
-   "cambio": null,
-   "irregulares": 0
+   "cambio": "modificada",
+   "irregulares": 0,
+   "cambio_ts": "2026-11-23T22:57:09Z"
   },
   {
    "id": "JuliusBrussee/caveman|plugins/caveman/skills/caveman",
@@ -3874,14 +3875,14 @@
    "cat": "Comportamiento del agente (tokens)",
    "alc": "fuera",
    "dup": false,
-   "sig": "0d03a5e7b3cdc1197e47f52e8e3ed41e31eefb94",
+   "sig": "f76c05275ccd711abf5422d185e0b8a3a0d1f3ba",
    "archivos": 8,
-   "bytes": 94979,
+   "bytes": 101804,
    "files": [
     [
      "SKILL.md",
-     "8afb16585dfd92de3479e02fa871f01bc5dd8d97",
-     5718
+     "9f77893a780c9e5a57b24532ecf1fa4723a50147",
+     5767
     ],
     [
      "scripts/__init__.py",
@@ -3905,8 +3906,8 @@
     ],
     [
      "scripts/compress.py",
-     "13460aa95a493b467bfe83c48d259feac011e790",
-     59677
+     "5ba75790a6cc01a57c18df7cba9b311050cb7b65",
+     59682
     ],
     [
      "scripts/detect.py",
@@ -3915,14 +3916,14 @@
     ],
     [
      "scripts/validate.py",
-     "bf0eb9a66c4df4f59e40b016f7015b9d91b59d55",
-     16399
+     "8a12b7123dfd41b868ba59758103fa43172d34fc",
+     23170
     ]
    ],
    "origen": "activa",
    "cambio": "modificada",
    "irregulares": 0,
-   "cambio_ts": "2026-11-16T21:18:26Z"
+   "cambio_ts": "2026-11-23T22:57:09Z"
   },
   {
    "id": "JuliusBrussee/caveman|plugins/caveman/skills/caveman-stats",
@@ -4006,9 +4007,9 @@
    "cat": "Comportamiento del agente (tokens)",
    "alc": "fuera",
    "dup": true,
-   "sig": "f3c409e3758adfd25f09a066dabea600a963b070",
+   "sig": "29bff57128388b0027994e6491ce82ed76b1333b",
    "archivos": 2,
-   "bytes": 6894,
+   "bytes": 7316,
    "files": [
     [
      "README.md",
@@ -4017,13 +4018,14 @@
     ],
     [
      "SKILL.md",
-     "1cf8b46a6bd9151e596c0b1aa7849fb41d8b51df",
-     4021
+     "749c5df616c17c1e4f82b46f6fbd1dc5727f12bf",
+     4443
     ]
    ],
    "origen": "activa",
-   "cambio": null,
-   "irregulares": 0
+   "cambio": "modificada",
+   "irregulares": 0,
+   "cambio_ts": "2026-11-23T22:57:09Z"
   },
   {
    "id": "JuliusBrussee/caveman|skills/caveman",
@@ -4093,9 +4095,9 @@
    "cat": "Comportamiento del agente (tokens)",
    "alc": "fuera",
    "dup": true,
-   "sig": "ac4d3fc61fa39a8ede887e64d2cb09f852e0596c",
+   "sig": "44f815b04b490493b14ffd9e243fb22cbd0c178d",
    "archivos": 10,
-   "bytes": 109916,
+   "bytes": 116943,
    "files": [
     [
      "README.md",
@@ -4104,13 +4106,13 @@
     ],
     [
      "SECURITY.md",
-     "40cee4bb663d134336c4b7d37c786eab8db97181",
-     5303
+     "6900d19833fe0b8bc073c07a882d6cb4f54ded37",
+     5505
     ],
     [
      "SKILL.md",
-     "8afb16585dfd92de3479e02fa871f01bc5dd8d97",
-     5718
+     "9f77893a780c9e5a57b24532ecf1fa4723a50147",
+     5767
     ],
     [
      "scripts/__init__.py",
@@ -4134,8 +4136,8 @@
     ],
     [
      "scripts/compress.py",
-     "13460aa95a493b467bfe83c48d259feac011e790",
-     59677
+     "5ba75790a6cc01a57c18df7cba9b311050cb7b65",
+     59682
     ],
     [
      "scripts/detect.py",
@@ -4144,14 +4146,14 @@
     ],
     [
      "scripts/validate.py",
-     "bf0eb9a66c4df4f59e40b016f7015b9d91b59d55",
-     16399
+     "8a12b7123dfd41b868ba59758103fa43172d34fc",
+     23170
     ]
    ],
    "origen": "activa",
    "cambio": "modificada",
    "irregulares": 0,
-   "cambio_ts": "2026-11-16T21:18:26Z"
+   "cambio_ts": "2026-11-23T22:57:09Z"
   },
   {
    "id": "JuliusBrussee/caveman|skills/caveman-discover",
@@ -4211,14 +4213,14 @@
    "cat": "Comportamiento del agente (tokens)",
    "alc": "fuera",
    "dup": false,
-   "sig": "90e9a12b863100cff2a180a9a39341b0e86153b1",
+   "sig": "b889d6635215edfe1d826b05f698ffc35cbe13f3",
    "archivos": 3,
-   "bytes": 4481,
+   "bytes": 4954,
    "files": [
     [
      "SKILL.md",
-     "5bc2aa79833d34c411b5680ed0e7c60496982426",
-     1970
+     "1acc5bf8ce38ba3eb57de9e0084d407933cb5b61",
+     2017
     ],
     [
      "package.json",
@@ -4227,13 +4229,14 @@
     ],
     [
      "tests/skill-file.test.mjs",
-     "85b78e30025658748f783fec7a1b65f65e4c0a23",
-     2157
+     "d22b66f5a8ec0722c36b897241949f1d33a5d86f",
+     2583
     ]
    ],
    "origen": "activa",
-   "cambio": null,
-   "irregulares": 0
+   "cambio": "modificada",
+   "irregulares": 0,
+   "cambio_ts": "2026-11-23T22:57:09Z"
   },
   {
    "id": "JuliusBrussee/caveman|skills/caveman-help",
@@ -4274,15 +4277,10 @@
    "cat": "Comportamiento del agente (tokens)",
    "alc": "fuera",
    "dup": false,
-   "sig": "64bf12407d7014561d127ccc36dfde8e35354cdd",
-   "archivos": 6,
-   "bytes": 18639,
+   "sig": "243e9538924c8c7ea7ad7db109e09966e3994559",
+   "archivos": 5,
+   "bytes": 16753,
    "files": [
-    [
-     "CLAUDE.md",
-     "44a1110753444879e942994450ef01d457de584b",
-     1886
-    ],
     [
      "README.md",
      "ccecb9abd3e60e04a203f56c6c1d17f63d59c0e3",
@@ -4310,8 +4308,9 @@
     ]
    ],
    "origen": "activa",
-   "cambio": null,
-   "irregulares": 0
+   "cambio": "modificada",
+   "irregulares": 0,
+   "cambio_ts": "2026-11-23T22:57:09Z"
   },
   {
    "id": "JuliusBrussee/caveman|skills/caveman-manage",
@@ -4424,9 +4423,9 @@
    "cat": "Comportamiento del agente (tokens)",
    "alc": "fuera",
    "dup": true,
-   "sig": "beb5844a57c2c322967f6b0497286e89fd5db2f5",
+   "sig": "179b03771ba3af3d14fd04990d2e9ffb3b1e105b",
    "archivos": 2,
-   "bytes": 4718,
+   "bytes": 4842,
    "files": [
     [
      "README.md",
@@ -4435,13 +4434,14 @@
     ],
     [
      "SKILL.md",
-     "681136b629ca275da2391c72a11bcf8bcbf6eca5",
-     1964
+     "e88c09b476117aa9e98843fa68282288f4fe1682",
+     2088
     ]
    ],
    "origen": "activa",
-   "cambio": null,
-   "irregulares": 0
+   "cambio": "modificada",
+   "irregulares": 0,
+   "cambio_ts": "2026-11-23T22:57:10Z"
   },
   {
    "id": "JuliusBrussee/caveman|skills/investigate-first",
@@ -13743,9 +13743,9 @@
    "cat": "Diseño UI/UX y marca",
    "alc": "fuera",
    "dup": false,
-   "sig": "6a2d19d1b4bbba9e5d5ca4df4b89a1e356d1f2e4",
-   "archivos": 38,
-   "bytes": 297987,
+   "sig": "3e8b2f532dc1043a6a7cab9dc9e1d8398e29ef50",
+   "archivos": 40,
+   "bytes": 303319,
    "files": [
     [
      "SKILL.md",
@@ -13889,13 +13889,13 @@
     ],
     [
      "scripts/cip/generate.py",
-     "394b06de244392b9b13317f2097cbfd0087116d0",
-     20631
+     "5e695e68e435d175efc30e1d7376a9b1aa8e976e",
+     21096
     ],
     [
      "scripts/cip/render-html.py",
-     "34e378261f642ea98303ee4a7718568b78ec8520",
-     13941
+     "35c1a0d8c1dc02a661d367695689ea4464703aec",
+     14406
     ],
     [
      "scripts/cip/search.py",
@@ -13914,8 +13914,8 @@
     ],
     [
      "scripts/logo/generate.py",
-     "f188dc0ab12407f8c64872630a5884daae431950",
-     32631
+     "19ffc55503846c41a79f1a2adfcd7d49753738a9",
+     33078
     ],
     [
      "scripts/logo/search.py",
@@ -13928,9 +13928,19 @@
      19153
     ],
     [
+     "scripts/logo/tests/test_logo_stdout_encoding.py",
+     "a4a104f63b61b228bc29a6a962456d0d53364a27",
+     1682
+    ],
+    [
      "scripts/tests/test_cip_generate.py",
      "26e3d3b98a4429dcfef0be39f898ac023b652048",
      4996
+    ],
+    [
+     "scripts/tests/test_cip_stdout_encoding.py",
+     "3115d43622e3cbe6d5283f6ee563fc6bdfb81c23",
+     2273
     ],
     [
      "scripts/tests/test_icon_generate.py",
@@ -13941,7 +13951,7 @@
    "origen": "activa",
    "cambio": "modificada",
    "irregulares": 0,
-   "cambio_ts": "2026-11-16T21:18:28Z"
+   "cambio_ts": "2026-11-23T22:57:11Z"
   },
   {
    "id": "nextlevelbuilder/ui-ux-pro-max-skill|.claude/skills/design-system",
@@ -14665,18 +14675,18 @@
    "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
    "dir": ".claude/skills/ui-ux-pro-max",
    "name": "ui-ux-pro-max",
-   "en": "UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces, including pages, components, design systems, accessibility, interaction, responsive layout, typography, color, charts, and stack-specific UI implementation. Searchable local data: 80 searchable styles (51 active), 192 product palettes and reasoning profiles, 74 font pairings, 120 UX guidelines, 105 icons, 17 GSAP presets, 25 chart types, and 22 stacks.",
+   "en": "UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces, including pages, components, design systems, accessibility, interaction, responsive layout, typography, color, charts, and stack-specific UI implementation. Searchable local data: 80 searchable styles (51 active), 194 product palettes and reasoning profiles, 74 font pairings, 141 UX guidelines, 105 icons, 17 GSAP presets, 25 chart types, and 22 stacks.",
    "es": "",
    "cat": "Diseño UI/UX y marca",
    "alc": "fuera",
    "dup": false,
-   "sig": "427596ebcb6172a6d98a275122cbbae8e14257fd",
-   "archivos": 78,
-   "bytes": 3667977,
+   "sig": "7f8509352ba8dacf869a2037f7b7f61a297f058d",
+   "archivos": 81,
+   "bytes": 3718095,
    "files": [
     [
      "SKILL.md",
-     "1dccc6b985a117a4c414db3fd3e49d1f538afcf2",
+     "e6cfdd50ec8cbf6855d27ee5446424378ea6a416",
      18640
     ],
     [
@@ -14686,23 +14696,23 @@
     ],
     [
      "data/catalog-summary.json",
-     "8e77f491a936aa4cc2161792eb71f8a2410bd360",
+     "0c6467b51ecfd25f3315dbe2b3b8c5f207c99afa",
      2392
     ],
     [
      "data/charts.csv",
-     "c6f4f875fd5b34379f24dbb541539492366a1058",
-     23365
+     "f1fafd7cf16093a7cf496e0de39ff4982932636b",
+     23682
     ],
     [
      "data/colors.csv",
-     "5d2bf7389105f8a824b504b57cc93c00dc1d7e0a",
-     37940
+     "316d3c36d349f6702f4cd071356c14edd14610b9",
+     38488
     ],
     [
      "data/data-provenance.json",
-     "e5b03dfbdae5c15ea42593f16360d0be9c42ac19",
-     38203
+     "aa254aeef772dcdd8ade90b5ecd3805c30f85c7a",
+     47776
     ],
     [
      "data/google-font-licenses.json",
@@ -14736,8 +14746,8 @@
     ],
     [
      "data/products.csv",
-     "f5f747335cdc631359ed6705ede2906e93d41b19",
-     76959
+     "3027460b7fed97c978bd5157cafe945de37a296a",
+     78382
     ],
     [
      "data/react-performance.csv",
@@ -14866,13 +14876,13 @@
     ],
     [
      "data/ui-reasoning.csv",
-     "8931d4c809f8e22ddac00ce612ce0c35f34a59b6",
-     77360
+     "d29b5be1be8cbbd57e0f379b8f29febf3850c03b",
+     78979
     ],
     [
      "data/ux-guidelines.csv",
-     "b81d5a2ff845e348af60f96262b67f941b8f506f",
-     28310
+     "5c03eb6c1edee94b02aabdffb5c705b583778ad5",
+     41929
     ],
     [
      "references/pro-rules.md",
@@ -14881,23 +14891,23 @@
     ],
     [
      "references/quick-reference.md",
-     "ad9775068092fa9d2555d582db6c68b0548348cc",
-     24773
+     "1f275503013b8ff829506c7de2dcea033667d83a",
+     27369
     ],
     [
      "scripts/core.py",
-     "02a3eee65462772dda9e0e56ae1dc1531b68c85a",
-     43933
+     "5b5ecab3483f357018e10c980497ed9a1ee8466e",
+     45708
     ],
     [
      "scripts/design_system.py",
-     "83da82851e4dcfbe2f4577d4c64c4b8b5e8edaa0",
-     80253
+     "9c7d76e865e7074cb4abecc367310c409a0e5a45",
+     81780
     ],
     [
      "scripts/preview.py",
-     "9f61882d8918495f994b827273f23125599aa44b",
-     19155
+     "796870d616d70c0c59c025966848b43a0af655dc",
+     20012
     ],
     [
      "scripts/reasoning_contract.py",
@@ -14906,8 +14916,8 @@
     ],
     [
      "scripts/search.py",
-     "88214418d01eae3da7c017c641faf1834e5d3bf2",
-     13618
+     "e11ee8af1d856cfb3e655b38ac777bd5372f5159",
+     14207
     ],
     [
      "scripts/tests/fixtures/catalogs/google-api.json",
@@ -14971,7 +14981,7 @@
     ],
     [
      "scripts/tests/fixtures/relevance-thresholds.json",
-     "68db4a35f32a678451b01a7d6d18db43d91ba6eb",
+     "5c7f6f96591812753b01249c383e258f5eae0105",
      5079
     ],
     [
@@ -14996,7 +15006,7 @@
     ],
     [
      "scripts/tests/test_data_contracts.py",
-     "312dc383b3f6548d7200e928c192673a907b5016",
+     "efff02b30f2aaf58d68a8270004098796de826e8",
      19513
     ],
     [
@@ -15020,9 +15030,24 @@
      13259
     ],
     [
+     "scripts/tests/test_form_error_handling.py",
+     "1692ac3f27286fd885183bbd336c263df1860fbd",
+     4045
+    ],
+    [
      "scripts/tests/test_ime_composition.py",
      "f388e724a975503ebc7d7208f85f500456fb67bd",
      4702
+    ],
+    [
+     "scripts/tests/test_map_guidance.py",
+     "3fcce652960b6c00750eae83c91d71213eef0c96",
+     3926
+    ],
+    [
+     "scripts/tests/test_map_product_types.py",
+     "46e8547ec8bc7ba90f9940a49ea9cab80b59b751",
+     2198
     ],
     [
      "scripts/tests/test_native_desktop_stack_freshness.py",
@@ -15036,8 +15061,8 @@
     ],
     [
      "scripts/tests/test_rtl_support.py",
-     "d013af865b6bee8d426ce9eb62bd71e71ced1785",
-     6836
+     "91f3967261d5127437a6b4acbf54c09e567e424e",
+     11945
     ],
     [
      "scripts/tests/test_skill_script_paths.py",
@@ -15061,14 +15086,14 @@
     ],
     [
      "scripts/validate_data.py",
-     "8b6c7941f6ad3e51cb9d412b11185133e7763001",
-     52230
+     "e3ff944d77ac8f995c3efa90e968439dea710742",
+     52627
     ]
    ],
    "origen": "activa",
    "cambio": "modificada",
    "irregulares": 0,
-   "cambio_ts": "2026-11-16T21:18:28Z"
+   "cambio_ts": "2026-11-23T22:57:11Z"
   },
   {
    "id": "nextlevelbuilder/ui-ux-pro-max-skill|cli/assets/skills/banner-design",
@@ -15218,9 +15243,9 @@
    "cat": "Diseño UI/UX y marca",
    "alc": "fuera",
    "dup": true,
-   "sig": "6a2d19d1b4bbba9e5d5ca4df4b89a1e356d1f2e4",
-   "archivos": 38,
-   "bytes": 297987,
+   "sig": "3e8b2f532dc1043a6a7cab9dc9e1d8398e29ef50",
+   "archivos": 40,
+   "bytes": 303319,
    "files": [
     [
      "SKILL.md",
@@ -15364,13 +15389,13 @@
     ],
     [
      "scripts/cip/generate.py",
-     "394b06de244392b9b13317f2097cbfd0087116d0",
-     20631
+     "5e695e68e435d175efc30e1d7376a9b1aa8e976e",
+     21096
     ],
     [
      "scripts/cip/render-html.py",
-     "34e378261f642ea98303ee4a7718568b78ec8520",
-     13941
+     "35c1a0d8c1dc02a661d367695689ea4464703aec",
+     14406
     ],
     [
      "scripts/cip/search.py",
@@ -15389,8 +15414,8 @@
     ],
     [
      "scripts/logo/generate.py",
-     "f188dc0ab12407f8c64872630a5884daae431950",
-     32631
+     "19ffc55503846c41a79f1a2adfcd7d49753738a9",
+     33078
     ],
     [
      "scripts/logo/search.py",
@@ -15403,9 +15428,19 @@
      19153
     ],
     [
+     "scripts/logo/tests/test_logo_stdout_encoding.py",
+     "a4a104f63b61b228bc29a6a962456d0d53364a27",
+     1682
+    ],
+    [
      "scripts/tests/test_cip_generate.py",
      "26e3d3b98a4429dcfef0be39f898ac023b652048",
      4996
+    ],
+    [
+     "scripts/tests/test_cip_stdout_encoding.py",
+     "3115d43622e3cbe6d5283f6ee563fc6bdfb81c23",
+     2273
     ],
     [
      "scripts/tests/test_icon_generate.py",
@@ -15416,7 +15451,7 @@
    "origen": "activa",
    "cambio": "modificada",
    "irregulares": 0,
-   "cambio_ts": "2026-11-16T21:18:28Z"
+   "cambio_ts": "2026-11-23T22:57:11Z"
   },
   {
    "id": "nextlevelbuilder/ui-ux-pro-max-skill|cli/assets/skills/design-system",
@@ -16114,12 +16149,12 @@
    "cat": "Análisis y validación BIM",
    "alc": "en",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "187f894a6a4aa8a7c9571514c87d1164dbc9f332",
+   "cambio": "modificada",
+   "sig": "705675d5aca76ea49158f9a695597cf11f31eeba",
    "files": [
     [
      "SKILL.md",
-     "b43eab26af63b4d43dece20c23b955cac4751214",
+     "7b1ed945d762352d39eca460c5ef442bec44b325",
      4993
     ]
    ],
@@ -16127,7 +16162,7 @@
    "bytes": 4993,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:19:08Z"
+   "cambio_ts": "2026-11-23T22:57:36Z"
   },
   {
    "id": "Sam-AEC/aec-model-bridge|plugin/skills/revit-review",
@@ -16139,20 +16174,20 @@
    "cat": "Análisis y validación BIM",
    "alc": "en",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "d78129c7647c25a4e6fd4a1b0f983e5c191d0e9c",
+   "cambio": "modificada",
+   "sig": "9fe0c90d4f590e68cdd7ea4cd7028208e9f5346d",
    "files": [
     [
      "SKILL.md",
-     "17f7b8a50cd2fff0a36b7ab93bd7f762b1665a80",
-     3547
+     "70d7553efdd43c3d381dc47cf0d2203c1c7bb284",
+     3589
     ]
    ],
    "archivos": 1,
-   "bytes": 3547,
+   "bytes": 3589,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:19:08Z"
+   "cambio_ts": "2026-11-23T22:57:36Z"
   },
   {
    "id": "DynamoDS/Dynamo|.claude/skills/dynamo-dotnet-janitor",
@@ -40009,20 +40044,20 @@
    "cat": "Sin categoría",
    "alc": "soporte",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "a2b7f8ed1bdead0344447fbd58008fc6a58b9f73",
+   "cambio": "modificada",
+   "sig": "b6c88348f04d6ee358398b41925659e72ddcf772",
    "files": [
     [
      "SKILL.md",
-     "0aa52912f926343126126f8cf22811e7e5d4ebbf",
-     4807
+     "0b9c717e8ae75a066b94c985885d3f31588dee98",
+     4830
     ]
    ],
    "archivos": 1,
-   "bytes": 4807,
+   "bytes": 4830,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:25Z"
+   "cambio_ts": "2026-11-23T22:58:16Z"
   },
   {
    "id": "github/github-mcp-server|pkg/skills/catalog/skills/discussion-participation",
@@ -40059,13 +40094,13 @@
    "cat": "Sin categoría",
    "alc": "soporte",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "46be338539bc823f1b4723415f495566914ae39e",
+   "cambio": "modificada",
+   "sig": "80a33c471adb290d173139f1072f761ea4bdec29",
    "files": [
     [
      "SKILL.md",
-     "4a417dcbc43eacedffb4b3e5c1d677d89e56ecbe",
-     6082
+     "b85eec574f131b89f0712431815a5c651b7385bf",
+     6019
     ],
     [
      "references/history-investigation.md",
@@ -40074,10 +40109,10 @@
     ]
    ],
    "archivos": 2,
-   "bytes": 10039,
+   "bytes": 9976,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:25Z"
+   "cambio_ts": "2026-11-23T22:58:17Z"
   },
   {
    "id": "github/github-mcp-server|pkg/skills/catalog/skills/copilot-task-delegation",
@@ -40089,20 +40124,20 @@
    "cat": "Sin categoría",
    "alc": "soporte",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "85fc342ff0e45abb127770a3fd804c09cdbf5572",
+   "cambio": "modificada",
+   "sig": "99a4d18f12a58c1dbbd927ffdab2dcba7e41c268",
    "files": [
     [
      "SKILL.md",
-     "25ca9f624f00ff4d7f3eb2b36ad7d9b7d3a04ab8",
-     6938
+     "3503dfcca28728aa6e3d637b20dd03a2cc459c8d",
+     6946
     ]
    ],
    "archivos": 1,
-   "bytes": 6938,
+   "bytes": 6946,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:25Z"
+   "cambio_ts": "2026-11-23T22:58:16Z"
   },
   {
    "id": "github/github-mcp-server|pkg/skills/catalog/skills/account-and-team-context",
@@ -40239,20 +40274,20 @@
    "cat": "Obra, calidad y cierre",
    "alc": "soporte",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "246c727119d0f7c455e66c342eb4bfce57893cd9",
+   "cambio": "modificada",
+   "sig": "11d183bc141377bde1dd38d66b2482a60bc80154",
    "files": [
     [
      "SKILL.md",
-     "cbeeed6c536420dd9cecc020eb3a077f2dbca037",
-     6099
+     "c0288b258d6ab63c7fe49c8957e55a1942d91a2b",
+     6168
     ]
    ],
    "archivos": 1,
-   "bytes": 6099,
+   "bytes": 6168,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:25Z"
+   "cambio_ts": "2026-11-23T22:58:16Z"
   },
   {
    "id": "github/github-mcp-server|pkg/skills/catalog/skills/pull-request-code-review",
@@ -40374,25 +40409,25 @@
    "cat": "Planificación y cronograma",
    "alc": "soporte",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "70a49eeb2cddb7954a4c53145dc5f0c969217bda",
+   "cambio": "modificada",
+   "sig": "e3565ab49f6db03249adcee0f06a20d9035eafb3",
    "files": [
     [
      "SKILL.md",
-     "fce4ddf6b65d5e306e29bb3fe2d5b1df0a590b48",
-     5614
+     "6485ffb76cc55cc5a463f7f548d2a03f13ce3a5e",
+     9739
     ],
     [
      "references/alert-sources.md",
-     "33860052e60d1f352de1fa1fbe60fbeb8d2e2fab",
-     3215
+     "35f31b448f8e43d8b48e521aca39ecfeccebaea8",
+     3672
     ]
    ],
    "archivos": 2,
-   "bytes": 8829,
+   "bytes": 13411,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:26Z"
+   "cambio_ts": "2026-11-23T22:58:16Z"
   },
   {
    "id": "github/github-mcp-server|pkg/skills/catalog/skills/repository-health-review",
@@ -40454,25 +40489,25 @@
    "cat": "Sin categoría",
    "alc": "soporte",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "21da30d95a93bdd73d2c40ef7741380821380c87",
+   "cambio": "modificada",
+   "sig": "dd8d30b5edd3e203d2a2c408a1c30c5f3b0e966a",
    "files": [
     [
      "SKILL.md",
-     "edb6ed75325004a059cb5d9874d0a6f78c5ad1dd",
-     7133
+     "20f3f6bdb19faadfdae440847098f7b56cf1b9bc",
+     7125
     ],
     [
      "references/failure-classes.md",
-     "3f85db652abcb3e00fccc3c12a1e41a62915775b",
-     3319
+     "de72a82def3e9613aa3547cb344f0f87cf986b64",
+     3311
     ]
    ],
    "archivos": 2,
-   "bytes": 10452,
+   "bytes": 10436,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:26Z"
+   "cambio_ts": "2026-11-23T22:58:16Z"
   },
   {
    "id": "microsoft/mcp|.github/skills/resilience-management-operations",
@@ -40564,20 +40599,20 @@
    "cat": "Sin categoría",
    "alc": "soporte",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "ce7e62aea7e928b018cfa8c9e866c4c447202650",
+   "cambio": "modificada",
+   "sig": "52aadb3b852f568c390485f68f8203b474cea4c8",
    "files": [
     [
      "SKILL.md",
-     "ec23748cb5b9dc40e3953313d87fae30c6c31137",
-     14458
+     "384848a76b89148211f54d8cf4f33644730c21cd",
+     14462
     ]
    ],
    "archivos": 1,
-   "bytes": 14458,
+   "bytes": 14462,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:30Z"
+   "cambio_ts": "2026-11-23T22:58:19Z"
   },
   {
    "id": "microsoft/mcp|.github/skills/add-azure-mcp-tools",
@@ -40589,20 +40624,20 @@
    "cat": "Sin categoría",
    "alc": "soporte",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "91870780cbe4aa3d63e7372d0f15da4f818a3f5d",
+   "cambio": "modificada",
+   "sig": "c7a6ba40a5a350e964ab9d3cdf6b0ff30902c4cf",
    "files": [
     [
      "SKILL.md",
-     "aa5f2ea64141f51734db236e19c7a80aa494a6af",
-     94400
+     "15a561ba2f0d3156d66ef5022f0ed7d3a8aaa8f0",
+     94123
     ]
    ],
    "archivos": 1,
-   "bytes": 94400,
+   "bytes": 94123,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:30Z"
+   "cambio_ts": "2026-11-23T22:58:19Z"
   },
   {
    "id": "microsoft/mcp|.github/skills/agentic-workflows",
@@ -41084,13 +41119,13 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "3f52daf3b6c3c12fac3489dc5b24e902b5544437",
+   "cambio": "modificada",
+   "sig": "91807bdc92f399f48833cd930ac645857a4ce269",
    "files": [
     [
      "SKILL.md",
-     "a1e79d5c5332ac06da4de55a3997c272b825e17c",
-     67888
+     "ed1a411db07fb864f4bb0cf69452b6f4a9362e4a",
+     69580
     ],
     [
      "build-fingerprints.mjs",
@@ -41119,8 +41154,8 @@
     ],
     [
      "finalize-incremental.mjs",
-     "6e6d3f4b37b25fbd77bc540e79b5cda91a6a2e81",
-     19304
+     "1c5ede01c523f6c90c6b606c449a5f6ce736eb13",
+     20124
     ],
     [
      "frameworks/django.md",
@@ -41374,10 +41409,10 @@
     ]
    ],
    "archivos": 57,
-   "bytes": 511697,
+   "bytes": 514209,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:34Z"
+   "cambio_ts": "2026-11-23T22:58:21Z"
   },
   {
    "id": "langgenius/dify|.agents/skills/backend-code-review",
@@ -42214,20 +42249,20 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "f9a92cac5cdfb40b8431f2292342807a077a6182",
+   "cambio": "modificada",
+   "sig": "01211746996982846d2b4a7ed57e56ae297ad274",
    "files": [
     [
      "SKILL.md",
-     "c245511bcf73ad5ddcfec2d5ea40ce952eed9dd3",
-     56628
+     "16da498762fb26402da674357b6ff07bf0d90858",
+     62403
     ]
    ],
    "archivos": 1,
-   "bytes": 56628,
+   "bytes": 62403,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:37Z"
+   "cambio_ts": "2026-11-23T22:58:24Z"
   },
   {
    "id": "Significant-Gravitas/AutoGPT|.claude/skills/write-frontend-tests",
@@ -44764,8 +44799,8 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "b19a7b3456b8e1136037239151e94b74ae3a2d9c",
+   "cambio": "modificada",
+   "sig": "d784c988ffce5f95cb19e51916a8278da0b51a8e",
    "files": [
     [
      "LICENSE.txt",
@@ -44774,8 +44809,8 @@
     ],
     [
      "SKILL.md",
-     "b944fd73a4dc02f8f3f0fd20c3d83724c7dc7e24",
-     8863
+     "f8cf0ec97be4145b1225d51ad9e7adefd62990af",
+     8873
     ],
     [
      "assets/build.mjs",
@@ -44804,10 +44839,10 @@
     ]
    ],
    "archivos": 7,
-   "bytes": 69873,
+   "bytes": 69883,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:41Z"
+   "cambio_ts": "2026-11-23T22:58:26Z"
   },
   {
    "id": "NousResearch/hermes-agent|optional-skills/creative/tldraw-offline",
@@ -45094,20 +45129,20 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "7e3c544f3556dfcf5a34ddec0440d21fe7c98434",
+   "cambio": "modificada",
+   "sig": "c428bc2ca1c42b220663c225399e85f074ae6eae",
    "files": [
     [
      "SKILL.md",
-     "56de6dd1c5cdbf7ba70067cdcb9902990ac1da9f",
-     14071
+     "0894e4539118cb2cf0b9d8ec8c1ad04518feb89c",
+     14117
     ]
    ],
    "archivos": 1,
-   "bytes": 14071,
+   "bytes": 14117,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:41Z"
+   "cambio_ts": "2026-11-23T22:58:26Z"
   },
   {
    "id": "NousResearch/hermes-agent|optional-skills/devops/actual-setup",
@@ -45174,13 +45209,13 @@
    "cat": "Datos, ETL y estándares",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "fe04bbe52ecff635f4adc40830392beaf6245ac9",
+   "cambio": "modificada",
+   "sig": "fdfc224e92972eb7b6d687a32fcbd1960a927fa2",
    "files": [
     [
      "SKILL.md",
-     "7c326ae7e4b8d1fdaeaafc50ba727fe938263c69",
-     4500
+     "ad5d82d9bcbb8eefd8c018436390c9f541f2787c",
+     4512
     ],
     [
      "scripts/_watermark.py",
@@ -45204,10 +45239,10 @@
     ]
    ],
    "archivos": 5,
-   "bytes": 24647,
+   "bytes": 24659,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:41Z"
+   "cambio_ts": "2026-11-23T22:58:26Z"
   },
   {
    "id": "NousResearch/hermes-agent|optional-skills/email/agentmail",
@@ -45489,20 +45524,20 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "405f92f4cbbad0ead50ece1b4986fc564cca5a83",
+   "cambio": "modificada",
+   "sig": "a99d493c63659c67ffb10a16a61dc00dfecfff96",
    "files": [
     [
      "SKILL.md",
-     "a1ae7e5a3a9404081272f6fe1c2d3a760f3feffd",
-     6644
+     "4b2c5b5887bd0a78770c2a25af4da0831b6504a3",
+     6674
     ]
    ],
    "archivos": 1,
-   "bytes": 6644,
+   "bytes": 6674,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:42Z"
+   "cambio_ts": "2026-11-23T22:58:26Z"
   },
   {
    "id": "NousResearch/hermes-agent|optional-skills/finance/merger-model",
@@ -45569,20 +45604,20 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "96fb51511a07f67284cccd2dd867d14e81b235d7",
+   "cambio": "modificada",
+   "sig": "db94fb51ab3a289a9672afb823756df848c68e80",
    "files": [
     [
      "SKILL.md",
-     "f4ee2e80adc34ce4055884f41ecba4854212ca6c",
-     8876
+     "53ee465f118a2459882ea6b05e0b3af2acf11af1",
+     8884
     ]
    ],
    "archivos": 1,
-   "bytes": 8876,
+   "bytes": 8884,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:42Z"
+   "cambio_ts": "2026-11-23T22:58:26Z"
   },
   {
    "id": "NousResearch/hermes-agent|optional-skills/health/neuroskill-bci",
@@ -45749,13 +45784,13 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "1db2c053b1e3773a163ec16f039907689fd61ac2",
+   "cambio": "modificada",
+   "sig": "0063c43ac48fc0f9680dbcf7f5da62ee3c9e6711",
    "files": [
     [
      "SKILL.md",
-     "78e55cea719eaa0c805997cf09f3412bcfe2b8d1",
-     23987
+     "b650e6421d83a5f28f516d7db41adc000a49c98d",
+     24007
     ],
     [
      "references/stripe-mcp-oauth-revocation.md",
@@ -45769,10 +45804,10 @@
     ]
    ],
    "archivos": 3,
-   "bytes": 35073,
+   "bytes": 35093,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:42Z"
+   "cambio_ts": "2026-11-23T22:58:26Z"
   },
   {
    "id": "NousResearch/hermes-agent|optional-skills/mlops/accelerate",
@@ -46014,8 +46049,8 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "3747221443a5d7edebe4248270ecb1157d38a77c",
+   "cambio": "modificada",
+   "sig": "28443d6c9478c4f2518ebb201175b4b09c144364",
    "files": [
     [
      "SKILL.md",
@@ -46039,15 +46074,15 @@
     ],
     [
      "references/troubleshooting.md",
-     "c00cc9a96b5bbee298002e98849b884c31a69614",
-     9037
+     "496714685b3e4adb16fb9fcb2d4979e6716b5dfc",
+     9018
     ]
    ],
    "archivos": 5,
-   "bytes": 36147,
+   "bytes": 36128,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:42Z"
+   "cambio_ts": "2026-11-23T22:58:26Z"
   },
   {
    "id": "NousResearch/hermes-agent|optional-skills/mlops/inference/llama-cpp",
@@ -47124,20 +47159,20 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "9d96cfc4ea421b4e498f907001cc794467b524b2",
+   "cambio": "modificada",
+   "sig": "c142293fc23e8ac486ec9b44c09d32261bd4bb25",
    "files": [
     [
      "SKILL.md",
-     "ba0b5cc0cc77faf4bd6f71ffb3e769a793e08aa6",
-     13866
+     "a8a7c8bbf927e78d0502f47e3c300d2152c7e32d",
+     13871
     ]
    ],
    "archivos": 1,
-   "bytes": 13866,
+   "bytes": 13871,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:43Z"
+   "cambio_ts": "2026-11-23T22:58:26Z"
   },
   {
    "id": "NousResearch/hermes-agent|optional-skills/research/blogwatcher",
@@ -47309,13 +47344,13 @@
    "cat": "Datos, ETL y estándares",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "10939f50b7773276c9c280bce3dba5ecd846d38f",
+   "cambio": "modificada",
+   "sig": "8309435e711ba26564ab9a971834c73fc0941679",
    "files": [
     [
      "SKILL.md",
-     "7513a020ee859d6987fa33aa62c41b416ccc2e7d",
-     11678
+     "5b3dceb1e2bc9d6fc3dfa5e357d6a1026fcf2b24",
+     11750
     ],
     [
      "references/sources/courtlistener.md",
@@ -47459,10 +47494,10 @@
     ]
    ],
    "archivos": 29,
-   "bytes": 151314,
+   "bytes": 151386,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:43Z"
+   "cambio_ts": "2026-11-23T22:58:26Z"
   },
   {
    "id": "NousResearch/hermes-agent|optional-skills/research/parallel-cli",
@@ -47499,20 +47534,20 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "fcb812edc879faad944e7dd4ed517a4d054ab19f",
+   "cambio": "modificada",
+   "sig": "bb8f2e81dbd5aca55fe0fcda568926e5b4bbb86b",
    "files": [
     [
      "SKILL.md",
-     "41a431a7ade44af53c7f1e414d5b9f9266764727",
-     12978
+     "1e4ed9a0afe71c51476d6a56fe05537cfbe0bacc",
+     12990
     ]
    ],
    "archivos": 1,
-   "bytes": 12978,
+   "bytes": 12990,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:43Z"
+   "cambio_ts": "2026-11-23T22:58:26Z"
   },
   {
    "id": "NousResearch/hermes-agent|optional-skills/research/rss-feeds",
@@ -47609,13 +47644,13 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "7837fba3c2e0530d996a9bfb76cb7fe41030b1ae",
+   "cambio": "modificada",
+   "sig": "93281914023c1897ecdc2419b24710ad525b578c",
    "files": [
     [
      "SKILL.md",
-     "4e8d89c02ef96a1551d4381bacacb1ee6ff73321",
-     72164
+     "c04be5fba3283806357b53140147a3187ee70b20",
+     72618
     ],
     [
      "references/autoreason-methodology.md",
@@ -47634,8 +47669,8 @@
     ],
     [
      "references/experiment-patterns.md",
-     "0bda821e6dc5f01eb22b5e14cdb0fca214815b2c",
-     25829
+     "8c6ed92965dc68c1aeea98ec65352a2744f4bad6",
+     25877
     ],
     [
      "references/human-evaluation.md",
@@ -47894,10 +47929,10 @@
     ]
    ],
    "archivos": 56,
-   "bytes": 1409508,
+   "bytes": 1410010,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:43Z"
+   "cambio_ts": "2026-11-23T22:58:26Z"
   },
   {
    "id": "NousResearch/hermes-agent|optional-skills/research/scrapling",
@@ -48539,8 +48574,8 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "be23b096a75b4406208177b7eaaaa9a7d02dc014",
+   "cambio": "modificada",
+   "sig": "ab192e48013fba741c93b3b0c3e3e4fc139d0ba7",
    "files": [
     [
      "LICENSE",
@@ -48549,8 +48584,8 @@
     ],
     [
      "SKILL.md",
-     "581c2358572e5618b3ee70d345e427669cf6ec00",
-     13081
+     "33aa61142dd89216ec74a34ac3268dcf4baaf602",
+     13065
     ],
     [
      "install.ps1",
@@ -48574,13 +48609,13 @@
     ],
     [
      "references/patterns.md",
-     "6c0b5bbb3ccc1d2cf93618dd2411b118f1733163",
-     5538
+     "c92a8f46c650ca39eb9136bd683a1e8822581466",
+     5615
     ],
     [
      "references/pitfalls.md",
-     "16a635603dcbcd9c94e22c3dbc71c1da9eed694e",
-     8914
+     "ca3f9549aef65ad32a73937fa8ff893e9c6c76e0",
+     9140
     ],
     [
      "references/recipes.md",
@@ -48614,10 +48649,10 @@
     ]
    ],
    "archivos": 14,
-   "bytes": 123337,
+   "bytes": 123624,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:43Z"
+   "cambio_ts": "2026-11-23T22:58:26Z"
   },
   {
    "id": "NousResearch/hermes-agent|optional-skills/software-development/code-wiki",
@@ -48629,13 +48664,13 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "062d1172348f887e75126075b2d9ced136b037e7",
+   "cambio": "modificada",
+   "sig": "85720a199e423d32397bba6b01e165c228199f4b",
    "files": [
     [
      "SKILL.md",
-     "3dc69fbb5a4d343fa0483907049ceca8df888b30",
-     14115
+     "2464f502bbd03e0d369a70e59626138309f85d07",
+     14020
     ],
     [
      "templates/README.md",
@@ -48659,10 +48694,10 @@
     ]
    ],
    "archivos": 5,
-   "bytes": 16728,
+   "bytes": 16633,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:43Z"
+   "cambio_ts": "2026-11-23T22:58:26Z"
   },
   {
    "id": "NousResearch/hermes-agent|optional-skills/software-development/grill-me",
@@ -48819,20 +48854,20 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "9a8c07ecae53e37c0810b4474dcf09fb937e14ed",
+   "cambio": "modificada",
+   "sig": "bb8ca7eb9782a327a476406524bf5e50ebd6aea6",
    "files": [
     [
      "SKILL.md",
-     "d37e80a4c1342bcf3735ee233fef8e49fff32f5c",
-     14984
+     "30aedf75194b428045a49551ba6c9ee68045181f",
+     15008
     ]
    ],
    "archivos": 1,
-   "bytes": 14984,
+   "bytes": 15008,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:44Z"
+   "cambio_ts": "2026-11-23T22:58:26Z"
   },
   {
    "id": "NousResearch/hermes-agent|optional-skills/software-development/subagent-driven-development",
@@ -49104,20 +49139,20 @@
    "cat": "Datos, ETL y estándares",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "bd17a7f75dc5cd51117d4af6b0d02aaeb66c291a",
+   "cambio": "modificada",
+   "sig": "137518069943698d960f50eaf392fcbc7f5ee7e6",
    "files": [
     [
      "SKILL.md",
-     "2218802a8ef2ce42d674c32a3c22ae56c251cb88",
-     8642
+     "e7c9dd6db3643d6ddd8bb9b9d15323263c023279",
+     8652
     ]
    ],
    "archivos": 1,
-   "bytes": 8642,
+   "bytes": 8652,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:44Z"
+   "cambio_ts": "2026-11-23T22:58:26Z"
   },
   {
    "id": "NousResearch/hermes-agent|plugins/google_meet",
@@ -49794,8 +49829,8 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "77062947c4009f6737f43820af2f38de9cf4a376",
+   "cambio": "modificada",
+   "sig": "a16da5484781faf39bcfcf0467457e8b7dd8dbc8",
    "files": [
     [
      "SKILL.md",
@@ -49819,13 +49854,13 @@
     ],
     [
      "references/contributor-guide.md",
-     "02bdf928c910d065d03074211645369d8da0a037",
-     5931
+     "067f22ca83c500ecdb1dbe12de59e32f2065635d",
+     6057
     ],
     [
      "references/delegate-task-concurrency-diagnosis.md",
-     "34851bb0ed5a20ea66b9ee15e4aa2866e3ca391f",
-     4660
+     "b89c876521de2d40af5f2e3f56f14c5cfd6d4edf",
+     4858
     ],
     [
      "references/desktop-plugins.md",
@@ -49879,8 +49914,8 @@
     ],
     [
      "references/troubleshooting.md",
-     "1a70d3c13945aba6b3b65571e77d3af82ccfb131",
-     3807
+     "21aa0d0ebd11e48a10cbf4810c230ecaaeafc027",
+     4000
     ],
     [
      "references/tui-widgets.md",
@@ -49889,8 +49924,8 @@
     ],
     [
      "references/webhooks.md",
-     "7a436feaac4949e9a5324f5706acba47cd01b8b8",
-     9265
+     "3a9725ec73145b409a31b4ea10d2361d2980b126",
+     9418
     ],
     [
      "references/windows-quirks.md",
@@ -49914,10 +49949,10 @@
     ]
    ],
    "archivos": 23,
-   "bytes": 141235,
+   "bytes": 141905,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:44Z"
+   "cambio_ts": "2026-11-23T22:58:26Z"
   },
   {
    "id": "NousResearch/hermes-agent|skills/creative/humanizer",
@@ -49959,8 +49994,8 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "64feb447dabaad030c275b144e044a1dbfe4cd3a",
+   "cambio": "modificada",
+   "sig": "ef191142f518b7a3c8513ac5c744f8ed42caae8c",
    "files": [
     [
      "README.md",
@@ -49969,8 +50004,8 @@
     ],
     [
      "SKILL.md",
-     "6059efa1a13975c23aaf58809f589fa029472c00",
-     12150
+     "1e775451dbd7a67b8dd0f528d871bd93c0d9b6d2",
+     12157
     ],
     [
      "references/animation-design-thinking.md",
@@ -50019,8 +50054,8 @@
     ],
     [
      "references/rendering.md",
-     "882eb19d34ed6f12a5db57ebe0bb5efdd915fe5c",
-     5375
+     "06eb8e7c6d9946a5577bd65db5c53491593cde48",
+     5388
     ],
     [
      "references/scene-planning.md",
@@ -50049,10 +50084,10 @@
     ]
    ],
    "archivos": 17,
-   "bytes": 100533,
+   "bytes": 100553,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:44Z"
+   "cambio_ts": "2026-11-23T22:58:26Z"
   },
   {
    "id": "NousResearch/hermes-agent|skills/creative/p5js",
@@ -51354,8 +51389,8 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "bb3f277685be822c7b3e15e32917b02b6807985b",
+   "cambio": "modificada",
+   "sig": "1892feaa3ca4e5dad3a7ca2ee57305e8636ad7e0",
    "files": [
     [
      "SKILL.md",
@@ -51364,8 +51399,8 @@
     ],
     [
      "references/auth.md",
-     "7d13a5110bbd652621d420d89550ee8191631c41",
-     11586
+     "8332633a47470459936f093c813ec9dfa6fe53c0",
+     11622
     ],
     [
      "references/ci-troubleshooting.md",
@@ -51399,8 +51434,8 @@
     ],
     [
      "references/pr-workflow.md",
-     "61548800fb127561969ab3d2bd77603503d2c44e",
-     9746
+     "c8d893fe03b2c8e672c099db1f546c55e2923c64",
+     9839
     ],
     [
      "references/repo-management.md",
@@ -51444,10 +51479,10 @@
     ]
    ],
    "archivos": 17,
-   "bytes": 87522,
+   "bytes": 87651,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:45Z"
+   "cambio_ts": "2026-11-23T22:58:26Z"
   },
   {
    "id": "NousResearch/hermes-agent|skills/software-development/requesting-code-review",
@@ -51534,20 +51569,20 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "3ef48ad9b34c19479c833b6bd51f11113f21183e",
+   "cambio": "modificada",
+   "sig": "29966dd899ca03ed3495c6b7a2aea0f9c63cfae9",
    "files": [
     [
      "SKILL.md",
-     "0dcfae3084b22544c3d250f5265c5964325543eb",
-     14696
+     "da660952d889d79821f4cac89d511b4aa4aab0a4",
+     14694
     ]
    ],
    "archivos": 1,
-   "bytes": 14696,
+   "bytes": 14694,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:45Z"
+   "cambio_ts": "2026-11-23T22:58:26Z"
   },
   {
    "id": "NousResearch/hermes-agent|skills/software-development/systematic-debugging",
@@ -51774,8 +51809,8 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "42890dd6dd71f2fcf6068bc269700ca1f08b0d97",
+   "cambio": "modificada",
+   "sig": "90fea4e5f5e9b8b5baabf9af858ba4d8b1c0ec0f",
    "files": [
     [
      "SKILL.md",
@@ -51794,8 +51829,8 @@
     ],
     [
      "artifact-type/reference/motion.md",
-     "7dd751cb8d54347a5ef8a34d7539d98d0942d784",
-     16106
+     "246e11f8c9049860029a8c09ea0e2c03b9f1c45a",
+     16110
     ],
     [
      "artifact-type/reference/plan.md",
@@ -51829,8 +51864,8 @@
     ],
     [
      "artifact-type/reference/styles.md",
-     "60968424d08b3c0087119a0363e54e979aa44864",
-     14897
+     "b599344899dbc0ee0bd9cec2db06b553899e3161",
+     14905
     ],
     [
      "artifact-type/reference/walkthrough.md",
@@ -51839,10 +51874,10 @@
     ]
    ],
    "archivos": 12,
-   "bytes": 159065,
+   "bytes": 159077,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:48Z"
+   "cambio_ts": "2026-11-23T22:58:28Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Anthropic/artifact-types/design",
@@ -51854,8 +51889,8 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "ef9cfb73a8bc3b6bd09da512cf7d361ddbceb5cf",
+   "cambio": "modificada",
+   "sig": "e6b226439a9531a5971d7d8d562c1c5e7609170d",
    "files": [
     [
      "SKILL.md",
@@ -51874,8 +51909,8 @@
     ],
     [
      "artifact-type/reference/craft.md",
-     "c2811bf5994b7c3f3495875e7a96c9eab07c6bd4",
-     16110
+     "2edd30b7df7f534e5a21d5699a581a03471570ee",
+     16114
     ],
     [
      "artifact-type/reference/design-system-components.md",
@@ -51914,8 +51949,8 @@
     ],
     [
      "artifact-type/reference/questions.md",
-     "6c7efada96654bdecb311c8d512944dd647cf5b0",
-     4421
+     "836f1343da4b73731e147deaee4964aa8b67554b",
+     4425
     ],
     [
      "artifact-type/reference/shaders.md",
@@ -51924,15 +51959,15 @@
     ],
     [
      "artifact-type/reference/view-state.md",
-     "370277d353082f25d2b2032242a66ceaa895df53",
-     8937
+     "c4895d4b9458db563dc3a80ac7cd65aecc0ddc95",
+     8941
     ]
    ],
    "archivos": 14,
-   "bytes": 142177,
+   "bytes": 142189,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:48Z"
+   "cambio_ts": "2026-11-23T22:58:28Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Anthropic/artifact-types/docs",
@@ -52164,8 +52199,8 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "e6a88518d9800ac7c0ec71333acba0f7d4fbe478",
+   "cambio": "modificada",
+   "sig": "e780f166ca928a05f6c7d831efdfc8805b2827b2",
    "files": [
     [
      "SKILL.md",
@@ -52174,8 +52209,8 @@
     ],
     [
      "artifact-type/reference/craft.md",
-     "84fe8996785911c07b11c9c45474f83f8358d4b6",
-     11619
+     "b34ba26502054ed982dcca4ed1d078341787bc94",
+     11623
     ],
     [
      "artifact-type/reference/deck-files.md",
@@ -52229,8 +52264,8 @@
     ],
     [
      "artifact-type/reference/questions.md",
-     "b53de6941114bbd9b9fb6aa142e4a07c3ba9c53e",
-     4271
+     "ced30abe1312b077e79170b5618e9613e675c261",
+     4275
     ],
     [
      "artifact-type/reference/styles.md",
@@ -52239,8 +52274,8 @@
     ],
     [
      "artifact-type/reference/view-state.md",
-     "8372e3666e095b4f2a538ae65f5280344c072d2b",
-     9925
+     "25c42a91d8e97fe8971b6fd5eb136c68f987f7c4",
+     9929
     ],
     [
      "artifact-type/reference/viewer.md",
@@ -52249,10 +52284,10 @@
     ]
    ],
    "archivos": 16,
-   "bytes": 190359,
+   "bytes": 190371,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:48Z"
+   "cambio_ts": "2026-11-23T22:58:28Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/artifact-design",
@@ -52264,20 +52299,20 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "d89692d24e9492df2a120182075f2f38f8d11c1a",
+   "cambio": "modificada",
+   "sig": "806521038a02784e33587051f2111a170ab16809",
    "files": [
     [
      "SKILL.md",
-     "bf043fb9bf8659cc75a5bae280244b4557fcb639",
-     39040
+     "54c391eaf4bba691302f4ac5c93e37143cf70503",
+     40081
     ]
    ],
    "archivos": 1,
-   "bytes": 39040,
+   "bytes": 40081,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:48Z"
+   "cambio_ts": "2026-11-23T22:58:28Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/artifact-diagramming",
@@ -52424,13 +52459,13 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "8302c994a39b40ea486a878c88f2ef3f8e230dcf",
+   "cambio": "modificada",
+   "sig": "041daba3e275f4b2bcf85f74eb3dbd83d0865688",
    "files": [
     [
      "SKILL.md",
-     "8a0bd503417bb7d6132866b87eeaa66dfadbedf5",
-     113769
+     "005433bb434ccc77fa7f1ff05d608afb97984dcf",
+     114426
     ],
     [
      "csharp/claude-api/README.md",
@@ -52459,8 +52494,8 @@
     ],
     [
      "csharp/claude-api/tool-use.md",
-     "e35c57b1e2e7711f64ff9c0b2deed8f8d254cff3",
-     7610
+     "0ca4456b435f84df54f2d38ae754483a505f8353",
+     7657
     ],
     [
      "curl/examples.md",
@@ -52494,8 +52529,8 @@
     ],
     [
      "go/claude-api/tool-use.md",
-     "2d026be96443f90deb23dae52cf3de4ce76ff7b4",
-     10023
+     "e3c8b2df04c261ec0378396cf4ac04930f8b3d50",
+     10107
     ],
     [
      "go/managed-agents/README.md",
@@ -52524,8 +52559,8 @@
     ],
     [
      "java/claude-api/tool-use.md",
-     "c4a33156d67a052215f7c1449ef8ea1fea6a017a",
-     11052
+     "9f40a0c59561bf131c3670c116e08b458264ea37",
+     11098
     ],
     [
      "java/managed-agents/README.md",
@@ -52559,8 +52594,8 @@
     ],
     [
      "php/claude-api/tool-use.md",
-     "8de63c2e6c6e6face65fe5796f4d20d13a862f25",
-     9718
+     "35cba868063c9b8b4199443d23e0e296c9bd26c9",
+     9764
     ],
     [
      "php/managed-agents/README.md",
@@ -52599,8 +52634,8 @@
     ],
     [
      "python/claude-api/tool-use.md",
-     "bff8567d4a2646bd5b24aea46c7551ddc8c358e1",
-     20084
+     "b5acdfbe74c9d5a7ecc3631bfb6957b0e301d3bf",
+     20168
     ],
     [
      "python/managed-agents/README.md",
@@ -52624,8 +52659,8 @@
     ],
     [
      "ruby/claude-api/tool-use.md",
-     "a25a619d12afd05c700a55ebbbf9136b12b7c51b",
-     2684
+     "9cfa5e88a1d48df57ac05a39385a59513986ba5f",
+     2730
     ],
     [
      "ruby/managed-agents/README.md",
@@ -52634,8 +52669,8 @@
     ],
     [
      "shared/admin-api.md",
-     "c9af533a9d9f2574f91e03dc7553624d350bc1c4",
-     21311
+     "36d586536ee9bfebec3140ddb5b6ecf4686f18f3",
+     21321
     ],
     [
      "shared/agent-design.md",
@@ -52644,13 +52679,13 @@
     ],
     [
      "shared/anthropic-cli.md",
-     "9dddade07cf96f676c8ca37c2dc30eb695ed3bfb",
-     25712
+     "89cc0aab352fe198eb05bacb1c4e821773e787d5",
+     26217
     ],
     [
      "shared/api-sign-in.md",
-     "d9f76115d3b6ca2f89fd92738ad885fa05fe3f79",
-     8757
+     "9faecd8e62e104bf9306bf2101dc5c672e47612c",
+     9171
     ],
     [
      "shared/api-version-migration.md",
@@ -52669,8 +52704,8 @@
     ],
     [
      "shared/error-codes.md",
-     "218783d4ab716d9ed340d175dcc5222bceeca227",
-     21998
+     "95dceaf061a21676031727e307b0fe53a92df2e7",
+     22347
     ],
     [
      "shared/evals/build-eval.md",
@@ -52679,8 +52714,8 @@
     ],
     [
      "shared/evals/cost-hillclimb.md",
-     "a141005e6f1b6d776fde995b1623ee05a7f0dfe6",
-     31905
+     "4628815df16c62d69f460ce8604a1902cabcea07",
+     31928
     ],
     [
      "shared/evals/eval-audit.md",
@@ -52739,13 +52774,13 @@
     ],
     [
      "shared/live-sources.md",
-     "757f3cf1da88775e6c779581ead98314f0adb869",
-     24838
+     "ae7b7c9b2464373957cb1d5be8f537cb2ce16700",
+     24936
     ],
     [
      "shared/managed-agents-api-reference.md",
-     "bddd18a53cbcbcaf60037b274ba8f8b27601bbb7",
-     35456
+     "78dcf9201aab8129a86fb0d856d3efe8cc327269",
+     35523
     ],
     [
      "shared/managed-agents-client-patterns.md",
@@ -52769,8 +52804,8 @@
     ],
     [
      "shared/managed-agents-memory.md",
-     "408894899b85068c948ed6ea999c502d16805953",
-     11412
+     "1dc44f90740a36ddde277cbf77d441c6a565749b",
+     11761
     ],
     [
      "shared/managed-agents-multiagent.md",
@@ -52799,8 +52834,8 @@
     ],
     [
      "shared/managed-agents-overview.md",
-     "2b7ed671d8eed5e49e19bcfa3e3aa771b46ef303",
-     14814
+     "de3fbf9399ef16cc1406556ee091f2049457ad70",
+     14924
     ],
     [
      "shared/managed-agents-quickstarts/bug-hunter.md",
@@ -52864,8 +52899,8 @@
     ],
     [
      "shared/managed-agents-scheduled-deployments.md",
-     "4c5ede07660dda58c01bdb3ac41578610642d2ed",
-     9561
+     "e1feeb954e1254470dc3864bbe8a42b46caa9a9c",
+     10112
     ],
     [
      "shared/managed-agents-secure.md",
@@ -52879,23 +52914,23 @@
     ],
     [
      "shared/managed-agents-tools.md",
-     "ebf551acd630214796565e34bc83720dd475611f",
-     39078
+     "d83251203f89972ec8343ea6baf12a9655c0fe19",
+     39119
     ],
     [
      "shared/managed-agents-webhooks.md",
-     "25f0592cdf26bed177b36e9e2579dea9676357fd",
-     11321
+     "e0b312ffd5a90327fe66c45a9f659b47bf347249",
+     11336
     ],
     [
      "shared/message-threads.md",
-     "57879176a0eae69d205386c647cb382df2e6a2a9",
-     17849
+     "a166bef7eb24cbedc4c24adeae4b65e1152b82bf",
+     17895
     ],
     [
      "shared/model-migration.md",
-     "d85a7bb914d06f31fbf09150f2d1e822ef7edbc5",
-     396957
+     "9b377a20dac22693e77b021f5c4d10a5e5c2c445",
+     397052
     ],
     [
      "shared/models.md",
@@ -52904,13 +52939,13 @@
     ],
     [
      "shared/opentelemetry.md",
-     "7936c467f29ae4a6f73a276289cedb80778261ab",
-     52210
+     "eee06ca824abd17d38b6dd8847d5cf43cb92b240",
+     57027
     ],
     [
      "shared/platform-availability.md",
-     "70544dedc816631cbc72f455e319fe3fc0a0f512",
-     12720
+     "3c8b0844b54ad8f68f1895826a510d68affcc0fa",
+     12711
     ],
     [
      "shared/preserved-thinking-migration.md",
@@ -52919,8 +52954,8 @@
     ],
     [
      "shared/preserved-thinking-migration/causes.md",
-     "4903785c0e76f4912315a0d1d5ef00bc32b2dd8c",
-     48566
+     "3cff34acedbbc058a3e0ee1f6c23b25281c6b1b1",
+     48635
     ],
     [
      "shared/preserved-thinking-migration/drop_block_probe.py",
@@ -52934,13 +52969,13 @@
     ],
     [
      "shared/prompt-audit.md",
-     "85f7c05c343c98d91508b2bf334792d393d02684",
-     52474
+     "424823b73336780efe07efa72863ab125cf937dd",
+     55386
     ],
     [
      "shared/prompt-caching.md",
-     "fba2bfed170a7339878c0d53b9c3feaa36187bed",
-     34006
+     "8f8b542ca60817a9b05e24c89d66e3ba38996804",
+     34069
     ],
     [
      "shared/token-counting.md",
@@ -52949,8 +52984,8 @@
     ],
     [
      "shared/tool-use-concepts.md",
-     "a4089d7560e8788b4132e75ecb52d9cb98581b75",
-     48150
+     "45e7c7f15accd62ebcf2eee02cbac194ab799e6b",
+     48175
     ],
     [
      "typescript/claude-api/README.md",
@@ -52964,8 +52999,8 @@
     ],
     [
      "typescript/claude-api/files-api.md",
-     "c8488c67140e1c4065f7ce2fb93d66ab2e817cd2",
-     2384
+     "075a742a6f5128ad287d0e05234d9bede33c9a1b",
+     2441
     ],
     [
      "typescript/claude-api/opentelemetry.md",
@@ -52974,13 +53009,13 @@
     ],
     [
      "typescript/claude-api/streaming.md",
-     "af0d74275dc3ec2533b57278050e720cdbba1110",
-     9630
+     "7cd3c0434acd3d37db9aa8e4c0274bfc007ee563",
+     9711
     ],
     [
      "typescript/claude-api/tool-use.md",
-     "a8d475250a01a0a873ae44a4eb0985beea710944",
-     23357
+     "5e1bc78deb1facfa7e439486a25acf383f35d536",
+     23545
     ],
     [
      "typescript/managed-agents/README.md",
@@ -52989,43 +53024,43 @@
     ]
    ],
    "archivos": 112,
-   "bytes": 2516029,
+   "bytes": 2527915,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:48Z"
+   "cambio_ts": "2026-11-23T22:58:28Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/code-review",
    "repo": "asgeirtj/system_prompts_leaks",
    "dir": "Anthropic/claude-code/skills/code-review",
    "name": "code-review",
-   "en": "Review the current diff, or a PR number/branch/path target, for correctness bugs (plus reuse/simplification/efficiency cleanups where the model's recipe covers them) at the effort level given first, before any target (low|medium|high|xhigh|max: from few high-confidence findings to many, some uncertain; ultra: deep multi-agent review in the cloud (requires claude.ai account access)); with no level given, it reuses the level you typed last. Pass --comment to post findings as inline PR comments, or --fix to apply them to the working tree after the review. Pass --max-findings <n> to report up to n findings, or --max-findings all for every finding. The choice stays until you pass --max-findings default. For ultra on a GitHub.com PR target, --post asks to post the finished review's findings to the PR as a single comment from the user's GitHub account (not a review; the launch dialog still confirms in interactive sessions, while non-interactive mode posts on the flag alone) and --no-post hides that option.",
+   "en": "Review the current diff, or a PR number/branch/path target, for correctness bugs (plus broken CLAUDE.md rules and cleanups where the model's recipe covers them; see /simplify) at the effort level given first, before any target (low|medium|high|xhigh|max: from few high-confidence findings to many, some uncertain; ultra: deep multi-agent review in the cloud (requires claude.ai account access)); with no level given, it reuses the level you typed last. Pass --comment to post findings as inline PR comments, or --fix to apply them to the working tree after the review. Pass --max-findings <n> to report up to n findings, or --max-findings all for every finding. The choice stays until you pass --max-findings default. For ultra on a GitHub.com PR target, --post asks to post the finished review's findings to the PR as a single comment from the user's GitHub account (not a review; the launch dialog still confirms in interactive sessions, while non-interactive mode posts on the flag alone) and --no-post hides that option.",
    "es": "",
    "cat": "Análisis y validación BIM",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "492c2c764b36505fc4f24f55f1d10abe99e40845",
+   "cambio": "modificada",
+   "sig": "92df1ecf7d738218552a1e2ca83c2532961eebd2",
    "files": [
     [
      "SKILL.md",
-     "4c930e4d544d3bfc2c660f803690775b0bfcbca0",
-     6947
+     "e90e2e938fcf237a3af84c36cf4afab1ff20e784",
+     7678
     ],
     [
      "high.md",
-     "c96ea866f2bdf110a9b37a1c7f4167311b79433a",
-     5658
+     "5f8134d55eeb171600c3ff78525da594899879e6",
+     6379
     ],
     [
      "low.md",
-     "044a1eea09a7a7f9968eed01f734307a69891f39",
-     1271
+     "8e8f0fc9c82d45d1532a3f10bc5f1c435753e38e",
+     1568
     ],
     [
      "max.md",
-     "2ed478f616324cea1b366b329599e381b943208d",
-     7713
+     "e621857876b3bc5391bb595af5a811c7a4e3a87e",
+     8432
     ],
     [
      "medium.md",
@@ -53034,20 +53069,20 @@
     ],
     [
      "report-findings-tool.md",
-     "efd4f61840073d2964f4a3ae9a36b8d41c87ae5b",
-     3031
+     "1d7c594ed6a4dbc6f3b5c72993e45f7189b7071f",
+     3395
     ],
     [
      "xhigh.md",
-     "6a6f96f929a1df0f0e3fd120d9ee6dc553843adf",
-     7163
+     "98011c479ef3dc5defcd37982f5b2f9969bec2a9",
+     8055
     ]
    ],
    "archivos": 7,
-   "bytes": 33373,
+   "bytes": 37097,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:48Z"
+   "cambio_ts": "2026-11-23T22:58:28Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/computer-use",
@@ -53059,8 +53094,8 @@
    "cat": "Análisis y validación BIM",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "c3cbe0da37b5c75054d0dad702e1a4fdba07e01f",
+   "cambio": "modificada",
+   "sig": "6453b51416c57a258459a4846ddbe2ecc706f35a",
    "files": [
     [
      "LICENSE.txt",
@@ -53069,15 +53104,15 @@
     ],
     [
      "SKILL.md",
-     "5e8d4502e5f9f85161f6739ca730eac5227aed07",
-     12857
+     "a701c54227d726fe9cb80566e8d4ba87864d7907",
+     12955
     ]
    ],
    "archivos": 2,
-   "bytes": 14324,
+   "bytes": 14422,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:48Z"
+   "cambio_ts": "2026-11-23T22:58:28Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/dataviz",
@@ -53159,8 +53194,8 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": true,
-   "cambio": "nueva",
-   "sig": "39f04ce13c5f93c18229017bf58e623b253b664c",
+   "cambio": "modificada",
+   "sig": "c846e2921b5a856a742d21035e71960aff3f1481",
    "files": [
     [
      "SKILL.md",
@@ -53169,38 +53204,38 @@
     ],
     [
      "scripts/workflow-script.js",
-     "e76c6c8906ef76b561b3cdf96eb27d59e98e78ee",
-     23387
+     "0ca462349fcd24fbdceec77f0c83c6e55f5d78d6",
+     25048
     ]
    ],
    "archivos": 2,
-   "bytes": 24952,
+   "bytes": 26613,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:48Z"
+   "cambio_ts": "2026-11-23T22:58:28Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/design-sync",
    "repo": "asgeirtj/system_prompts_leaks",
    "dir": "Anthropic/claude-code/skills/design-sync",
    "name": "design-sync",
-   "en": "Push a React design system to claude.ai/design. This runs a converter that bundles the real component code (from Storybook or a bare package) and uploads it. Use when the user runs /design-sync or says \"sync my design system to Claude Design\".",
+   "en": "Sync a React design system to Claude Design. Bundles the real component code (from Storybook or a bare package) and uploads it. Use when the user runs /design-sync or says \"sync my design system to Claude Design.\"",
    "es": "",
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "c4c7854516d894849cb372d6e491c04beced9c24",
+   "cambio": "modificada",
+   "sig": "34415d0cc99593b811b2abad3f782e54b1c7ad82",
    "files": [
     [
      "SKILL.md",
-     "51869a663ce3aa5089edb2b5220c8123d352affe",
-     30736
+     "be81a4f088d0e9198773914bf1cf07fc4c05f098",
+     30996
     ],
     [
      "lib/bundle.mjs",
-     "577637caf6db3e6b78345fc16793c1ab149e8be8",
-     15686
+     "b120d06ecbc85afa3629a0d90a9f8875585a4d20",
+     15730
     ],
     [
      "lib/common.mjs",
@@ -53254,8 +53289,8 @@
     ],
     [
      "lib/remote-diff.mjs",
-     "04307628611370cdc4748b94e9ea1e605f47843c",
-     13764
+     "77ad8784ecbd74adcd2b4cd6e6c0b0c336642341",
+     13998
     ],
     [
      "lib/source-kit.mjs",
@@ -53264,8 +53299,8 @@
     ],
     [
      "lib/source-storybook.mjs",
-     "7d8f742ea09941f69e289b9d659ccb957ac0d31c",
-     18663
+     "cee19fd629c2804be5a596611e5a48534776bad8",
+     20905
     ],
     [
      "lib/story-imports.mjs",
@@ -53279,8 +53314,8 @@
     ],
     [
      "package-build.mjs",
-     "029faaaa5c7773bfea10f12841b75b4c9da49052",
-     55699
+     "71a4db54c89474d1fff98b1cfca535517e1f1727",
+     56437
     ],
     [
      "package-capture.mjs",
@@ -53289,8 +53324,8 @@
     ],
     [
      "package-validate.mjs",
-     "9a0f277d2882764a518f16cc0301e0e8c102c699",
-     51938
+     "f29e4b4684def4829e22999cd0737148a4ef31a1",
+     52063
     ],
     [
      "resync.mjs",
@@ -53299,10 +53334,10 @@
     ]
    ],
    "archivos": 21,
-   "bytes": 401147,
+   "bytes": 404790,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:48Z"
+   "cambio_ts": "2026-11-23T22:58:28Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/debug",
@@ -53389,23 +53424,23 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "ec5737ab1709ed15d117422bb0cdfc8a0955f4d8",
+   "cambio": "modificada",
+   "sig": "1a34f5e62c7848af3b5e4435b34d6164b071c09d",
    "files": [
     [
      "SKILL.md",
-     "5a95ee6ae2698a26738ee82530ef1b5be8c267f1",
-     69676
+     "0ee1c09e0f64bad895ae956a521e3145b45c44c3",
+     70575
     ],
     [
      "compare.mjs",
-     "4c68495149d16269d6264a437201255933ed08f9",
-     46123
+     "cb88ef70c69241837bfdc5deefaa932591a789d3",
+     46150
     ],
     [
      "http-serve.mjs",
-     "a268825307998a6a1111b0370d72bede9f15c99a",
-     2054
+     "70b5353881f457dc9755287882882da6bf5621ef",
+     3249
     ],
     [
      "probe.mjs",
@@ -53414,10 +53449,10 @@
     ]
    ],
    "archivos": 4,
-   "bytes": 124927,
+   "bytes": 127048,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:48Z"
+   "cambio_ts": "2026-11-23T22:58:28Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/docx",
@@ -53429,8 +53464,8 @@
    "cat": "Documentos y contratos",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "d51bffac44f8bdf070e600735170b851de380bbd",
+   "cambio": "modificada",
+   "sig": "4e85cc28a2d19483a5cad07d8eeb00c7fc3976c6",
    "files": [
     [
      "LICENSE.txt",
@@ -53439,8 +53474,8 @@
     ],
     [
      "SKILL.md",
-     "5ad539ef46cdd07dae7b35edc41115ca460f32ed",
-     8168
+     "46fbe43719089311cfffab03c84693a58eb1af95",
+     8216
     ],
     [
      "scripts/__init__.py",
@@ -53679,13 +53714,13 @@
     ],
     [
      "scripts/office/soffice.py",
-     "eec16879cd4c9cbb24a273dfde757acc56395a57",
-     5945
+     "59b18d91ba8dfc523fbc436d8aebceb2ddb2af9d",
+     9100
     ],
     [
      "scripts/office/validate.py",
-     "ff3bde0f1e9de81f3f00a44f9a92229739b1e219",
-     7677
+     "cdd6a91e0bc95f00e339a046517c78a586691330",
+     7808
     ],
     [
      "scripts/office/validators/__init__.py",
@@ -53739,10 +53774,10 @@
     ]
    ],
    "archivos": 61,
-   "bytes": 1163552,
+   "bytes": 1166886,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:48Z"
+   "cambio_ts": "2026-11-23T22:58:28Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/doctor",
@@ -53754,20 +53789,20 @@
    "cat": "Costos y presupuestos",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "d12970d5982601d49cb50aca5d45b435da4bc30f",
+   "cambio": "modificada",
+   "sig": "3943a3ace346046deb53faf4e4783dc132a5abe1",
    "files": [
     [
      "SKILL.md",
-     "96f3b369c648148f665c00bf30865f3baac7b705",
-     47570
+     "6ec853fc275c9959c0ce6f9ec74a6c80d0249280",
+     49041
     ]
    ],
    "archivos": 1,
-   "bytes": 47570,
+   "bytes": 49041,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:48Z"
+   "cambio_ts": "2026-11-23T22:58:28Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/fewer-permission-prompts",
@@ -53779,20 +53814,20 @@
    "cat": "Datos, ETL y estándares",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "6ca3ff5b87c738ccb8520bb351818b6248b26e42",
+   "cambio": "modificada",
+   "sig": "4b5e3d1605b23bd28863464ddc53ab02685a2859",
    "files": [
     [
      "SKILL.md",
-     "a7ef9c46cd59fab8f01bf48b6bdbada86471f9aa",
-     8011
+     "f4c6001532cdefa8caa68a930dfbcfa04e1c3fe9",
+     8012
     ]
    ],
    "archivos": 1,
-   "bytes": 8011,
+   "bytes": 8012,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:48Z"
+   "cambio_ts": "2026-11-23T22:58:28Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/google-workspace",
@@ -53804,13 +53839,13 @@
    "cat": "Documentos y contratos",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "5bc87424a5ca30de0a4814316d97bed4b60dc6e8",
+   "cambio": "modificada",
+   "sig": "601446fbd23e8f65f35b76789d8936d2f8a2d891",
    "files": [
     [
      "SKILL.md",
-     "0448c341109d68e9805b663e576727c72f5ae035",
-     15362
+     "a8a3454a348c8b3f28dfcff62b92be823d2f83ee",
+     15356
     ],
     [
      "references/charts.md",
@@ -53819,13 +53854,13 @@
     ],
     [
      "references/docs.md",
-     "4678a0f10ae5c97e1e79625db87e29e5fe1df802",
-     40889
+     "9c3b70e57dbb115d67c9499916a7248505ac7053",
+     42820
     ],
     [
      "references/sheets.md",
-     "7b436961f3a9cbda3734577b7a6e791b351d7e7f",
-     38818
+     "de637796b251eae4079817dd3f15366616ab4711",
+     38739
     ],
     [
      "references/slides.md",
@@ -53834,8 +53869,8 @@
     ],
     [
      "scripts/docs_index.py",
-     "c20d882af28d30d49ff40436424f9f7787062a98",
-     17951
+     "adb547ecc47361b002133f3cc75b67fbd6660c54",
+     17953
     ],
     [
      "scripts/render_export.py",
@@ -53844,20 +53879,20 @@
     ],
     [
      "scripts/sheets_helper.py",
-     "fced6180b12bf8e24f53de77580495ab34d21761",
-     16118
+     "deb124e7feff4daa855ba83389f3ec8803200672",
+     16496
     ],
     [
      "scripts/slides_helper.py",
-     "026b9494f6bd58df6ee5d9583a573f5510429ef7",
-     22731
+     "dd024fe206b1bfdee8bddf752b47ffc8e700d62c",
+     22733
     ]
    ],
    "archivos": 9,
-   "bytes": 220976,
+   "bytes": 223204,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:48Z"
+   "cambio_ts": "2026-11-23T22:58:28Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/import-memory",
@@ -53894,20 +53929,20 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "6b7be88877030f4c8c99c8658092514d0081f002",
+   "cambio": "modificada",
+   "sig": "8cc65ae9c955242db523b34b99d8369cafcfc76a",
    "files": [
     [
      "SKILL.md",
-     "53309859ab90128b7d3c922bedd0b457b6b0eaad",
-     59218
+     "96fd914ade838faff1cc536aa08f87d3e0ad034d",
+     60158
     ]
    ],
    "archivos": 1,
-   "bytes": 59218,
+   "bytes": 60158,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:48Z"
+   "cambio_ts": "2026-11-23T22:58:28Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/init",
@@ -53994,20 +54029,20 @@
    "cat": "Datos, ETL y estándares",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "50db8d9c6439c78ccb6eec1191c369c6ebfe7368",
+   "cambio": "modificada",
+   "sig": "9ccae3659b9347054e6bda59c14a7ad833c00434",
    "files": [
     [
      "SKILL.md",
-     "afa3495cb035c03a3eac86576792db133ab19d4c",
-     15565
+     "0b5c5aab510851cac16af1429c2d0ebef1164db9",
+     15533
     ]
    ],
    "archivos": 1,
-   "bytes": 15565,
+   "bytes": 15533,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:48Z"
+   "cambio_ts": "2026-11-23T22:58:28Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/loop",
@@ -54169,13 +54204,13 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "a6345f8d4b996b0001d3b335949a64b30e96041c",
+   "cambio": "modificada",
+   "sig": "1ff83a9ba9e12a4c55cd3d942d87b115e7cd146f",
    "files": [
     [
      "SKILL.md",
-     "8c161a6c6c93f822d2bbd854914c09a212078b92",
-     10941
+     "9302166b8c2d95e7a68dfee72c4f4e3d19ae1964",
+     11188
     ],
     [
      "examples/band-state.d.ts",
@@ -54191,6 +54226,16 @@
      "examples/look.ts",
      "850d2266605a070fea61ca0c7806234cbfbb7705",
      1383
+    ],
+    [
+     "examples/menu.test.tsx",
+     "b2646bf64a2217d503f8f540c5b83c20a23d7a02",
+     964
+    ],
+    [
+     "examples/menu.tsx",
+     "8ecf47a2129371b86507999ef02b45006f957056",
+     1197
     ],
     [
      "examples/pane-state.d.ts",
@@ -54214,8 +54259,8 @@
     ],
     [
      "look.md",
-     "602cd408551532fb64cfa0b4b2ae7edefba3f0ae",
-     7669
+     "17eae09291f4b5382266b6b5a54d3e26a45e6e6d",
+     17224
     ],
     [
      "make-colors.d.ts",
@@ -54224,25 +54269,25 @@
     ],
     [
      "make-colors.js",
-     "5289b9a750a3840d142511bd64199b3fe059865c",
-     51396
+     "8395a09b2a91e932b86eafa68b1a6b51571a1511",
+     51565
     ],
     [
      "reference.md",
-     "223dfeb5f3c29f3daa2e24b58a01c6551f1a2629",
-     93483
+     "bd5c161d98d2af2ef15889331d04ff3050ae1379",
+     104093
     ],
     [
      "types/claude-code.d.ts",
-     "900739da603debfe68fd2f1c00a9399ae7060c0b",
-     928993
+     "7faaa81fa3866148df133a9b64401a74d883b33e",
+     1110889
     ]
    ],
-   "archivos": 13,
-   "bytes": 1101299,
+   "archivos": 15,
+   "bytes": 1305937,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:48Z"
+   "cambio_ts": "2026-11-23T22:58:28Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/pptx",
@@ -54254,8 +54299,8 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "52f61a7c2cca0d10b2c1df471609bf9ad963b231",
+   "cambio": "modificada",
+   "sig": "a42e55244580903ebea0e1af90cc07303744dc19",
    "files": [
     [
      "LICENSE.txt",
@@ -54264,8 +54309,8 @@
     ],
     [
      "SKILL.md",
-     "477f27efc4df7f705783b8f36c8a731229c54b04",
-     29203
+     "6faba89e97307d6d61700f28d1cc08e9c0132a01",
+     29204
     ],
     [
      "scripts/__init__.py",
@@ -54504,13 +54549,13 @@
     ],
     [
      "scripts/office/soffice.py",
-     "eec16879cd4c9cbb24a273dfde757acc56395a57",
-     5945
+     "59b18d91ba8dfc523fbc436d8aebceb2ddb2af9d",
+     9100
     ],
     [
      "scripts/office/validate.py",
-     "ff3bde0f1e9de81f3f00a44f9a92229739b1e219",
-     7677
+     "cdd6a91e0bc95f00e339a046517c78a586691330",
+     7808
     ],
     [
      "scripts/office/validators/__init__.py",
@@ -54549,10 +54594,10 @@
     ]
    ],
    "archivos": 58,
-   "bytes": 1197213,
+   "bytes": 1200500,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:48Z"
+   "cambio_ts": "2026-11-23T22:58:29Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/schedule",
@@ -54989,20 +55034,20 @@
    "cat": "Datos, ETL y estándares",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "d7030ba22285c777e5a1ed781eb5ebb4c52919da",
+   "cambio": "modificada",
+   "sig": "659ce75a24e0130b95281abbd8da658045fa7079",
    "files": [
     [
      "SKILL.md",
-     "e8c8c136696fc88a7129c3d3301a89de7046e005",
-     308775
+     "9144847250f42df0fc000c0422e7a1729f8ac38e",
+     315834
     ]
    ],
    "archivos": 1,
-   "bytes": 308775,
+   "bytes": 315834,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:49Z"
+   "cambio_ts": "2026-11-23T22:58:29Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/workflow-authoring",
@@ -55014,20 +55059,20 @@
    "cat": "Obra, calidad y cierre",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "94eea4de03b5002641523d1779892b43df20293c",
+   "cambio": "modificada",
+   "sig": "00d7eda879af444e5d4dc61bde7f3355cc7730b3",
    "files": [
     [
      "SKILL.md",
-     "24a0260b132420443e15bbebc2146901ebc3c0c0",
-     17462
+     "71852715c8cf2dfcc95ba9ffae2ed29f4b788481",
+     17527
     ]
    ],
    "archivos": 1,
-   "bytes": 17462,
+   "bytes": 17527,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:49Z"
+   "cambio_ts": "2026-11-23T22:58:29Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/xlsx",
@@ -55039,8 +55084,8 @@
    "cat": "Datos, ETL y estándares",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "c93c3400fada7c86cb5f0e9edc6eb88d039d8a6d",
+   "cambio": "modificada",
+   "sig": "fe27651863d0d92bb4b4ad9c358cfa07857ad80a",
    "files": [
     [
      "LICENSE.txt",
@@ -55269,13 +55314,13 @@
     ],
     [
      "scripts/office/soffice.py",
-     "eec16879cd4c9cbb24a273dfde757acc56395a57",
-     5945
+     "59b18d91ba8dfc523fbc436d8aebceb2ddb2af9d",
+     9100
     ],
     [
      "scripts/office/validate.py",
-     "ff3bde0f1e9de81f3f00a44f9a92229739b1e219",
-     7677
+     "cdd6a91e0bc95f00e339a046517c78a586691330",
+     7808
     ],
     [
      "scripts/office/validators/__init__.py",
@@ -55309,10 +55354,10 @@
     ]
    ],
    "archivos": 53,
-   "bytes": 1161335,
+   "bytes": 1164621,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:49Z"
+   "cambio_ts": "2026-11-23T22:58:29Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-cowork/setup-cowork",
@@ -55588,7 +55633,7 @@
    "es": "",
    "cat": "Sin categoría",
    "alc": "fuera",
-   "dup": false,
+   "dup": true,
    "cambio": "nueva",
    "sig": "3b3920f489804fa27aa187c721275e0c6c57b32a",
    "files": [
@@ -56124,30 +56169,30 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "bcbb00e4ca2b456ef8b80a039e2c97215863993a",
+   "cambio": "modificada",
+   "sig": "980f8626a0cf09f6a22ff6a7262d7439524e0bc0",
    "files": [
     [
      "SKILL.md",
-     "55e2aff00a6e4bde248076df9a8ce0ccf0a9f6ab",
-     90452
+     "bbeeccdf947e2122635109b4381d4f25b6d5e1aa",
+     90462
     ],
     [
      "examples.md",
-     "458c9672f722cf1d82dbfe0ab15e067ae8b3f8e2",
-     47899
+     "c9d8a5e9b6fd5d80ac6d3a5eca735cd3c3528b41",
+     47915
     ],
     [
      "patterns.md",
-     "1958ad78926d38dd0c6a0c0bc550e4a860724fd6",
-     34296
+     "8e9452541fdd615486a6903fbd3b9def3de06bce",
+     34298
     ]
    ],
    "archivos": 3,
-   "bytes": 172647,
+   "bytes": 172675,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:50Z"
+   "cambio_ts": "2026-11-23T22:58:29Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|GLM/skills/docx",
@@ -56584,18 +56629,18 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "00d6049cc53a0242c38997e84d01c5449999ef6f",
+   "cambio": "modificada",
+   "sig": "7a783d7559c96660922b7a8de1b2dfbd9e57786c",
    "files": [
     [
      "SKILL.md",
-     "b545e39fd8cd26958d97dc058dec6f7c02b49ef1",
-     5486
+     "fee60409fbd585a04d5cb22145102994f9f35693",
+     5625
     ],
     [
      "docs/hooks.md",
-     "d6624caa49ca23f4baf8c2d35a5d35758510c600",
-     13569
+     "78fd2ba365aaa8876d520f0d192aa08db182c844",
+     15652
     ],
     [
      "docs/json_configs.md",
@@ -56624,10 +56669,10 @@
     ]
    ],
    "archivos": 7,
-   "bytes": 36512,
+   "bytes": 38734,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:50Z"
+   "cambio_ts": "2026-11-23T22:58:29Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|GLM/skills/xlsx",
@@ -56848,8 +56893,8 @@
    "es": "",
    "cat": "Sin categoría",
    "alc": "fuera",
-   "dup": false,
-   "cambio": "nueva",
+   "dup": true,
+   "cambio": "retirada",
    "sig": "33d6892fc15711c3d9c4933decd62f166697954e",
    "files": [
     [
@@ -56881,38 +56926,38 @@
    "archivos": 5,
    "bytes": 15158,
    "irregulares": 0,
-   "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:50Z"
+   "origen": "retirada",
+   "cambio_ts": "2026-11-23T22:58:29Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Google/antigravity/skills/gemini-api-dev",
    "repo": "asgeirtj/system_prompts_leaks",
    "dir": "Google/antigravity/skills/gemini-api-dev",
    "name": "gemini-api-dev",
-   "en": "Use this skill when writing code that calls the Gemini API for text generation, multi-turn chat, multimodal understanding, image generation, video generation, speech generation (TTS), voice design, voice replication, streaming responses, background research tasks, function calling, structured output, or migrating from the old generateContent API. Covers SDK usage and best practices for Gemini models and agents in Python and TypeScript.",
+   "en": "Use this skill when writing code that calls the Gemini API for text generation, multi-turn chat, multimodal understanding, image generation, video generation, speech generation (TTS), voice design, voice replication, streaming responses, background research tasks, function calling, structured output, calibrated decisions (yes/no, choice, rubric scoring), or migrating from the old generateContent API. Covers SDK usage and best practices for Gemini models and agents in Python and TypeScript.",
    "es": "",
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "cad79872900d69c07870593b3f65a6ba056d0cd3",
+   "cambio": "modificada",
+   "sig": "db04cfa2820021f272032ebd2b6d45d342366edb",
    "files": [
     [
      "SKILL.md",
-     "e371d665401e526fa26a91f792712567f1f2e819",
-     21581
+     "768a86ec82e4356373e2e961c289a8831b4eb061",
+     25854
     ],
     [
      "references/migration.md",
-     "7465eaa0403f27bbab488dc75ef042ad8e8c84da",
-     14840
+     "3f46d1718e463e3d2b25a19b6ebbfeae84a41a8b",
+     23536
     ]
    ],
    "archivos": 2,
-   "bytes": 36421,
+   "bytes": 49390,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:50Z"
+   "cambio_ts": "2026-11-23T22:58:29Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Google/antigravity/skills/debug-optimize-lcp",
@@ -56969,43 +57014,43 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "8ba59644b4baf15fdfe33072e9d7593fa131cd3b",
+   "cambio": "modificada",
+   "sig": "b003a0ea691b159203a9d166bf3de636852618c4",
    "files": [
     [
      "SKILL.md",
-     "8584c6926880545b39d0bae5e6ca41e81a7388a9",
-     18754
+     "e7fa5d5de0433a35251d546859bbe6e38a754fdc",
+     18698
     ],
     [
      "references/migration.md",
-     "9ecf261a9cc3be7829727ebae220566b678b2841",
-     8975
+     "60ccc99aeed482d957d6152d82a5951e696d67fe",
+     8948
     ]
    ],
    "archivos": 2,
-   "bytes": 27729,
+   "bytes": 27646,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:50Z"
+   "cambio_ts": "2026-11-23T22:58:29Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Google/antigravity/skills/gemini-omni-flash-api",
    "repo": "asgeirtj/system_prompts_leaks",
    "dir": "Google/antigravity/skills/gemini-omni-flash-api",
    "name": "gemini-omni-flash-api",
-   "en": "Use this skill for generative video editing, text-to-video, image-referenced video generation, first-frame-to-video, first-and-last-frame transitions, and video extensions using Gemini Omni 1.1 Flash (gemini-omni-1.1-flash) via the official google-genai SDK. Includes workflows for pre-processing/optimizing high-resolution or long source videos with ffmpeg, stripping audio for full sound regeneration, and handling turn-by-turn video editing and parallel execution.",
+   "en": "Use this skill for generative video editing, text-to-video, image- and video-referenced video generation, first-frame-to-video, first-and-last-frame transitions, and video extensions using Gemini Omni 1.2 Flash (gemini-omni-1.2-flash) via the official google-genai SDK. Includes workflows for pre-processing/optimizing high-resolution or long source videos with ffmpeg, stripping audio for full sound regeneration, and handling turn-by-turn video editing and parallel execution.",
    "es": "",
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "2c6710a68c5503d995b9c1a2cd8c5a80f19fb873",
+   "cambio": "modificada",
+   "sig": "8e9a8f8e80f78ab0d93f809aa85ddbde64e02a71",
    "files": [
     [
      "SKILL.md",
-     "925cbebfd9da4e6fa052de5649c9f2dc2d84bc56",
-     25799
+     "290454f4d20b211a5abaa99a0450dae99e559a2d",
+     25693
     ],
     [
      "scripts/upload_file.py",
@@ -57014,8 +57059,8 @@
     ],
     [
      "scripts/video/generate_video.py",
-     "802545623019e4d398912a907609b748ecc8e012",
-     32350
+     "4dc0a3c7c9c54ebbb812d3160d040b0a59d877c8",
+     34935
     ],
     [
      "scripts/video/inspect_video.py",
@@ -57029,10 +57074,10 @@
     ]
    ],
    "archivos": 5,
-   "bytes": 89946,
+   "bytes": 92425,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:50Z"
+   "cambio_ts": "2026-11-23T22:58:29Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Google/antigravity/skills/generative_ui",
@@ -57044,20 +57089,20 @@
    "cat": "Datos, ETL y estándares",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "71b61e19e98645fe0b3faada3cbcf35be4e63316",
+   "cambio": "modificada",
+   "sig": "92c24b277bebb2dd53df91f3de9df1afb58f8d97",
    "files": [
     [
      "SKILL.md",
-     "05eba5dba76a8d6a96f383e072d0c732050eee20",
-     5835
+     "19eba4a19fa024afdae055471cf01cedf5ed3fcc",
+     6412
     ]
    ],
    "archivos": 1,
-   "bytes": 5835,
+   "bytes": 6412,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:50Z"
+   "cambio_ts": "2026-11-23T22:58:29Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Google/antigravity/skills/memory-leak-debugging",
@@ -57124,20 +57169,20 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "4a7f0f45010f6b4ed8f30aadaef14ddfbdf2086e",
+   "cambio": "modificada",
+   "sig": "d009318e03a46f01aaedb5b269119a9407d39546",
    "files": [
     [
      "SKILL.md",
-     "5b15ff339ac85c05c1f2f4c0ffe5168d0a11a065",
-     17518
+     "06ed9d5994485c0f7f9fd1da143c9ba0229ad4b3",
+     17276
     ]
    ],
    "archivos": 1,
-   "bytes": 17518,
+   "bytes": 17276,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:50Z"
+   "cambio_ts": "2026-11-23T22:58:29Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Google/antigravity/skills/troubleshooting",
@@ -57204,20 +57249,20 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "41118166cf4aa7cb3e96b0585117c26e47302ee3",
+   "cambio": "modificada",
+   "sig": "0dac5fa38b6d144bbfaa07e3fe4ab45c5e6a5639",
    "files": [
     [
      "SKILL.md",
-     "7cedc3a16341670e45a4f8d47c1e47a9a621bb8c",
-     3823
+     "89e16313f43286edaa942438a66fdaa9f37701b5",
+     3765
     ]
    ],
    "archivos": 1,
-   "bytes": 3823,
+   "bytes": 3765,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:50Z"
+   "cambio_ts": "2026-11-23T22:58:29Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Meta/muse-agent/skills/forget",
@@ -57624,18 +57669,18 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "a1659c28713644a97e54aab467e6ca56c8fa6f39",
+   "cambio": "modificada",
+   "sig": "ee143a805fe31eae5be944ccbbf01d3b06251905",
    "files": [
     [
      "SKILL.md",
-     "591051dec0e0e79cbbc69893be1c2e7ab2aa4fd0",
-     39779
+     "2c0487d9058b248112c6185e6db7b97b3a6fb9e1",
+     39879
     ],
     [
      "references/browser-checkout.md",
-     "2f4988f87113fb1a0466df64a7a5244e3b57a6ef",
-     3797
+     "4a6f81519274c723e035db6ad70324e31ef47991",
+     3821
     ],
     [
      "references/social-shopping-links.md",
@@ -57649,10 +57694,10 @@
     ]
    ],
    "archivos": 4,
-   "bytes": 44932,
+   "bytes": 45056,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:50Z"
+   "cambio_ts": "2026-11-23T22:58:29Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|Meta/muse-agent/skills/skill-creator/templates/skill",
@@ -59859,8 +59904,8 @@
    "cat": "Datos, ETL y estándares",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "e35f221ffcd536de03fbb85e7b684d9555548892",
+   "cambio": "modificada",
+   "sig": "882215836e0743542fd4521594c33fab64a622c2",
    "files": [
     [
      "SKILL.md",
@@ -59879,15 +59924,15 @@
     ],
     [
      "references/sample-context-skill.md",
-     "7fd7a9f3c4fff4e5b0c4fe288b1c20697398114c",
-     7339
+     "185b3966b913ef539ea2b8e61a2aa97a2cc976c4",
+     7363
     ]
    ],
    "archivos": 4,
-   "bytes": 123276,
+   "bytes": 123300,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:51Z"
+   "cambio_ts": "2026-11-23T22:58:29Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|OpenAI/Codex/plugins/data-analytics/skills/design-kpis",
@@ -62204,20 +62249,20 @@
    "cat": "Documentos y contratos",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "559fd98d91e2e71a1efa91565ed77e6bec280f41",
+   "cambio": "modificada",
+   "sig": "cda51c385cdd37aa64d8ad1b84e3dd8066ebd0a6",
    "files": [
     [
      "SKILL.md",
-     "03253ba4db5061187151fc91cf5306ffcb1a2563",
-     19036
+     "f2a52fa9fca8a82b3cb384156ad2846e1e445631",
+     19040
     ]
    ],
    "archivos": 1,
-   "bytes": 19036,
+   "bytes": 19040,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:53Z"
+   "cambio_ts": "2026-11-23T22:58:29Z"
   },
   {
    "id": "asgeirtj/system_prompts_leaks|OpenAI/Codex/plugins/visualize/skills/visualize",
@@ -63619,20 +63664,20 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "37ca86639099869143881c42c06bd05277260758",
+   "cambio": "modificada",
+   "sig": "e74903b7e102377bf08b999898605eeeeacafd47",
    "files": [
     [
      "SKILL.md",
-     "5f01735a6bca51504cf81260f8f6de9dfd205de6",
-     5292
+     "2d6ccb5d38ba4e7d185234f90c2c4b52500f08ac",
+     5297
     ]
    ],
    "archivos": 1,
-   "bytes": 5292,
+   "bytes": 5297,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:56Z"
+   "cambio_ts": "2026-11-23T22:58:31Z"
   },
   {
    "id": "diegosouzapw/OmniRoute|skills/cli-keys",
@@ -63794,20 +63839,20 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "66d87d4fb26c6769e3278dc4fe847a5bbdab2fec",
+   "cambio": "modificada",
+   "sig": "68c4775414617469bec0c00cf20f80100c8c8925",
    "files": [
     [
      "SKILL.md",
-     "bc1cefbf2c129e346b154a44fa299b094ffd8c3d",
-     8634
+     "8d730553edc31faaafe2815c4d87ec1457d258bf",
+     8644
     ]
    ],
    "archivos": 1,
-   "bytes": 8634,
+   "bytes": 8644,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:57Z"
+   "cambio_ts": "2026-11-23T22:58:31Z"
   },
   {
    "id": "diegosouzapw/OmniRoute|skills/cli-plugins-skills",
@@ -63844,20 +63889,20 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "f47749ca11cd808b5a611b666d10ece4eebd005b",
+   "cambio": "modificada",
+   "sig": "488015aeb6361fff676155891045b85259269f3c",
    "files": [
     [
      "SKILL.md",
-     "9456d4e6748f299ca0cab2c2e45fa6b3a46cb6f4",
-     10350
+     "68299748fdac01ec75bbf1a9bee414386a51d2e4",
+     10370
     ]
    ],
    "archivos": 1,
-   "bytes": 10350,
+   "bytes": 10370,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:57Z"
+   "cambio_ts": "2026-11-23T22:58:31Z"
   },
   {
    "id": "diegosouzapw/OmniRoute|skills/cli-routing",
@@ -64019,20 +64064,20 @@
    "cat": "Costos y presupuestos",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "78b97968dc843c3b4a8cc6407fcb5f84a42ed138",
+   "cambio": "modificada",
+   "sig": "52288945168480726243f4a1f3b0befc2ab901ad",
    "files": [
     [
      "SKILL.md",
-     "e73117da7a8a410f073e0d4330c4dd7acbac3114",
-     3185
+     "bd623a5d800b0042d6c231d8fe4f28041a66dba3",
+     3306
     ]
    ],
    "archivos": 1,
-   "bytes": 3185,
+   "bytes": 3306,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:57Z"
+   "cambio_ts": "2026-11-23T22:58:31Z"
   },
   {
    "id": "diegosouzapw/OmniRoute|skills/omni-auth",
@@ -64044,45 +64089,45 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "32146bee2fec06291db91e40d8ac5ad8826dc62c",
+   "cambio": "modificada",
+   "sig": "76d9c18a7ce8acc40ac49db0b8ebad2739c5f825",
    "files": [
     [
      "SKILL.md",
-     "1be72950875e132babbe0ba2fda6ae48800ce056",
-     9957
+     "69fbebaabd3878ece77da5c10c5894cefa2acda7",
+     10012
     ]
    ],
    "archivos": 1,
-   "bytes": 9957,
+   "bytes": 10012,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:57Z"
+   "cambio_ts": "2026-11-23T22:58:31Z"
   },
   {
    "id": "diegosouzapw/OmniRoute|skills/omni-cache",
    "repo": "diegosouzapw/OmniRoute",
    "dir": "skills/omni-cache",
    "name": "omni-cache",
-   "en": "Manage the LLM response cache. View cache statistics, clear entries, configure TTL policies, and control semantic-similarity caching thresholds.",
+   "en": "Manage the LLM response cache. View cache statistics, list and clear entries, and inspect or clear the reasoning replay cache.",
    "es": "",
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "d6e9df90b3ea01461755d6cc3e7e6095101dea84",
+   "cambio": "modificada",
+   "sig": "c23d40f411825725db949bf6213a9dfd01032e96",
    "files": [
     [
      "SKILL.md",
-     "c5f1b1e46d8eb99c88eae98638b4e90d92d24e22",
-     2115
+     "25690545f3d4791925e6038a2f85d95e7e9320bc",
+     2079
     ]
    ],
    "archivos": 1,
-   "bytes": 2115,
+   "bytes": 2079,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:57Z"
+   "cambio_ts": "2026-11-23T22:58:31Z"
   },
   {
    "id": "diegosouzapw/OmniRoute|skills/omni-budget",
@@ -64149,20 +64194,20 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "d5b5023ac20ad4ffb53759eb3f6365669f43abb8",
+   "cambio": "modificada",
+   "sig": "8db2188aee920b166860039bc9a2930b3dfc66c3",
    "files": [
     [
      "SKILL.md",
-     "b551df08873a8122eb7a55295898c15856ec2e62",
-     9006
+     "88cfb22ed2748c77d14e09e8c4f9365db926f4f3",
+     9033
     ]
    ],
    "archivos": 1,
-   "bytes": 9006,
+   "bytes": 9033,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:57Z"
+   "cambio_ts": "2026-11-23T22:58:32Z"
   },
   {
    "id": "diegosouzapw/OmniRoute|skills/omni-context-rtk",
@@ -64199,45 +64244,45 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "0b895b6e1ce92416264e0221536c8eac3edf6f58",
+   "cambio": "modificada",
+   "sig": "c53db366c8f32fba5ae201d82948ea3f3514e6d3",
    "files": [
     [
      "SKILL.md",
-     "1304eb9fcac2b9225763778b7d5b6c0a95c48e4a",
-     6475
+     "ee578cb66edff02f82258ce273c0d7f174b1b111",
+     8342
     ]
    ],
    "archivos": 1,
-   "bytes": 6475,
+   "bytes": 8342,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:57Z"
+   "cambio_ts": "2026-11-23T22:58:32Z"
   },
   {
    "id": "diegosouzapw/OmniRoute|skills/omni-db-backups",
    "repo": "diegosouzapw/OmniRoute",
    "dir": "skills/omni-db-backups",
    "name": "omni-db-backups",
-   "en": "Trigger system backups, restore from backup files, and manage the SQLite database lifecycle. Supports export, import, and incremental snapshot strategies.",
+   "en": "List and export database backups. Also covers the system version, metrics and environment-repair routes.",
    "es": "",
    "cat": "Análisis y validación BIM",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "e16d502fb5a9031b174d1f98acdd808f634b436d",
+   "cambio": "modificada",
+   "sig": "2491dcb667a1b86e84d4a5bab267b55c10cd817e",
    "files": [
     [
      "SKILL.md",
-     "fa586b7f1bc4f5e9f53ad5f7e40e48d685da989a",
-     2577
+     "b4d9f3834a3a66ee83700fdf2b71611ef265695e",
+     3389
     ]
    ],
    "archivos": 1,
-   "bytes": 2577,
+   "bytes": 3389,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:57Z"
+   "cambio_ts": "2026-11-23T22:58:32Z"
   },
   {
    "id": "diegosouzapw/OmniRoute|skills/omni-github-skills",
@@ -64249,20 +64294,20 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "c1e4082c8684294a9b677007a54eea17dba43b61",
+   "cambio": "modificada",
+   "sig": "2cc5578cfc6f9008734b6b0615bf3e7646f1ff72",
    "files": [
     [
      "SKILL.md",
-     "163f3537741726369e48fa7b888a11ae12b0066c",
-     1288
+     "665f6ff9bb0ac1959c3358c4696fc8106a2f03e3",
+     1617
     ]
    ],
    "archivos": 1,
-   "bytes": 1288,
+   "bytes": 1617,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:57Z"
+   "cambio_ts": "2026-11-23T22:58:32Z"
   },
   {
    "id": "diegosouzapw/OmniRoute|skills/omni-inference",
@@ -64274,25 +64319,25 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "09a77170bda44ea20eb6343efaa64dd79eeb8f24",
+   "cambio": "modificada",
+   "sig": "4760adc7be6ec3533e789e261436f63a04111fc2",
    "files": [
     [
      "SKILL.md",
-     "4f470ab565180778f84130c5de3c1574560b1943",
-     22979
+     "d60899ca7a17c9e4508b66d5f6654320a689c836",
+     23436
     ],
     [
      "references/endpoints.md",
-     "52948d263b9b306dc0279d16510019533ef143d9",
-     54689
+     "63ab2d9f4f4b6b9ac6a1cd477f011fbf526c9c14",
+     55268
     ]
    ],
    "archivos": 2,
-   "bytes": 77668,
+   "bytes": 78704,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:57Z"
+   "cambio_ts": "2026-11-23T22:58:32Z"
   },
   {
    "id": "diegosouzapw/OmniRoute|skills/omni-mcp",
@@ -64304,20 +64349,20 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "68f2ae3189e2531dd19efca7c32030a51936b722",
+   "cambio": "modificada",
+   "sig": "7969afd784cb6d42337a1f35a66d6c6abd106c13",
    "files": [
     [
      "SKILL.md",
-     "f22cd84923b2149e87e02819802e161d12c0a6d6",
-     5181
+     "90feebab23cdfe237d17b4e4ff83256b3aafea53",
+     5280
     ]
    ],
    "archivos": 1,
-   "bytes": 5181,
+   "bytes": 5280,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:57Z"
+   "cambio_ts": "2026-11-23T22:58:32Z"
   },
   {
    "id": "diegosouzapw/OmniRoute|skills/omni-providers",
@@ -64329,25 +64374,25 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "144759444307f739452f9d046216c19040d1b569",
+   "cambio": "modificada",
+   "sig": "c27638a6c44482e3a7809b1caeb033075eda3d87",
    "files": [
     [
      "SKILL.md",
-     "0906f898b0bb1a9c7bb6a3e6f8be22aaedcf23ad",
-     10113
+     "5a43fea9401035b4f96c4e771bc5186531f22e71",
+     10109
     ],
     [
      "references/endpoints.md",
-     "d2f4db5a9054d798d33346b960a88085a0af6b7b",
-     29444
+     "6100aee4550ce56e019affb14e2c21f78c317822",
+     29436
     ]
    ],
    "archivos": 2,
-   "bytes": 39557,
+   "bytes": 39545,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:57Z"
+   "cambio_ts": "2026-11-23T22:58:32Z"
   },
   {
    "id": "diegosouzapw/OmniRoute|skills/omni-proxies",
@@ -64359,20 +64404,20 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "06041eddf58abf743cd296062cb6d32655f5c284",
+   "cambio": "modificada",
+   "sig": "55c32f7fbc491a79a21c87d9c41e38302f97c663",
    "files": [
     [
      "SKILL.md",
-     "8787b2ad2542ec99aff13fc0f9360d57635d4908",
-     826
+     "5420d96fe393695a0bd85de211b2c56b84a43b2f",
+     7579
     ]
    ],
    "archivos": 1,
-   "bytes": 826,
+   "bytes": 7579,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:57Z"
+   "cambio_ts": "2026-11-23T22:58:32Z"
   },
   {
    "id": "diegosouzapw/OmniRoute|skills/omni-resilience",
@@ -64384,20 +64429,20 @@
    "cat": "Costos y presupuestos",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "d7f7f5c5364cf4289641e42d27d38d624c81cde0",
+   "cambio": "modificada",
+   "sig": "c3ad37e378b4f7cd8953a2b1afd76f654f8e2fa9",
    "files": [
     [
      "SKILL.md",
-     "4dd6a87ac1ffce7cf90dd0f388db51b6e32d2792",
-     5380
+     "2d770700672e5a9f7ddae101be7ea668cb5e929e",
+     5461
     ]
    ],
    "archivos": 1,
-   "bytes": 5380,
+   "bytes": 5461,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:57Z"
+   "cambio_ts": "2026-11-23T22:58:32Z"
   },
   {
    "id": "diegosouzapw/OmniRoute|skills/omni-models",
@@ -64409,20 +64454,20 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "1d0fbeeb583917090d15ec5d2dcee4a045005250",
+   "cambio": "modificada",
+   "sig": "a5417c881e4e4e848e27f3f0d4f62a2b2e17d93b",
    "files": [
     [
      "SKILL.md",
-     "c9c2f25f48e48bd391d6bb2d4dddc19f88505291",
-     3770
+     "dc4acb678c043e911bfa24643784677d8d78a840",
+     3768
     ]
    ],
    "archivos": 1,
-   "bytes": 3770,
+   "bytes": 3768,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:57Z"
+   "cambio_ts": "2026-11-23T22:58:32Z"
   },
   {
    "id": "diegosouzapw/OmniRoute|skills/omni-sync-cloud",
@@ -64459,25 +64504,25 @@
    "cat": "Costos y presupuestos",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "adeda42b650a39e918d7e10fcff82ff1909e8eab",
+   "cambio": "modificada",
+   "sig": "35bd03eb0c1ea0e09b550757a8833131cdd4bf9f",
    "files": [
     [
      "SKILL.md",
-     "cdd5a3b09d3b617254ab6787ad44166f37888c17",
-     15218
+     "c480b0e3c2db3af075a7fee184a4bd8ba497ebf6",
+     11971
     ],
     [
      "references/endpoints.md",
-     "bdbf70255b1b4794975603c24938627b71a4bda7",
-     47814
+     "77dfb43cdbbbfbf1c7be9d1ba83e90e8985713d1",
+     36666
     ]
    ],
    "archivos": 2,
-   "bytes": 63032,
+   "bytes": 48637,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:57Z"
+   "cambio_ts": "2026-11-23T22:58:32Z"
   },
   {
    "id": "diegosouzapw/OmniRoute|skills/omni-tunnels",
@@ -64489,20 +64534,20 @@
    "cat": "Análisis y validación BIM",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "34775c787529766bdcbc0c3130e8fda4aa9489d0",
+   "cambio": "modificada",
+   "sig": "dfd54653a4ebdca68df075767da1b54873ba2ebb",
    "files": [
     [
      "SKILL.md",
-     "a3f9c667cf97dc68e11d790cb04ce43fdb442797",
-     834
+     "01360989dee135c4f17128b08d9bc1c0d60a2cd1",
+     3253
     ]
    ],
    "archivos": 1,
-   "bytes": 834,
+   "bytes": 3253,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:57Z"
+   "cambio_ts": "2026-11-23T22:58:32Z"
   },
   {
    "id": "diegosouzapw/OmniRoute|skills/omni-version-manager",
@@ -64544,20 +64589,20 @@
    "cat": "Costos y presupuestos",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "56390754eef4059bccfe0965009ec5057ecf47ef",
+   "cambio": "modificada",
+   "sig": "c77a974d70f915063a52b94e73ccc5b1c3beac58",
    "files": [
     [
      "SKILL.md",
-     "cd60d86248bfcea26a8c05dd2b6c76c562a36ac2",
-     8106
+     "7ad8b064e8af9e6a60c326f998283d3d3882b7dd",
+     10952
     ]
    ],
    "archivos": 1,
-   "bytes": 8106,
+   "bytes": 10952,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:20:57Z"
+   "cambio_ts": "2026-11-23T22:58:32Z"
   },
   {
    "id": "diegosouzapw/OmniRoute|skills/omni-webhooks",
@@ -65919,13 +65964,13 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "e05210e90a13737e0960ade185e1b68479a0e04b",
+   "cambio": "modificada",
+   "sig": "137b8af0fa1ee74da6758ad7612aad00b9a58ff5",
    "files": [
     [
      "SKILL.md",
-     "97e6ab31f1ee548d6376c2a5c594d73351c36c01",
-     12202
+     "3a83447a7dacec888cabff7150ac682546669bae",
+     12911
     ],
     [
      "agents/openai.yaml",
@@ -65934,10 +65979,10 @@
     ]
    ],
    "archivos": 2,
-   "bytes": 12476,
+   "bytes": 13185,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:21:00Z"
+   "cambio_ts": "2026-11-23T22:58:34Z"
   },
   {
    "id": "affaan-m/ECC|.agents/skills/skill-host-compat",
@@ -65979,13 +66024,13 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "e23f0b7cce3b6c4254af0263ec39b36ba49d8179",
+   "cambio": "modificada",
+   "sig": "fb93cfecfb80b512912e0c73abebc6e686327329",
    "files": [
     [
      "SKILL.md",
-     "67300bf520db15fe9254837780dcef7cf97fd3e8",
-     13202
+     "78fc6e258448b9b56b0e55711bb505bf89aae456",
+     15538
     ],
     [
      "agents/openai.yaml",
@@ -65994,10 +66039,10 @@
     ]
    ],
    "archivos": 2,
-   "bytes": 13470,
+   "bytes": 15806,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:21:00Z"
+   "cambio_ts": "2026-11-23T22:58:34Z"
   },
   {
    "id": "affaan-m/ECC|.agents/skills/strategic-compact",
@@ -68574,20 +68619,20 @@
    "cat": "Análisis y validación BIM",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "9c6a926e7f70c79bba5632d8591918e21311c16d",
+   "cambio": "modificada",
+   "sig": "1eedcc55d87999cda8e1154f8c79572a25599fcd",
    "files": [
     [
      "SKILL.md",
-     "d98eae5c0587312b43f145698e560c2162d7eb4b",
-     8235
+     "67444f405ca803b73d3d225f413bf84c08abad3e",
+     8928
     ]
    ],
    "archivos": 1,
-   "bytes": 8235,
+   "bytes": 8928,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:21:02Z"
+   "cambio_ts": "2026-11-23T22:58:34Z"
   },
   {
    "id": "affaan-m/ECC|docs/ja-JP/skills/agent-architecture-audit",
@@ -75679,20 +75724,20 @@
    "cat": "Análisis y validación BIM",
    "alc": "fuera",
    "dup": true,
-   "cambio": "nueva",
-   "sig": "ac47c0e88d264a6fcfecac07a6d18782921ffe2b",
+   "cambio": "modificada",
+   "sig": "5f0bbd6d955849fdb899d78f7e09afeb8479bac1",
    "files": [
     [
      "SKILL.md",
-     "44e90eeb93c26f012cf8130bd8bc997b08ca30ad",
-     6124
+     "e29c490c0eea90358e312e0f4e472f3a806737ce",
+     6716
     ]
    ],
    "archivos": 1,
-   "bytes": 6124,
+   "bytes": 6716,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:21:08Z"
+   "cambio_ts": "2026-11-23T22:58:34Z"
   },
   {
    "id": "affaan-m/ECC|docs/zh-CN/skills/agent-eval",
@@ -76229,20 +76274,20 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": true,
-   "cambio": "nueva",
-   "sig": "83fd5cb6debb606ee85d055ebd5fef90a17fd634",
+   "cambio": "modificada",
+   "sig": "ea8004b26f7d9985618fbb0b9764456c81d2f791",
    "files": [
     [
      "SKILL.md",
-     "a52a34596290e2790f99a8d7dadd07386c7af117",
-     2622
+     "5e031b01087ce5f1ef6abd296485fd4f4a3f83bc",
+     2619
     ]
    ],
    "archivos": 1,
-   "bytes": 2622,
+   "bytes": 2619,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:21:08Z"
+   "cambio_ts": "2026-11-23T22:58:34Z"
   },
   {
    "id": "affaan-m/ECC|docs/zh-CN/skills/brand-voice",
@@ -80729,20 +80774,20 @@
    "cat": "Análisis y validación BIM",
    "alc": "fuera",
    "dup": true,
-   "cambio": "nueva",
-   "sig": "45b95e0c7c7804b8989beebb84dfa5cf6772957e",
+   "cambio": "modificada",
+   "sig": "13ecb962d6bc3b597563f092a9ff0af0d44c6df0",
    "files": [
     [
      "SKILL.md",
-     "0685394eef10a1bf1e5c02f67a3a8b06ae210cc4",
-     6546
+     "f0a08a25b7591fcdec69bd2d26e55bf103789886",
+     7104
     ]
    ],
    "archivos": 1,
-   "bytes": 6546,
+   "bytes": 7104,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:21:12Z"
+   "cambio_ts": "2026-11-23T22:58:34Z"
   },
   {
    "id": "affaan-m/ECC|pi/core/skills/agent-architecture-audit",
@@ -80779,20 +80824,20 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": true,
-   "cambio": "nueva",
-   "sig": "3ab57a69d19f95c395e7c1fdc5ef7ccd2dfd9ef2",
+   "cambio": "modificada",
+   "sig": "152c8e0434bb30d2dac975702e611a7a629546eb",
    "files": [
     [
      "SKILL.md",
-     "6f828f92298e9c534c9af1e7f0e9832ef7443a2d",
-     2100
+     "4830684f19cfd7b51baff04e1001d990f6cb1715",
+     3438
     ]
    ],
    "archivos": 1,
-   "bytes": 2100,
+   "bytes": 3438,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:21:12Z"
+   "cambio_ts": "2026-11-23T22:58:34Z"
   },
   {
    "id": "affaan-m/ECC|pi/core/skills/agent-eval",
@@ -82014,20 +82059,25 @@
    "cat": "Planificación y cronograma",
    "alc": "fuera",
    "dup": true,
-   "cambio": "nueva",
-   "sig": "513f334ebe70b35c1f7af06ec1665a8f1a2860cc",
+   "cambio": "modificada",
+   "sig": "65b452a37843f5e5e4178999924b96a3d42b064d",
    "files": [
     [
      "SKILL.md",
-     "0ae9877559d4c4b64ad124621f33480e2abb2e12",
-     13134
+     "54a8d5bc298f979ed6ec013ae4ad1971df322c57",
+     16254
+    ],
+    [
+     "references/reliability.md",
+     "71f046af1c562e4902e6d1aea69d1ebed20b6605",
+     3991
     ]
    ],
-   "archivos": 1,
-   "bytes": 13134,
+   "archivos": 2,
+   "bytes": 20245,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:21:13Z"
+   "cambio_ts": "2026-11-23T22:58:34Z"
   },
   {
    "id": "affaan-m/ECC|pi/core/skills/django-patterns",
@@ -84424,20 +84474,20 @@
    "cat": "Análisis y validación BIM",
    "alc": "fuera",
    "dup": true,
-   "cambio": "nueva",
-   "sig": "45b95e0c7c7804b8989beebb84dfa5cf6772957e",
+   "cambio": "modificada",
+   "sig": "13ecb962d6bc3b597563f092a9ff0af0d44c6df0",
    "files": [
     [
      "SKILL.md",
-     "0685394eef10a1bf1e5c02f67a3a8b06ae210cc4",
-     6546
+     "f0a08a25b7591fcdec69bd2d26e55bf103789886",
+     7104
     ]
    ],
    "archivos": 1,
-   "bytes": 6546,
+   "bytes": 7104,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:21:15Z"
+   "cambio_ts": "2026-11-23T22:58:34Z"
   },
   {
    "id": "affaan-m/ECC|pi/core/skills/yoruba-localization-testing",
@@ -84509,20 +84559,20 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": true,
-   "cambio": "nueva",
-   "sig": "3ab57a69d19f95c395e7c1fdc5ef7ccd2dfd9ef2",
+   "cambio": "modificada",
+   "sig": "152c8e0434bb30d2dac975702e611a7a629546eb",
    "files": [
     [
      "SKILL.md",
-     "6f828f92298e9c534c9af1e7f0e9832ef7443a2d",
-     2100
+     "4830684f19cfd7b51baff04e1001d990f6cb1715",
+     3438
     ]
    ],
    "archivos": 1,
-   "bytes": 2100,
+   "bytes": 3438,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:21:15Z"
+   "cambio_ts": "2026-11-23T22:58:34Z"
   },
   {
    "id": "affaan-m/ECC|skills/agent-introspection-debugging",
@@ -85539,20 +85589,20 @@
    "cat": "Análisis y validación BIM",
    "alc": "fuera",
    "dup": true,
-   "cambio": "nueva",
-   "sig": "39cde8ae1371f49fc8f3d125a3308629b13288d5",
+   "cambio": "modificada",
+   "sig": "b5f67d48fdd5e6eda7ed2286dcc383f6d6552c91",
    "files": [
     [
      "SKILL.md",
-     "f6358d6ac8b43edb7cb894481de56c53e19b3cf2",
-     4104
+     "9ecd7fd81419ecd833cecba1f74f3c2278d366a6",
+     4101
     ]
    ],
    "archivos": 1,
-   "bytes": 4104,
+   "bytes": 4101,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:21:15Z"
+   "cambio_ts": "2026-11-23T22:58:34Z"
   },
   {
    "id": "affaan-m/ECC|skills/canary-watch",
@@ -85639,8 +85689,8 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": true,
-   "cambio": "nueva",
-   "sig": "1ff4800113cfb49a109c339fcc7da86252bc6b0b",
+   "cambio": "modificada",
+   "sig": "76a8a0e94fbece63dac01e35260b5ac00e6ea666",
    "files": [
     [
      "SKILL.md",
@@ -85669,8 +85719,8 @@
     ],
     [
      "commands/migrate.mjs",
-     "eaa3fbd912a7922f5c89bbe306afd4dd6d6e54f9",
-     7416
+     "4b9c3e79cf0d12919e9c1d627d3a3a6fb726a323",
+     8016
     ],
     [
      "commands/resume.mjs",
@@ -85679,8 +85729,8 @@
     ],
     [
      "commands/save.mjs",
-     "692fb684fd145d174e99b22598a9354aa7e2cecc",
-     8832
+     "301cc8f5ed4d256acf7b8cd6049b23f6a7ff1ea1",
+     8853
     ],
     [
      "commands/shared.mjs",
@@ -85694,10 +85744,10 @@
     ]
    ],
    "archivos": 10,
-   "bytes": 57955,
+   "bytes": 58576,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:21:16Z"
+   "cambio_ts": "2026-11-23T22:58:34Z"
   },
   {
    "id": "affaan-m/ECC|skills/cisco-ios-patterns",
@@ -86234,8 +86284,8 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": true,
-   "cambio": "nueva",
-   "sig": "e8e61b778a409dfb8d429175e0f194975d5f813d",
+   "cambio": "modificada",
+   "sig": "10c01cabeae5f76275886f0beafed5d3789b2cfd",
    "files": [
     [
      "SKILL.md",
@@ -86269,13 +86319,13 @@
     ],
     [
      "hooks/observe.sh",
-     "cea7f3cda97db0924e1fd903eb69442beede4159",
-     36062
+     "512f0829ed72a3a5431c79f62a7ae8b1b12e2ce8",
+     43403
     ],
     [
      "scripts/detect-project.sh",
-     "ddf8f41500f0fc15e376c9e859fc78698ee5e696",
-     11036
+     "70cedad49a4d359d0d77aad85cae74d0a436c610",
+     20656
     ],
     [
      "scripts/instinct-cli.py",
@@ -86299,10 +86349,10 @@
     ]
    ],
    "archivos": 12,
-   "bytes": 255941,
+   "bytes": 272902,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:21:16Z"
+   "cambio_ts": "2026-11-23T22:58:34Z"
   },
   {
    "id": "affaan-m/ECC|skills/continuous-agent-loop",
@@ -86994,20 +87044,25 @@
    "cat": "Planificación y cronograma",
    "alc": "fuera",
    "dup": true,
-   "cambio": "nueva",
-   "sig": "513f334ebe70b35c1f7af06ec1665a8f1a2860cc",
+   "cambio": "modificada",
+   "sig": "65b452a37843f5e5e4178999924b96a3d42b064d",
    "files": [
     [
      "SKILL.md",
-     "0ae9877559d4c4b64ad124621f33480e2abb2e12",
-     13134
+     "54a8d5bc298f979ed6ec013ae4ad1971df322c57",
+     16254
+    ],
+    [
+     "references/reliability.md",
+     "71f046af1c562e4902e6d1aea69d1ebed20b6605",
+     3991
     ]
    ],
-   "archivos": 1,
-   "bytes": 13134,
+   "archivos": 2,
+   "bytes": 20245,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:21:17Z"
+   "cambio_ts": "2026-11-23T22:58:34Z"
   },
   {
    "id": "affaan-m/ECC|skills/devfleet",
@@ -88074,20 +88129,20 @@
    "cat": "Obra, calidad y cierre",
    "alc": "fuera",
    "dup": true,
-   "cambio": "nueva",
-   "sig": "6ea0f4d23c58bf24e23b43d21eba18ad6aef63b6",
+   "cambio": "modificada",
+   "sig": "601f487311f4cdc9722bb9ba06e7b9a887d5274f",
    "files": [
     [
      "SKILL.md",
-     "d6a90fb844f7b5d2d31c9595cef948cd03a8eb7c",
-     42733
+     "de0fd758cf9a879b13dc43d76ad423ec5f3627d9",
+     43702
     ]
    ],
    "archivos": 1,
-   "bytes": 42733,
+   "bytes": 43702,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:21:17Z"
+   "cambio_ts": "2026-11-23T22:58:34Z"
   },
   {
    "id": "affaan-m/ECC|skills/generating-python-installer",
@@ -92494,8 +92549,8 @@
    "cat": "Obra, calidad y cierre",
    "alc": "fuera",
    "dup": true,
-   "cambio": "nueva",
-   "sig": "2502953e98d572baa2b0cbfd8b0d4027dbe6eed7",
+   "cambio": "modificada",
+   "sig": "e3a23a611dd89144f95ea88caab21c607e08dc70",
    "files": [
     [
      "SKILL.md",
@@ -92504,8 +92559,8 @@
     ],
     [
      "scripts/quick-diff.sh",
-     "3e7984d5f2521bcf3f63913779cfce67bfbe31bb",
-     4717
+     "dd2a155202ea93fe662920509086795d01af60a4",
+     4943
     ],
     [
      "scripts/save-results.sh",
@@ -92514,15 +92569,15 @@
     ],
     [
      "scripts/scan.sh",
-     "8b82086f2538dca06f455644797be4d1179bcddf",
-     7532
+     "c4fe9e87cdd3cc1a5ae3b90b0ae9f81a0050e549",
+     7023
     ]
    ],
    "archivos": 4,
-   "bytes": 27402,
+   "bytes": 27119,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:21:21Z"
+   "cambio_ts": "2026-11-23T22:58:34Z"
   },
   {
    "id": "affaan-m/ECC|skills/skill-scout",
@@ -94289,13 +94344,13 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "287fc33b83f58da61103c27da95c19798f2aec6f",
+   "cambio": "modificada",
+   "sig": "324a121040a5dc55e3ee876e7a11c4baf2bba530",
    "files": [
     [
      "SKILL.md",
-     "3e22a0c055e2050e03a8c9f5165fc5ae12f0bf38",
-     7762
+     "e61f0faf733d0b93c4a944b294b359ce1620506c",
+     9112
     ],
     [
      "agents/openai.yaml",
@@ -94309,10 +94364,10 @@
     ]
    ],
    "archivos": 3,
-   "bytes": 14565,
+   "bytes": 15915,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:21:23Z"
+   "cambio_ts": "2026-11-23T22:58:35Z"
   },
   {
    "id": "morluto/rea|.agents/skills/rea-tool-design",
@@ -94324,20 +94379,20 @@
    "cat": "Documentos y contratos",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "f158df4261aede4b3a3303f8cf9bf9dd680de747",
+   "cambio": "modificada",
+   "sig": "36d5b22204821e5b292cebac63cea7f041610792",
    "files": [
     [
      "SKILL.md",
-     "d896081a6ba725678a35deac3f1c809c9c955fbd",
-     2546
+     "08bfc9e1b56c2ef6e4312defc3903beed8748d23",
+     3583
     ]
    ],
    "archivos": 1,
-   "bytes": 2546,
+   "bytes": 3583,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:21:23Z"
+   "cambio_ts": "2026-11-23T22:58:35Z"
   },
   {
    "id": "morluto/rea|.agents/skills/rea-ci-tests-audit",
@@ -94409,17 +94464,17 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": true,
-   "cambio": "nueva",
-   "sig": "151ed15089a6ceb5c1df843b7b870991cf2bba67",
+   "cambio": "modificada",
+   "sig": "bd9bb9a60f13ef920ffa73be1ee1eea73bd70137",
    "files": [
     [
      "SKILL.md",
-     "2f53469783257c682aa34ee535e4a3319fc3f34c",
-     43499
+     "d6ce7fcb224f44e02f58cc811206718aa9fb147f",
+     48345
     ],
     [
      "references/android-applications.md",
-     "f02b8329cbc1393cb4dcb7d339f157c4c4e56249",
+     "b440aaab6167c943bcb7f0cb8f948631b379b0ce",
      4092
     ],
     [
@@ -94439,18 +94494,18 @@
     ],
     [
      "references/evidence-workflows.md",
-     "cf97a8bde753594d8b328d4908b22f8755f28361",
-     11340
+     "157129ddb6cde3679f3d5ad9c110bd10cbd8308d",
+     12418
     ],
     [
      "references/javascript-applications.md",
-     "e2ad9a5f129004da744f056511ba5595daa3565e",
-     15437
+     "209e32d7ae4b0035068f7a338ab7fa7a82ae6a1d",
+     16246
     ],
     [
      "references/native-and-artifacts.md",
-     "ab90dd1557ff9a4d3e6fd2802d6a60f80aff3981",
-     60788
+     "63e2d5322f0d461ec610f4add08048ac8af75dfa",
+     67757
     ],
     [
      "references/runtime-observation.md",
@@ -94459,10 +94514,10 @@
     ]
    ],
    "archivos": 9,
-   "bytes": 241871,
+   "bytes": 255573,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:21:23Z"
+   "cambio_ts": "2026-11-23T22:58:35Z"
   },
   {
    "id": "morluto/rea|.agents/skills/reverse-engineer-anything",
@@ -94474,17 +94529,17 @@
    "cat": "Sin categoría",
    "alc": "fuera",
    "dup": false,
-   "cambio": "nueva",
-   "sig": "151ed15089a6ceb5c1df843b7b870991cf2bba67",
+   "cambio": "modificada",
+   "sig": "bd9bb9a60f13ef920ffa73be1ee1eea73bd70137",
    "files": [
     [
      "SKILL.md",
-     "2f53469783257c682aa34ee535e4a3319fc3f34c",
-     43499
+     "d6ce7fcb224f44e02f58cc811206718aa9fb147f",
+     48345
     ],
     [
      "references/android-applications.md",
-     "f02b8329cbc1393cb4dcb7d339f157c4c4e56249",
+     "b440aaab6167c943bcb7f0cb8f948631b379b0ce",
      4092
     ],
     [
@@ -94504,18 +94559,18 @@
     ],
     [
      "references/evidence-workflows.md",
-     "cf97a8bde753594d8b328d4908b22f8755f28361",
-     11340
+     "157129ddb6cde3679f3d5ad9c110bd10cbd8308d",
+     12418
     ],
     [
      "references/javascript-applications.md",
-     "e2ad9a5f129004da744f056511ba5595daa3565e",
-     15437
+     "209e32d7ae4b0035068f7a338ab7fa7a82ae6a1d",
+     16246
     ],
     [
      "references/native-and-artifacts.md",
-     "ab90dd1557ff9a4d3e6fd2802d6a60f80aff3981",
-     60788
+     "63e2d5322f0d461ec610f4add08048ac8af75dfa",
+     67757
     ],
     [
      "references/runtime-observation.md",
@@ -94524,10 +94579,515 @@
     ]
    ],
    "archivos": 9,
-   "bytes": 241871,
+   "bytes": 255573,
    "irregulares": 0,
    "origen": "activa",
-   "cambio_ts": "2026-11-16T21:21:23Z"
+   "cambio_ts": "2026-11-23T22:58:35Z"
+  },
+  {
+   "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/consolidate-memory",
+   "repo": "asgeirtj/system_prompts_leaks",
+   "dir": "Anthropic/claude-code/skills/consolidate-memory",
+   "name": "consolidate-memory",
+   "en": "Reflective pass over your memory files — merge duplicates, fix stale facts, prune the index.",
+   "es": "",
+   "cat": "Sin categoría",
+   "alc": "fuera",
+   "dup": false,
+   "cambio": "nueva",
+   "sig": "49286a76c495724037b7099992771898a30bdb24",
+   "files": [
+    [
+     "SKILL.md",
+     "0fc191881d769912022565e55902df565ad3bc1a",
+     2006
+    ]
+   ],
+   "archivos": 1,
+   "bytes": 2006,
+   "irregulares": 0,
+   "origen": "activa",
+   "cambio_ts": "2026-11-23T22:58:28Z"
+  },
+  {
+   "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/explain-usage",
+   "repo": "asgeirtj/system_prompts_leaks",
+   "dir": "Anthropic/claude-code/skills/explain-usage",
+   "name": "explain-usage",
+   "en": "Explain where this session's tokens went, with one simple chart in plain language. Use when the user says things like \"explain my usage\", \"where did my tokens go\", or asks for a usage breakdown.",
+   "es": "",
+   "cat": "Sin categoría",
+   "alc": "fuera",
+   "dup": false,
+   "cambio": "nueva",
+   "sig": "14d7db174369a2c852d330ce6de6803c2647cc07",
+   "files": [
+    [
+     "SKILL.md",
+     "758f7970b97d51e912b10926538042cacb00e139",
+     1407
+    ]
+   ],
+   "archivos": 1,
+   "bytes": 1407,
+   "irregulares": 0,
+   "origen": "activa",
+   "cambio_ts": "2026-11-23T22:58:28Z"
+  },
+  {
+   "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/file-reading",
+   "repo": "asgeirtj/system_prompts_leaks",
+   "dir": "Anthropic/claude-code/skills/file-reading",
+   "name": "file-reading",
+   "en": "Use this skill when a file has been uploaded but its content is NOT in your context — only its path at /mnt/user-data/uploads/ is listed in an uploaded_files block. This skill is a router: it tells you which tool to use for each file type (pdf, docx, xlsx, csv, json, images, archives, ebooks) so you read the right amount the right way instead of blindly running cat on a binary. Triggers: any mention of /mnt/user-data/uploads/, an uploaded_files section, a file_path tag, or a user asking about an uploaded file you have not yet read. Do NOT use this skill if the file content is already visible in your context inside a documents block — you already have it.",
+   "es": "",
+   "cat": "Datos, ETL y estándares",
+   "alc": "fuera",
+   "dup": false,
+   "cambio": "nueva",
+   "sig": "5d0412588eed03dd7092a2b2a60a7311c176a702",
+   "files": [
+    [
+     "LICENSE.txt",
+     "c55ab42224874608473643de0a85736b7fec0730",
+     1467
+    ],
+    [
+     "SKILL.md",
+     "1e2b35e9c2f534450a82027b4b7b5231de6d8357",
+     13417
+    ]
+   ],
+   "archivos": 2,
+   "bytes": 14884,
+   "irregulares": 0,
+   "origen": "activa",
+   "cambio_ts": "2026-11-23T22:58:28Z"
+  },
+  {
+   "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/frontend-design",
+   "repo": "asgeirtj/system_prompts_leaks",
+   "dir": "Anthropic/claude-code/skills/frontend-design",
+   "name": "frontend-design",
+   "en": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+   "es": "",
+   "cat": "Sin categoría",
+   "alc": "fuera",
+   "dup": false,
+   "cambio": "nueva",
+   "sig": "de25d78faff93c9a5e8e6f3941e3f24d4f3ceda9",
+   "files": [
+    [
+     "LICENSE.txt",
+     "f433b1a53f5b830a205fd2df78e2b34974656c7b",
+     10174
+    ],
+    [
+     "SKILL.md",
+     "a5333457c414d20d625f307df945842c0952ecc3",
+     9390
+    ]
+   ],
+   "archivos": 2,
+   "bytes": 19564,
+   "irregulares": 0,
+   "origen": "activa",
+   "cambio_ts": "2026-11-23T22:58:28Z"
+  },
+  {
+   "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/pdf-reading",
+   "repo": "asgeirtj/system_prompts_leaks",
+   "dir": "Anthropic/claude-code/skills/pdf-reading",
+   "name": "pdf-reading",
+   "en": "Use this skill when you need to read, inspect, or extract content from PDF files — especially when file content is NOT in your context and you need to read it from disk. Covers content inventory, text extraction, page rasterization for visual inspection, embedded image/attachment/table/form-field extraction, and choosing the right reading strategy for different document types (text-heavy, scanned, slide-decks, forms, data-heavy). Do NOT use this skill for PDF creation, form filling, merging, splitting, watermarking, or encryption — use the pdf skill instead.",
+   "es": "",
+   "cat": "Obra, calidad y cierre",
+   "alc": "fuera",
+   "dup": false,
+   "cambio": "nueva",
+   "sig": "8a11d984b48392559238f8492e3f9b7bce5e3613",
+   "files": [
+    [
+     "LICENSE.txt",
+     "c55ab42224874608473643de0a85736b7fec0730",
+     1467
+    ],
+    [
+     "REFERENCE.md",
+     "749feee57e28795b4fb3db56af91fce9608fce3c",
+     5427
+    ],
+    [
+     "SKILL.md",
+     "15291c59563134d83011016069b77d17485a33d8",
+     11400
+    ]
+   ],
+   "archivos": 3,
+   "bytes": 18294,
+   "irregulares": 0,
+   "origen": "activa",
+   "cambio_ts": "2026-11-23T22:58:28Z"
+  },
+  {
+   "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/product-self-knowledge",
+   "repo": "asgeirtj/system_prompts_leaks",
+   "dir": "Anthropic/claude-code/skills/product-self-knowledge",
+   "name": "product-self-knowledge",
+   "en": "Stop and consult this skill whenever your response would include specific facts about Anthropic's products. Covers: Claude Code (how to install, Node.js requirements, platform/OS support, MCP server integration, configuration), Claude API (function calling/tool use, batch processing, SDK usage, rate limits, pricing, models, streaming), and Claude.ai (Pro vs Team vs Enterprise plans, feature limits). Trigger this even for coding tasks that use the Anthropic SDK, content creation mentioning Claude capabilities or pricing, or LLM provider comparisons. Any time you would otherwise rely on memory for Anthropic product details, verify here instead — your training data may be outdated or wrong.",
+   "es": "",
+   "cat": "Datos, ETL y estándares",
+   "alc": "fuera",
+   "dup": false,
+   "cambio": "nueva",
+   "sig": "17823d23aa2699ff48f64022590585f80d151327",
+   "files": [
+    [
+     "SKILL.md",
+     "3e093e4b3d922dd1df8f6d7701e65287a4ed97e7",
+     2605
+    ]
+   ],
+   "archivos": 1,
+   "bytes": 2605,
+   "irregulares": 0,
+   "origen": "activa",
+   "cambio_ts": "2026-11-23T22:58:29Z"
+  },
+  {
+   "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/setup-claude",
+   "repo": "asgeirtj/system_prompts_leaks",
+   "dir": "Anthropic/claude-code/skills/setup-claude",
+   "name": "setup-claude",
+   "en": "Guided setup — install role-matched plugins, connect your tools, try a skill.",
+   "es": "",
+   "cat": "Sin categoría",
+   "alc": "fuera",
+   "dup": false,
+   "cambio": "nueva",
+   "sig": "06fe22ddb847fd3951c06edd6626a9e2c86ce91c",
+   "files": [
+    [
+     "SKILL.md",
+     "c29e43e6ec1e8239587b867720273cd4285c75e3",
+     12045
+    ]
+   ],
+   "archivos": 1,
+   "bytes": 12045,
+   "irregulares": 0,
+   "origen": "activa",
+   "cambio_ts": "2026-11-23T22:58:29Z"
+  },
+  {
+   "id": "asgeirtj/system_prompts_leaks|Anthropic/claude-code/skills/video-making",
+   "repo": "asgeirtj/system_prompts_leaks",
+   "dir": "Anthropic/claude-code/skills/video-making",
+   "name": "video-making",
+   "en": "Use this skill before making a new video. Not for editing a video file the user supplied.",
+   "es": "",
+   "cat": "Sin categoría",
+   "alc": "fuera",
+   "dup": false,
+   "cambio": "nueva",
+   "sig": "cd8215fbf1e0750c54424b17406b9a631e923120",
+   "files": [
+    [
+     "LICENSE.txt",
+     "c55ab42224874608473643de0a85736b7fec0730",
+     1467
+    ],
+    [
+     "SKILL.md",
+     "bae4385d97710781e316aa19d67e5affcf12bfe7",
+     1652
+    ]
+   ],
+   "archivos": 2,
+   "bytes": 3119,
+   "irregulares": 0,
+   "origen": "activa",
+   "cambio_ts": "2026-11-23T22:58:29Z"
+  },
+  {
+   "id": "asgeirtj/system_prompts_leaks|Google/antigravity/skills/antigravity-guide",
+   "repo": "asgeirtj/system_prompts_leaks",
+   "dir": "Google/antigravity/skills/antigravity-guide",
+   "name": "antigravity-guide",
+   "en": "Provides a comprehensive guide, quick reference, and sitemap for Google Antigravity (AGY), including the Antigravity CLI (agy), Antigravity 2.0, Antigravity IDE, Python SDK, slash commands, keybindings, and customizations (skills, rules, MCP, sidecars). Activate this skill when the user asks questions about how to use, configure, or customize Antigravity, AGY, the agy CLI, the Antigravity IDE, or Antigravity 2.0.",
+   "es": "",
+   "cat": "Sin categoría",
+   "alc": "fuera",
+   "dup": false,
+   "cambio": "nueva",
+   "sig": "cb962ecc74b9daa338f0186a42c2d38ed9ab3f3f",
+   "files": [
+    [
+     "SKILL.md",
+     "b1fb1c4ff950557c71ad4eac3ec6e12ac8db59d0",
+     3764
+    ],
+    [
+     "references/app.md",
+     "e454adf5b728e097fa478ea6869389522c4255a0",
+     3735
+    ],
+    [
+     "references/cli.md",
+     "4c79d36175192b61d4b39d1a495d56bcf0390c54",
+     1762
+    ],
+    [
+     "references/ide.md",
+     "207dba9819f0179fc2a154f153d07857c0095313",
+     3431
+    ],
+    [
+     "references/sdk.md",
+     "e9fb76786c7ab5fbd0de018a981390a29e0bad1c",
+     3138
+    ]
+   ],
+   "archivos": 5,
+   "bytes": 15830,
+   "irregulares": 0,
+   "origen": "activa",
+   "cambio_ts": "2026-11-23T22:58:29Z"
+  },
+  {
+   "id": "asgeirtj/system_prompts_leaks|Google/antigravity/skills/gemini-api-cli",
+   "repo": "asgeirtj/system_prompts_leaks",
+   "dir": "Google/antigravity/skills/gemini-api-cli",
+   "name": "gemini-api-cli",
+   "en": "Call the Gemini API from the shell with gemini-api. Use for media generation (images, TTS, music, video), file and YouTube analysis, audio/video transcription, Deep Research, and sandboxed agents.",
+   "es": "",
+   "cat": "Sin categoría",
+   "alc": "fuera",
+   "dup": false,
+   "cambio": "nueva",
+   "sig": "ef7fecb458c296327a6a5006876868c86001e8fa",
+   "files": [
+    [
+     "SKILL.md",
+     "4a2f05eb9eeac1e8afa6bb8f41b13a0b0f07e83f",
+     12819
+    ]
+   ],
+   "archivos": 1,
+   "bytes": 12819,
+   "irregulares": 0,
+   "origen": "activa",
+   "cambio_ts": "2026-11-23T22:58:29Z"
+  },
+  {
+   "id": "asgeirtj/system_prompts_leaks|Google/antigravity/skills/mcp-app-development",
+   "repo": "asgeirtj/system_prompts_leaks",
+   "dir": "Google/antigravity/skills/mcp-app-development",
+   "name": "mcp-app-development",
+   "en": "Build, package, and debug MCP Apps for Antigravity: MCP server tools whose results render as interactive UI in the conversation, in the side pane, or full-page from the sidebar. Use when adding a UI to an MCP tool, building or theming the app itself, packaging it as a plugin, or debugging an app that doesn't render or behave as expected.",
+   "es": "",
+   "cat": "Sin categoría",
+   "alc": "fuera",
+   "dup": false,
+   "cambio": "nueva",
+   "sig": "6b6410299468e0d35e88f744ed238184ca3b5050",
+   "files": [
+    [
+     "SKILL.md",
+     "cfd825ba9999ddbd820634ce0557e5367f9ced35",
+     13340
+    ]
+   ],
+   "archivos": 1,
+   "bytes": 13340,
+   "irregulares": 0,
+   "origen": "activa",
+   "cambio_ts": "2026-11-23T22:58:29Z"
+  },
+  {
+   "id": "asgeirtj/system_prompts_leaks|Google/antigravity/skills/migrate-agent-settings",
+   "repo": "asgeirtj/system_prompts_leaks",
+   "dir": "Google/antigravity/skills/migrate-agent-settings",
+   "name": "migrate-agent-settings",
+   "en": "Migrates the user's MCP servers, skills, slash commands, subagents, and instruction files from other coding agents (Claude Code, Codex, Cursor, Gemini CLI) into one new Antigravity plugin. Use when the user wants to bring over, import, or migrate their setup or config from another agent or tool. Don't use for installing Marketplace plugins or authoring a new plugin from scratch (use the plugin skill).",
+   "es": "",
+   "cat": "Sin categoría",
+   "alc": "fuera",
+   "dup": false,
+   "cambio": "nueva",
+   "sig": "668cb42e43a62bda3b1cd00f81d07a64a0d4e1ba",
+   "files": [
+    [
+     "SKILL.md",
+     "db59c98b1b9e839024802884e1d50d310d899324",
+     10494
+    ]
+   ],
+   "archivos": 1,
+   "bytes": 10494,
+   "irregulares": 0,
+   "origen": "activa",
+   "cambio_ts": "2026-11-23T22:58:29Z"
+  },
+  {
+   "id": "asgeirtj/system_prompts_leaks|Google/antigravity/skills/run-workflow",
+   "repo": "asgeirtj/system_prompts_leaks",
+   "dir": "Google/antigravity/skills/run-workflow",
+   "name": "run-workflow",
+   "en": "How to write and run a dynamic workflow script with the `run_workflow` tool: a Python script that orchestrates many agents with `agent`, `parallel`, `pipeline`, and `phase`. Use when a task splits into many independent or staged pieces of agent work (fan out over files, modules, bugs, or review angles, then aggregate), or when the user asks for a workflow. Don't use for a single delegated task (use a subagent) or for legacy workflow files (see migrate-workflows).",
+   "es": "",
+   "cat": "Sin categoría",
+   "alc": "fuera",
+   "dup": false,
+   "cambio": "nueva",
+   "sig": "d7c7773ded264685974bce3c78a3a96f58ab4d75",
+   "files": [
+    [
+     "SKILL.md",
+     "24bae29760225a842cd7bf5ce159d760949d4c5d",
+     10321
+    ]
+   ],
+   "archivos": 1,
+   "bytes": 10321,
+   "irregulares": 0,
+   "origen": "activa",
+   "cambio_ts": "2026-11-23T22:58:29Z"
+  },
+  {
+   "id": "asgeirtj/system_prompts_leaks|Google/antigravity/skills/swarm_monitor",
+   "repo": "asgeirtj/system_prompts_leaks",
+   "dir": "Google/antigravity/skills/swarm_monitor",
+   "name": "swarm_monitor",
+   "en": "ONLY for the native-swarm worker whose brief says it is the monitor. On a timer, it checks whether the whole swarm has stalled and calls on the one member who can unstick it. Coordinators and other workers: do not load this.",
+   "es": "",
+   "cat": "Sin categoría",
+   "alc": "fuera",
+   "dup": false,
+   "cambio": "nueva",
+   "sig": "25c1a0d874749ef0e368800f3218c743f1d221d9",
+   "files": [
+    [
+     "SKILL.md",
+     "905db1754bbecdfbcc741af218888f7c58e2c9c9",
+     5786
+    ]
+   ],
+   "archivos": 1,
+   "bytes": 5786,
+   "irregulares": 0,
+   "origen": "activa",
+   "cambio_ts": "2026-11-23T22:58:29Z"
+  },
+  {
+   "id": "asgeirtj/system_prompts_leaks|Google/antigravity/skills/swarm_pane",
+   "repo": "asgeirtj/system_prompts_leaks",
+   "dir": "Google/antigravity/skills/swarm_pane",
+   "name": "swarm_pane",
+   "en": "ONLY for the coordinator of an active /swarm session. What the coordinator writes so the Swarm UI's Overview can show the swarm's goal, its groups of work and a screenshot timeline; load it before you brief and add the first workers. Outside /swarm, do not load this.",
+   "es": "",
+   "cat": "Sin categoría",
+   "alc": "fuera",
+   "dup": false,
+   "cambio": "nueva",
+   "sig": "b6b1986e49e07a2849df75fb1940a166a1912c97",
+   "files": [
+    [
+     "SKILL.md",
+     "2ec031894f642b02e94bedf68f2945aadfac4157",
+     2068
+    ]
+   ],
+   "archivos": 1,
+   "bytes": 2068,
+   "irregulares": 0,
+   "origen": "activa",
+   "cambio_ts": "2026-11-23T22:58:29Z"
+  },
+  {
+   "id": "asgeirtj/system_prompts_leaks|Google/antigravity/skills/swarm",
+   "repo": "asgeirtj/system_prompts_leaks",
+   "dir": "Google/antigravity/skills/swarm",
+   "name": "swarm",
+   "en": "(Preview & Quota Heavy) Run a swarm: several agents working in parallel on one task, each in its own conversation, collaborating through a shared message board. Use when the work splits into pieces that can be done at the same time, or when a second pair of eyes should check the first pair's work.",
+   "es": "",
+   "cat": "Sin categoría",
+   "alc": "fuera",
+   "dup": false,
+   "cambio": "nueva",
+   "sig": "e14daadafb67cf2e94937227d76304567a19ddf9",
+   "files": [
+    [
+     "SKILL.md",
+     "fec4a29e605c22894662ad704eca6b9960e4e55b",
+     20860
+    ],
+    [
+     "logo.svg",
+     "4bab84d91c47bb0dfea9a3efa6f2999a4b0e58ab",
+     9427
+    ]
+   ],
+   "archivos": 2,
+   "bytes": 30287,
+   "irregulares": 0,
+   "origen": "activa",
+   "cambio_ts": "2026-11-23T22:58:29Z"
+  },
+  {
+   "id": "affaan-m/ECC|.agents/skills/ui-canvas",
+   "repo": "affaan-m/ECC",
+   "dir": ".agents/skills/ui-canvas",
+   "name": "ui-canvas",
+   "en": "Preview a UI component mockup in a local browser canvas where the human directly edits it (move, resize, edit text, delete, restyle), switches mobile/desktop/custom viewports, tests it, chats with you, and clicks Save and Finish. You then turn the exported edited markup into the production component. Use before committing or rebuilding a feature just to check a visual change.",
+   "es": "",
+   "cat": "Sin categoría",
+   "alc": "fuera",
+   "dup": false,
+   "cambio": "nueva",
+   "sig": "f1459283313cb32900c84ebc3f6a86c97051af26",
+   "files": [
+    [
+     "SKILL.md",
+     "9672d845eb18b80da8a4c30e6927f05edab36cc7",
+     12223
+    ],
+    [
+     "agents/openai.yaml",
+     "dd0587d2111ee61d5597826f112b969bbbe83cae",
+     340
+    ]
+   ],
+   "archivos": 2,
+   "bytes": 12563,
+   "irregulares": 0,
+   "origen": "activa",
+   "cambio_ts": "2026-11-23T22:58:34Z"
+  },
+  {
+   "id": "affaan-m/ECC|skills/ui-canvas",
+   "repo": "affaan-m/ECC",
+   "dir": "skills/ui-canvas",
+   "name": "ui-canvas",
+   "en": "Preview a UI component mockup in a local browser canvas where the human directly edits it (move, resize, edit text, delete, restyle), switches mobile/desktop/custom viewports, tests it, chats with you, and clicks Save and Finish. You then turn the exported edited markup into the production component. Use before committing or rebuilding a feature just to check a visual change.",
+   "es": "",
+   "cat": "Sin categoría",
+   "alc": "fuera",
+   "dup": true,
+   "cambio": "nueva",
+   "sig": "b114c5efabb3e7fe458346f7b240758216306c6b",
+   "files": [
+    [
+     "SKILL.md",
+     "20aa8ab6ca427d28c5f27c0b74ce1af0b2a5a00e",
+     12227
+    ]
+   ],
+   "archivos": 1,
+   "bytes": 12227,
+   "irregulares": 0,
+   "origen": "activa",
+   "cambio_ts": "2026-11-23T22:58:34Z"
   }
  ]
 }
